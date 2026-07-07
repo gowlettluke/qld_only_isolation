@@ -4,398 +4,95 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Queensland Road Isolation Dashboard</title>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <meta name="description" content="Leaflet dashboard for Queensland road closure and place-isolation outputs." />
+  <link crossorigin="" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+  <script crossorigin="" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
-    /* Critical Leaflet positioning rules are repeated here so the map still lays out correctly if the CDN CSS is slow/blocked. */
-    .leaflet-container { overflow: hidden; position: relative; outline: 0; font-family: inherit; background: #dbe5ee; }
-    .leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer { position: absolute; left: 0; top: 0; }
-    .leaflet-map-pane, .leaflet-tile-pane, .leaflet-overlay-pane, .leaflet-shadow-pane, .leaflet-marker-pane, .leaflet-tooltip-pane, .leaflet-popup-pane { position: absolute; left: 0; top: 0; }
-    .leaflet-tile { width: 256px; height: 256px; user-select: none; -webkit-user-drag: none; border: 0; }
-    .leaflet-control { position: relative; z-index: 800; pointer-events: auto; }
-    .leaflet-top, .leaflet-bottom { position: absolute; z-index: 1000; pointer-events: none; }
-    .leaflet-top { top: 0; } .leaflet-right { right: 0; } .leaflet-bottom { bottom: 0; } .leaflet-left { left: 0; }
-
-    :root {
-      --qld-red: #b00020;
-      --qld-red-2: #d3122f;
-      --amber: #b06b00;
-      --purple: #6d28d9;
-      --teal: #008c8c;
-      --green: #0f766e;
-      --ink: #1f2937;
-      --muted: #6b7280;
-      --border: #d8dee8;
-      --panel: #ffffff;
-      --panel-2: #f8fafc;
-      --map-bg: #e8eef5;
-      --ocean: #d7e7f0;
-      --land: #f7f5ed;
-      --shadow: 0 2px 12px rgba(15, 23, 42, .10);
-      --side-w: 360px;
+    :root{
+      --bg:#f5f5f5;--panel:#fff;--line:#d7d7d7;--soft:#f0f2f5;--text:#1f1f1f;--muted:#667085;
+      --red:#b00020;--red2:#e11d48;--green:#008f83;--amber:#b36b00;--purple:#6d28d9;--blue:#2563eb;
+      --shadow:0 2px 10px rgba(0,0,0,.12);--font:Arial,Helvetica,sans-serif
     }
-    body.dark {
-      --ink: #e5e7eb;
-      --muted: #9ca3af;
-      --border: #374151;
-      --panel: #111827;
-      --panel-2: #0b1220;
-      --map-bg: #111827;
-      --ocean: #0c1f2e;
-      --land: #1f2937;
-      --shadow: 0 2px 16px rgba(0,0,0,.35);
-    }
-    html, body { height: 100%; margin: 0; color: var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--panel-2); }
-    .app { display: grid; grid-template-columns: var(--side-w) 1fr; grid-template-rows: 56px 1fr; height: 100vh; overflow: hidden; }
-    .topbar { grid-column: 1 / 3; display:flex; align-items:center; justify-content:space-between; gap:12px; padding: 0 16px; background: var(--panel); border-bottom:1px solid var(--border); box-shadow: var(--shadow); z-index: 10; }
-    .brand { display:flex; align-items:center; gap:10px; min-width:0; }
-    .logo { width:30px; height:30px; display:grid; place-items:center; background:var(--qld-red); color:#fff; font-weight:900; }
-    .brand h1 { margin:0; font-size:16px; line-height:1.1; }
-    .brand .sub { color:var(--muted); font-size:12px; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .top-actions { display:flex; align-items:center; gap:8px; }
-    button, select, input { font: inherit; }
-    .btn { border:1px solid var(--border); background:var(--panel); color:var(--ink); font-weight:700; padding:8px 10px; cursor:pointer; }
-    .btn:hover { border-color:#94a3b8; }
-    .btn.primary { background:var(--qld-red); color:#fff; border-color:var(--qld-red); }
-    .btn.small { padding:6px 8px; font-size:12px; }
-    .sidebar { overflow:auto; background: var(--panel); border-right:1px solid var(--border); z-index: 3; }
-    .section { padding: 14px; border-bottom:1px solid var(--border); }
-    .section h2 { margin:0 0 10px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#64748b; }
-    body.dark .section h2 { color:#a5b4fc; }
-    .cards { display:grid; grid-template-columns: 1fr 1fr; gap:8px; }
-    .card { background:var(--panel-2); border:1px solid var(--border); padding:12px; min-height:48px; }
-    .metric { font-size:24px; line-height:1; font-weight:900; color:var(--ink); }
-    .metric.red { color:var(--qld-red); }
-    .metric.amber { color:var(--amber); }
-    .metric.teal { color:var(--teal); }
-    .label { margin-top:6px; color:var(--muted); font-size:12px; }
-    .form-row { display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:8px; }
-    label { display:block; font-size:11px; color:var(--muted); margin-bottom:4px; }
-    select, input[type="search"] { width:100%; box-sizing:border-box; border:1px solid var(--border); background:var(--panel); color:var(--ink); padding:8px; }
-    .checks { display:grid; gap:6px; margin-top:8px; }
-    .checks label { display:flex; align-items:center; gap:7px; color:var(--ink); font-size:12px; }
-    .legend { display:grid; gap:7px; font-size:12px; }
-    .legend-row { display:flex; align-items:center; gap:8px; }
-    .dot { width:10px; height:10px; border-radius:999px; border:2px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,.2); }
-    .line { width:22px; height:0; border-top:4px solid; }
-    .table-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
-    table { width:100%; border-collapse: collapse; font-size:12px; }
-    th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--border); vertical-align:top; }
-    th { color:#64748b; font-size:11px; text-transform:uppercase; letter-spacing:.05em; background:var(--panel-2); position: sticky; top: 0; z-index: 1; }
-    .table-wrap { max-height: 360px; overflow:auto; border:1px solid var(--border); }
-    .place-name { font-weight:800; }
-    .small-muted { color:var(--muted); font-size:11px; }
-    .badge { display:inline-flex; align-items:center; padding:3px 6px; border:1px solid; font-size:10px; font-weight:900; text-transform:uppercase; }
-    .badge.iso { color:var(--qld-red); border-color:var(--qld-red); background:rgba(176,0,32,.08); }
-    .badge.qa { color:var(--purple); border-color:var(--purple); background:rgba(109,40,217,.10); }
-    .badge.ok { color:var(--teal); border-color:var(--teal); background:rgba(0,140,140,.10); }
-    .map-wrap { position:relative; min-width:0; min-height:0; background:var(--map-bg); }
-    #map { height: 100%; width: 100%; background: var(--map-bg); }
-    .statusbar { position:absolute; left:14px; bottom:14px; z-index:700; background:rgba(255,255,255,.94); color:#111827; border:1px solid var(--border); box-shadow: var(--shadow); padding:8px 10px; font-size:12px; }
-    body.dark .statusbar { background:rgba(17,24,39,.94); color:#e5e7eb; }
-    .notice { position:absolute; right:14px; bottom:14px; z-index:700; max-width:380px; background:rgba(255,255,255,.95); color:#111827; border:1px solid var(--border); box-shadow: var(--shadow); padding:10px; font-size:12px; display:none; }
-    body.dark .notice { background:rgba(17,24,39,.95); color:#e5e7eb; }
-    .notice.show { display:block; }
-    .popup h3 { margin:0 0 6px; font-size:14px; }
-    .popup dl { margin:0; display:grid; grid-template-columns:auto 1fr; gap:3px 8px; font-size:12px; }
-    .popup dt { color:#64748b; font-weight:800; }
-    .popup dd { margin:0; }
-    .pulse-marker { width: 16px; height: 16px; border-radius: 50%; background: var(--qld-red); border: 3px solid #fff; box-shadow: 0 0 0 2px rgba(176,0,32,.6); position: relative; }
-    .pulse-marker::after { content:""; position:absolute; left:50%; top:50%; width:16px; height:16px; margin-left:-8px; margin-top:-8px; border-radius:50%; border:2px solid var(--qld-red); animation:pulse 1.6s infinite; }
-    @keyframes pulse { 0% { transform:scale(1); opacity:.75; } 100% { transform:scale(2.8); opacity:0; } }
-    .qa-marker { width: 14px; height: 14px; border-radius: 50%; background: var(--purple); border: 3px solid #fff; box-shadow: 0 0 0 2px rgba(109,40,217,.45); }
-    .ok-marker { width: 8px; height: 8px; border-radius: 50%; background: var(--teal); border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.2); opacity:.85; }
-    .leaflet-tooltip.place-label { background:rgba(255,255,255,.95); border:1px solid var(--border); color:#111827; font-weight:800; }
-    .vector-base-label { color:#475569; font-weight:800; font-size:12px; text-shadow: 0 1px 0 #fff; }
-    body.dark .vector-base-label { color:#cbd5e1; text-shadow:none; }
-    @media (max-width: 900px) {
-      .app { grid-template-columns: 1fr; grid-template-rows: 56px 42vh 1fr; }
-      .topbar { grid-column:1; }
-      .map-wrap { grid-row:2; }
-      .sidebar { grid-row:3; border-right:0; border-top:1px solid var(--border); }
-      .top-actions { gap:4px; }
-      .btn { padding:7px 8px; }
-    }
+    body.dark{--bg:#0f1117;--panel:#171b21;--line:#303744;--soft:#111722;--text:#f3f4f6;--muted:#a8b1c2;--shadow:0 2px 16px rgba(0,0,0,.45)}
+    *{box-sizing:border-box}html,body{height:100%;margin:0;font-family:var(--font);font-size:13px;color:var(--text);background:var(--bg);overflow:hidden}
+    .app{height:100vh;display:grid;grid-template-columns:330px 1fr;grid-template-rows:58px 1fr;min-width:0}
+    header{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;background:var(--panel);border-bottom:1px solid var(--line);box-shadow:var(--shadow);z-index:1000;padding:9px 12px}
+    .brand{display:flex;align-items:center;gap:10px;min-width:0}.mark{width:30px;height:30px;display:grid;place-items:center;background:var(--red);color:#fff;font-weight:900}.title{font-weight:900;font-size:16px;white-space:nowrap}.sub{font-size:11px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:900px}.actions{display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+    button,select,input{font:inherit;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:0}button{font-weight:800;padding:8px 11px;cursor:pointer}button.primary{background:var(--red);border-color:var(--red);color:white}button:hover{border-color:var(--red)}select,input{width:100%;padding:7px 8px}
+    aside{grid-row:2;background:var(--panel);border-right:1px solid var(--line);overflow:auto;z-index:20}.section{padding:12px;border-bottom:1px solid var(--line)}.section h2{margin:0 0 10px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:8px}.card{border:1px solid var(--line);background:var(--soft);padding:10px;min-height:62px}.num{font-size:24px;font-weight:900;line-height:1}.cap{font-size:11px;color:var(--muted);margin-top:6px}.red{color:var(--red)}.green{color:var(--green)}.amber{color:var(--amber)}.purple{color:var(--purple)}.full{grid-column:1/-1}.full .num{font-size:17px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}label{display:block;color:var(--muted);font-size:11px;margin-bottom:4px}.check{display:flex;align-items:center;gap:7px;margin-top:8px;color:var(--text);font-size:12px}.check input{width:auto}.legend-row{display:flex;align-items:center;gap:7px;margin:7px 0;font-size:12px}.dot{width:11px;height:11px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.35)}.line{width:24px;height:0;border-top:4px solid}
+    .table-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.csv{border:1px solid var(--line);padding:6px 8px;text-decoration:none;color:var(--text);font-weight:900;font-size:12px}.table-wrap{max-height:330px;overflow:auto;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;font-size:12px}th{position:sticky;top:0;background:var(--soft);color:var(--muted);text-align:left;text-transform:uppercase;letter-spacing:.04em;font-size:10px;z-index:1}th,td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr{cursor:pointer}tbody tr:hover td{background:rgba(176,0,32,.06)}.place{font-weight:900}.small{font-size:11px;color:var(--muted);margin-top:2px}.badge{display:inline-block;border:1px solid;padding:3px 5px;font-size:10px;font-weight:900}.badge.iso{color:var(--red);border-color:var(--red);background:rgba(176,0,32,.08)}.badge.qa{color:var(--purple);border-color:var(--purple);background:rgba(109,40,217,.08)}.badge.ok{color:var(--green);border-color:var(--green);background:rgba(0,143,131,.08)}
+    main{grid-row:2;position:relative;min-width:0;background:#dbe5ee}#map{width:100%;height:100%;background:#dbe5ee}.leaflet-container{font-family:var(--font);background:#dbe5ee}.leaflet-tile,.leaflet-tile-container img{max-width:none!important;max-height:none!important}.leaflet-control-layers,.leaflet-control-zoom a{border-radius:0!important}.leaflet-popup-content{margin:10px 12px}.popup-title{font-weight:900;font-size:14px;margin-bottom:5px}.popup-meta{font-size:12px;line-height:1.45;color:#374151}.popup-meta b{color:#111827}.leaflet-tooltip.place-label{background:rgba(255,255,255,.96);border:1px solid #cbd5e1;color:#111827;font-weight:900;border-radius:0}
+    .statusbar{position:absolute;left:14px;bottom:14px;z-index:700;background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);padding:8px 10px;font-size:12px;max-width:calc(100% - 28px)}.statusbar b{color:var(--red)}.errorbox{position:absolute;top:12px;left:12px;right:12px;z-index:1200;background:#fff1f2;color:#7f1d1d;border:1px solid #fecdd3;padding:10px 12px;font-weight:800;box-shadow:var(--shadow)}.hidden{display:none!important}
+    .pulse-icon{position:relative;width:24px;height:24px}.pulse-icon:before{content:"";position:absolute;left:2px;top:2px;width:20px;height:20px;border-radius:50%;background:rgba(176,0,32,.28);animation:pulse 1.5s infinite ease-out}.pulse-icon:after{content:"";position:absolute;left:7px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--red);border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.35)}@keyframes pulse{from{transform:scale(.6);opacity:.85}to{transform:scale(2.5);opacity:0}}
+    @media(max-width:900px){body{overflow:auto}.app{display:block;height:auto}header{position:sticky;top:0}.title{font-size:14px}.sub{max-width:300px}aside{height:auto;max-height:none;border-right:0}main{height:75vh;min-height:520px}}
   </style>
 </head>
 <body>
-  <div class="app">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">Q</div>
-        <div>
-          <h1>Queensland Road Isolation Dashboard</h1>
-          <div class="sub" id="subtitle">Loading current outputs…</div>
-        </div>
-      </div>
-      <div class="top-actions">
-        <button class="btn primary" id="fitIsolated">Fit isolated</button>
-        <button class="btn" id="fitQld">Fit QLD</button>
-        <button class="btn" id="toggleBasemap">Basemap off</button>
-        <button class="btn" id="reloadData">Reload data</button>
-        <button class="btn" id="darkMode">Dark mode</button>
-      </div>
-    </header>
+<div class="app">
+  <header>
+    <div class="brand"><div class="mark">Q</div><div><div class="title">Queensland Road Isolation Dashboard</div><div class="sub" id="subtitle">Loading current outputs…</div></div></div>
+    <div class="actions"><button class="primary" id="fitIso">Fit isolated</button><button id="fitQld">Fit QLD</button><button id="reload">Reload data</button><button id="theme">Dark mode</button></div>
+  </header>
+  <aside>
+    <section class="section"><h2>Current summary</h2><div class="cards"><div class="card"><div class="num red" id="countIso">–</div><div class="cap">Isolated by full closures</div></div><div class="card"><div class="num amber" id="countQa">–</div><div class="cap">Graph / hub QA</div></div><div class="card"><div class="num green" id="countOk">–</div><div class="cap">Not isolated</div></div><div class="card"><div class="num" id="countClosures">–</div><div class="cap">Current closures loaded</div></div><div class="card full"><div class="cap">Last model run</div><div class="num" id="lastRun">–</div></div></div></section>
+    <section class="section"><h2>Filters</h2><div class="grid2"><div><label>Place status</label><select id="statusFilter"><option value="all">All places</option><option value="isolated">Isolated only</option><option value="qa">Graph / hub QA</option><option value="not_isolated">Not isolated</option></select></div><div><label>Closure type</label><select id="closureFilter"><option value="all">All closures</option><option value="impassable">Full closures only</option><option value="restricted">Conditional / restricted</option></select></div></div><div style="margin-top:9px"><label>Search place, road, locality, event id</label><input id="search" placeholder="Example: Thargomindah, Bulloo, 812363"></div><label class="check"><input type="checkbox" id="showPlaces" checked> Show assessed places</label><label class="check"><input type="checkbox" id="showClosures" checked> Show current closure geometries</label><label class="check"><input type="checkbox" id="hideNonBlocking"> Hide non-blocking closure geometries</label></section>
+    <section class="section"><h2>Legend</h2><div class="legend-row"><span class="dot" style="background:#b00020"></span> Isolated by full closures</div><div class="legend-row"><span class="dot" style="background:#6d28d9"></span> Graph / hub QA</div><div class="legend-row"><span class="dot" style="background:#008f83"></span> Not isolated</div><div class="legend-row"><span class="line" style="border-color:#b00020"></span> Full road closure / impassable</div><div class="legend-row"><span class="line" style="border-color:#b36b00"></span> Conditional or restricted access</div><div class="legend-row"><span class="line" style="border-color:#334155"></span> Other current event</div></section>
+    <section class="section"><div class="table-head"><h2 style="margin:0">Isolation table</h2><a class="csv" href="out_isolation_current/isolated_places_qld.csv">CSV</a></div><div class="table-wrap"><table><thead><tr><th>Place</th><th>Status</th><th>Snap</th></tr></thead><tbody id="tbody"><tr><td colspan="3">Loading…</td></tr></tbody></table></div></section>
+  </aside>
+  <main><div id="map"></div><div id="error" class="errorbox hidden"></div><div class="statusbar" id="status">Loading map…</div></main>
+</div>
+<script>
+(function(){
+  const DATA_DIR='out_isolation_current/';
+  const QLD_BOUNDS=L.latLngBounds([[-29.6,137.4],[-9.0,154.1]]);
+  const canvas=L.canvas({padding:0.5});
+  const map=L.map('map',{center:[-22.5,145.5],zoom:5,doubleClickZoom:true,preferCanvas:true,renderer:canvas,zoomControl:true});
+  window.__qldIsolationMap=map;
+  const basemaps={
+    'OpenStreetMap':L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:19,crossOrigin:true,keepBuffer:4,updateWhenIdle:false}),
+    'CARTO light':L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:20,subdomains:'abcd',keepBuffer:4}),
+    'Esri imagery':L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri',maxZoom:19,keepBuffer:4})
+  };
+  basemaps['OpenStreetMap'].addTo(map);
+  L.control.layers(basemaps,null,{collapsed:true,position:'topright'}).addTo(map);
+  map.fitBounds(QLD_BOUNDS,{padding:[20,20]});
+  setTimeout(()=>map.invalidateSize(true),150);
+  setTimeout(()=>map.invalidateSize(true),700);
+  window.addEventListener('resize',()=>setTimeout(()=>map.invalidateSize(true),80));
 
-    <aside class="sidebar">
-      <section class="section">
-        <h2>Current summary</h2>
-        <div class="cards">
-          <div class="card"><div class="metric red" id="metricIso">–</div><div class="label">Isolated by full closures</div></div>
-          <div class="card"><div class="metric amber" id="metricQA">–</div><div class="label">Graph / hub QA</div></div>
-          <div class="card"><div class="metric teal" id="metricOK">–</div><div class="label">Not isolated</div></div>
-          <div class="card"><div class="metric" id="metricClosures">–</div><div class="label">Current closures loaded</div></div>
-        </div>
-        <div class="card" style="margin-top:10px"><div class="label">Last model run</div><div class="metric" style="font-size:18px" id="metricRun">–</div></div>
-      </section>
-      <section class="section">
-        <h2>Filters</h2>
-        <div class="form-row">
-          <div><label>Place status</label><select id="statusFilter"><option value="all">All places</option><option value="isolated">Isolated only</option><option value="qa">Graph / hub QA</option><option value="not_isolated">Not isolated</option></select></div>
-          <div><label>Closure type</label><select id="closureFilter"><option value="all">All closures</option><option value="impassable">Full closures only</option><option value="conditional">Conditional / restricted</option></select></div>
-        </div>
-        <label>Search place, road, locality, event id</label>
-        <input type="search" id="searchBox" placeholder="Example: Thargomindah, Bulloo, 812363" />
-        <div class="checks">
-          <label><input type="checkbox" id="showPlaces" checked /> Show assessed places</label>
-          <label><input type="checkbox" id="showClosures" checked /> Show current closure geometries</label>
-          <label><input type="checkbox" id="hideNonBlocking" /> Hide non-blocking closure geometries</label>
-        </div>
-      </section>
-      <section class="section">
-        <h2>Legend</h2>
-        <div class="legend">
-          <div class="legend-row"><span class="dot" style="background:var(--qld-red)"></span> Isolated by full closures</div>
-          <div class="legend-row"><span class="dot" style="background:var(--purple)"></span> Graph / hub QA</div>
-          <div class="legend-row"><span class="dot" style="background:var(--teal)"></span> Not isolated</div>
-          <div class="legend-row"><span class="line" style="border-color:var(--qld-red)"></span> Full road closure / impassable</div>
-          <div class="legend-row"><span class="line" style="border-color:var(--amber)"></span> Conditional or restricted access</div>
-          <div class="legend-row"><span class="line" style="border-color:#64748b"></span> Other current event</div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="table-head"><h2 style="margin:0">Isolation table</h2><button class="btn small" id="downloadCsv">CSV</button></div>
-        <div class="table-wrap"><table><thead><tr><th>Place</th><th>Status</th><th>Snap</th></tr></thead><tbody id="placeRows"></tbody></table></div>
-      </section>
-    </aside>
+  const closureGroup=L.geoJSON(null,{renderer:canvas,style:closureStyle,onEachFeature:onClosure}).addTo(map);
+  const placeGroup=L.geoJSON(null,{pointToLayer:placePoint,onEachFeature:onPlace}).addTo(map);
+  const isolatedGroup=L.featureGroup().addTo(map);
+  const refs={placeLayers:new Map(),allPlaces:[],allClosures:[],summary:null};
 
-    <main class="map-wrap">
-      <div id="map"></div>
-      <div class="statusbar" id="statusbar">Loading…</div>
-      <div class="notice" id="notice"></div>
-    </main>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const PATHS = {
-      summary: 'out_isolation_current/qld_isolation_summary.json',
-      closures: 'out_isolation_current/closures_qld_current.geojson',
-      places: 'out_isolation_current/qld_place_isolation_current.geojson',
-      isolatedCsv: 'out_isolation_current/isolated_places_qld.csv'
-    };
-    const QLD_BOUNDS = [[-29.6, 137.3], [-9.0, 154.2]];
-    const $ = (id) => document.getElementById(id);
-    const state = { summary:null, closures:null, places:null, basemap:null, basemapOn:false, closureLayer:null, placeLayer:null, vectorBase:null, allPlaceRows:[], filteredPlaceRows:[] };
-
-    function fmtDate(v) {
-      if (!v) return '–';
-      const d = new Date(v);
-      if (isNaN(d)) return String(v);
-      return d.toLocaleString('en-AU', { dateStyle:'medium', timeStyle:'short' });
-    }
-    function esc(v) { return String(v ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-    function props(f) { return f?.properties || {}; }
-    function catOf(p) { return String(p.isolation_category || '').toLowerCase(); }
-    function isIsoCat(c) { return c.includes('isolated_full_closures') || c.includes('isolated_with_restrictions'); }
-    function isQaCat(c) { return c.startsWith('unknown'); }
-    function isImpassable(p) { return p.category_norm === 'road_closed' && p.passability_norm === 'impassable'; }
-    function isConditional(p) { return p.passability_norm === 'passable_with_conditions' || p.category_norm === 'restricted' || p.category_norm === 'open_with_caution'; }
-    function featureText(f) { return JSON.stringify(f?.properties || {}).toLowerCase(); }
-
-    const map = L.map('map', { preferCanvas:true, zoomControl:false, attributionControl:true, worldCopyJump:false, minZoom:4, maxZoom:13 });
-    L.control.zoom({ position:'topright' }).addTo(map);
-    map.fitBounds(QLD_BOUNDS, { padding:[20,20] });
-
-    // Default is a local/vector base only. This avoids patchy third-party tile loading.
-    function buildVectorBase() {
-      const g = L.layerGroup();
-      L.rectangle(QLD_BOUNDS, { color:'#94a3b8', weight:1.5, fill:true, fillColor:getComputedStyle(document.documentElement).getPropertyValue('--land').trim() || '#f7f5ed', fillOpacity:.55, interactive:false }).addTo(g);
-      // Graticule lines for geographic orientation.
-      for (let lat=-28; lat<=-10; lat+=2) {
-        L.polyline([[lat,137.5],[lat,154]], { color:'#cbd5e1', weight:1, opacity:.55, interactive:false }).addTo(g);
-        L.marker([lat,137.65], { interactive:false, icon:L.divIcon({ className:'vector-base-label', html:`${Math.abs(lat)}°S`, iconSize:[42,14] }) }).addTo(g);
-      }
-      for (let lon=138; lon<=154; lon+=2) {
-        L.polyline([[-29.5,lon],[-9,lon]], { color:'#cbd5e1', weight:1, opacity:.55, interactive:false }).addTo(g);
-        L.marker([-29.25,lon], { interactive:false, icon:L.divIcon({ className:'vector-base-label', html:`${lon}°E`, iconSize:[42,14] }) }).addTo(g);
-      }
-      const labels = [
-        ['Queensland', -21.5, 145.0], ['Gulf of Carpentaria', -14.0, 140.2], ['Coral Sea', -17.0, 151.7], ['Brisbane', -27.47, 153.02], ['Cairns', -16.92, 145.77], ['Townsville', -19.26, 146.82], ['Mt Isa', -20.73, 139.49]
-      ];
-      labels.forEach(([t,lat,lon]) => L.marker([lat,lon], { interactive:false, icon:L.divIcon({ className:'vector-base-label', html:esc(t), iconSize:[110,16] }) }).addTo(g));
-      return g;
-    }
-    state.vectorBase = buildVectorBase().addTo(map);
-
-    const tileLayers = {
-      carto: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom:19, crossOrigin:true, attribution:'&copy; OpenStreetMap &copy; CARTO' }),
-      esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom:19, crossOrigin:true, attribution:'Tiles &copy; Esri' }),
-      osm: L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19, crossOrigin:true, attribution:'&copy; OpenStreetMap contributors' })
-    };
-    L.control.layers({ 'Vector base (offline-style)': state.vectorBase, 'CARTO light tiles': tileLayers.carto, 'Esri topographic tiles': tileLayers.esri, 'OpenStreetMap tiles': tileLayers.osm }, {}, { collapsed:true, position:'topright' }).addTo(map);
-    Object.values(tileLayers).forEach(layer => layer.on('tileerror', () => showNotice('Some third-party basemap tiles failed to load. The dashboard uses the vector base by default so closure/place data remains visible.')));
-
-    function showNotice(msg) { const n=$('notice'); n.textContent=msg; n.classList.add('show'); setTimeout(()=>n.classList.remove('show'), 7000); }
-
-    function closureStyle(f) {
-      const p = props(f);
-      if (isImpassable(p)) return { color:'#b00020', weight:4, opacity:.9, fillColor:'#b00020', fillOpacity:.28, radius:7 };
-      if (isConditional(p)) return { color:'#b06b00', weight:3, opacity:.85, fillColor:'#b06b00', fillOpacity:.22, radius:6 };
-      return { color:'#64748b', weight:2, opacity:.45, fillColor:'#64748b', fillOpacity:.15, radius:5 };
-    }
-    function closurePopup(f) {
-      const p = props(f);
-      const id = p.source_event_id || p.id || p.event_id || '';
-      const url = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Open QLD Traffic event</a>` : '';
-      return `<div class="popup"><h3>${esc(p.road_name || p.description || p.title || 'Closure event')}</h3><dl>
-        <dt>Event</dt><dd>${esc(id)}</dd>
-        <dt>Status</dt><dd>${esc(p.status_norm || '')}</dd>
-        <dt>Class</dt><dd>${esc(p.category_norm || '')} / ${esc(p.passability_norm || '')}</dd>
-        <dt>Reason</dt><dd>${esc(p.reason_norm || '')}</dd>
-        <dt>Locality</dt><dd>${esc(p.locality || '')}</dd>
-        <dt>Advice</dt><dd>${esc(p.restrictions_text || p.raw_advice || '')}</dd>
-        <dt>Details</dt><dd>${esc(p.description || '')}</dd>
-        <dt>Link</dt><dd>${url}</dd>
-      </dl></div>`;
-    }
-    function placeIcon(cat) {
-      if (isIsoCat(cat)) return L.divIcon({ className:'', html:'<div class="pulse-marker"></div>', iconSize:[22,22], iconAnchor:[11,11] });
-      if (isQaCat(cat)) return L.divIcon({ className:'', html:'<div class="qa-marker"></div>', iconSize:[20,20], iconAnchor:[10,10] });
-      return L.divIcon({ className:'', html:'<div class="ok-marker"></div>', iconSize:[12,12], iconAnchor:[6,6] });
-    }
-    function placePopup(f) {
-      const p = props(f); const cat = catOf(p);
-      let nearby = '';
-      try {
-        const arr = JSON.parse(p.nearby_blocking_closures_json || '[]');
-        if (arr.length) nearby = '<dt>Nearby closures</dt><dd>' + arr.slice(0,5).map(x => `${esc(x.source_event_id || '')} — ${esc(x.road_name || x.description || '')}`).join('<br>') + '</dd>';
-      } catch(e) {}
-      return `<div class="popup"><h3>${esc(p.name || 'Place')}</h3><dl>
-        <dt>Status</dt><dd>${esc(p.isolation_category || '')}</dd>
-        <dt>Confidence</dt><dd>${esc(p.isolation_confidence || '')}</dd>
-        <dt>Snap</dt><dd>${esc(p.snap_distance_m || '')} m</dd>
-        <dt>Reason</dt><dd>${esc(p.isolation_reason || '')}</dd>
-        ${nearby}
-      </dl></div>`;
-    }
-
-    function buildLayers() {
-      if (state.closureLayer) state.closureLayer.remove();
-      if (state.placeLayer) state.placeLayer.remove();
-      const q = $('searchBox').value.trim().toLowerCase();
-      const closureMode = $('closureFilter').value;
-      const statusMode = $('statusFilter').value;
-      const hideNonBlocking = $('hideNonBlocking').checked;
-
-      if ($('showClosures').checked && state.closures) {
-        const feats = state.closures.features.filter(f => {
-          const p = props(f);
-          if (q && !featureText(f).includes(q)) return false;
-          if (hideNonBlocking && !(isImpassable(p) || isConditional(p))) return false;
-          if (closureMode === 'impassable') return isImpassable(p);
-          if (closureMode === 'conditional') return isConditional(p);
-          return true;
-        });
-        state.closureLayer = L.geoJSON({ type:'FeatureCollection', features:feats }, { style:closureStyle, pointToLayer:(f,latlng)=>L.circleMarker(latlng, closureStyle(f)), onEachFeature:(f,l)=>l.bindPopup(closurePopup(f)) }).addTo(map);
-      }
-      state.filteredPlaceRows = [];
-      if ($('showPlaces').checked && state.places) {
-        const feats = state.places.features.filter(f => {
-          const p = props(f); const cat = catOf(p);
-          const statusOK = statusMode === 'all' || (statusMode === 'isolated' && isIsoCat(cat)) || (statusMode === 'qa' && isQaCat(cat)) || (statusMode === 'not_isolated' && cat === 'not_isolated');
-          if (!statusOK) return false;
-          if (q && !featureText(f).includes(q)) return false;
-          return true;
-        });
-        state.filteredPlaceRows = feats.map(f => props(f)).sort(placeSort);
-        state.placeLayer = L.geoJSON({ type:'FeatureCollection', features:feats }, { pointToLayer:(f,latlng)=>L.marker(latlng, { icon:placeIcon(catOf(props(f))) }), onEachFeature:(f,l)=>{ const p=props(f); l.bindPopup(placePopup(f)); if (isIsoCat(catOf(p)) || isQaCat(catOf(p))) l.bindTooltip(p.name || '', { permanent:false, className:'place-label' }); } }).addTo(map);
-      }
-      renderTable();
-      const closureCount = state.closureLayer?.getLayers().length || 0;
-      $('statusbar').textContent = `${state.filteredPlaceRows.filter(p=>isIsoCat(catOf(p))).length} isolated place  ·  ${state.filteredPlaceRows.length} places shown  ·  ${closureCount} closure geometries shown  ·  Run: ${fmtDate(state.summary?.created_at || state.summary?.closure_source?.fetched_at)}`;
-    }
-    function placeSort(a,b) {
-      const rank = p => isIsoCat(catOf(p)) ? 0 : isQaCat(catOf(p)) ? 1 : 2;
-      return rank(a)-rank(b) || String(a.name||'').localeCompare(String(b.name||''));
-    }
-    function renderTable() {
-      const tbody = $('placeRows');
-      tbody.innerHTML = state.filteredPlaceRows.map(p => {
-        const cat = catOf(p); const badge = isIsoCat(cat) ? 'iso' : isQaCat(cat) ? 'qa' : 'ok';
-        const label = isIsoCat(cat) ? 'isolated' : isQaCat(cat) ? 'QA' : 'OK';
-        return `<tr data-name="${esc(p.name||'')}"><td><div class="place-name">${esc(p.name||'')}</div><div class="small-muted">${esc(p.state||'QLD')} ${p.lga ? ' · '+esc(p.lga) : ''}</div></td><td><span class="badge ${badge}">${label}</span><div class="small-muted">${esc(p.isolation_confidence||'')}</div></td><td>${esc(p.snap_distance_m||'')} m</td></tr>`;
-      }).join('');
-      [...tbody.querySelectorAll('tr')].forEach((tr,i)=> tr.addEventListener('click', () => zoomToPlaceName(tr.dataset.name)));
-    }
-    function zoomToPlaceName(name) {
-      if (!state.places) return;
-      const f = state.places.features.find(x => props(x).name === name);
-      if (!f) return;
-      const coords = f.geometry?.coordinates;
-      if (coords) map.setView([coords[1], coords[0]], 10);
-    }
-    function updateSummary() {
-      const c = state.summary?.counts || {};
-      $('metricIso').textContent = c.place_categories?.isolated_full_closures ?? countPlaces(p => isIsoCat(catOf(p)));
-      $('metricQA').textContent = c.place_categories?.unknown_preexisting_disconnected ?? countPlaces(p => isQaCat(catOf(p)));
-      $('metricOK').textContent = c.place_categories?.not_isolated ?? countPlaces(p => catOf(p)==='not_isolated');
-      $('metricClosures').textContent = c.closures_normalised ?? state.closures?.features?.length ?? '–';
-      $('metricRun').textContent = fmtDate(state.summary?.created_at || state.summary?.closure_source?.fetched_at);
-      $('subtitle').textContent = `Outputs loaded from ./out_isolation_current/ · ${fmtDate(state.summary?.created_at || state.summary?.closure_source?.fetched_at)}`;
-    }
-    function countPlaces(fn) { return (state.places?.features || []).map(props).filter(fn).length; }
-
-    async function loadJson(path) { const r = await fetch(path, { cache:'no-store' }); if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.json(); }
-    async function loadAll() {
-      $('statusbar').textContent = 'Loading output files…';
-      try {
-        const [summary, closures, places] = await Promise.all([loadJson(PATHS.summary), loadJson(PATHS.closures), loadJson(PATHS.places)]);
-        state.summary = summary; state.closures = closures; state.places = places;
-        updateSummary(); buildLayers();
-        setTimeout(()=> map.invalidateSize(true), 100);
-        fitIsolated();
-      } catch (e) {
-        console.error(e); $('statusbar').textContent = 'Data load failed'; showNotice(`Data load failed: ${e.message}. Confirm GitHub Pages has out_isolation_current files.`);
-      }
-    }
-    function fitQld() { map.fitBounds(QLD_BOUNDS, { padding:[20,20] }); setTimeout(()=>map.invalidateSize(true), 50); }
-    function fitIsolated() {
-      const isoFeats = (state.places?.features || []).filter(f => isIsoCat(catOf(props(f))) || isQaCat(catOf(props(f))));
-      if (isoFeats.length) {
-        const layer = L.geoJSON({ type:'FeatureCollection', features: isoFeats });
-        map.fitBounds(layer.getBounds(), { padding:[80,80], maxZoom:9 });
-      } else fitQld();
-    }
-    function toggleBasemap() {
-      if (state.basemapOn) { Object.values(tileLayers).forEach(l => map.removeLayer(l)); state.basemapOn=false; $('toggleBasemap').textContent='Basemap off'; showNotice('Third-party basemap disabled. Vector base remains visible.'); return; }
-      tileLayers.esri.addTo(map); state.basemapOn=true; $('toggleBasemap').textContent='Basemap on'; setTimeout(()=>map.invalidateSize(true), 50);
-    }
-    function downloadVisibleCsv() {
-      const fields = ['place_id','name','state','lga','lat','lon','isolation_category','isolation_confidence','isolation_reason','snap_distance_m'];
-      const rows = [fields.join(',')].concat(state.filteredPlaceRows.map(p => fields.map(f => '"'+String(p[f] ?? '').replace(/"/g,'""')+'"').join(',')));
-      const blob = new Blob([rows.join('\n')], { type:'text/csv' });
-      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'qld_isolation_visible_places.csv'; a.click(); URL.revokeObjectURL(a.href);
-    }
-    ['statusFilter','closureFilter','searchBox','showPlaces','showClosures','hideNonBlocking'].forEach(id => $(id).addEventListener('input', buildLayers));
-    $('fitQld').addEventListener('click', fitQld);
-    $('fitIsolated').addEventListener('click', fitIsolated);
-    $('reloadData').addEventListener('click', loadAll);
-    $('toggleBasemap').addEventListener('click', toggleBasemap);
-    $('downloadCsv').addEventListener('click', downloadVisibleCsv);
-    $('darkMode').addEventListener('click', () => { document.body.classList.toggle('dark'); setTimeout(()=>map.invalidateSize(true), 50); });
-    window.addEventListener('resize', () => map.invalidateSize(true));
-    loadAll();
-  </script>
+  const $=id=>document.getElementById(id);
+  const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  function val(p,...keys){for(const k of keys){const v=p?.[k];if(v!==undefined&&v!==null&&String(v)!=='')return v}return ''}
+  function isIso(cat){return cat==='isolated_full_closures'||cat==='isolated_with_restrictions'}
+  function isQa(cat){return String(cat||'').startsWith('unknown')}
+  function closureClass(p){const cat=val(p,'category_norm'),pass=val(p,'passability_norm'); if(cat==='road_closed'&&pass==='impassable')return 'impassable'; if(pass==='passable_with_conditions'||cat==='restricted'||cat==='open_with_caution')return 'restricted'; return 'other'}
+  function closureStyle(f){const cls=closureClass(f.properties||{}); const c=cls==='impassable'?'#b00020':cls==='restricted'?'#b36b00':'#334155'; return {color:c,weight:cls==='impassable'?4:3,opacity:.88,fillColor:c,fillOpacity:.15};}
+  function pointColor(cat){if(isIso(cat))return '#b00020'; if(isQa(cat))return '#6d28d9'; return '#008f83'}
+  function placePoint(f,latlng){const p=f.properties||{},cat=val(p,'isolation_category'); if(isIso(cat)){return L.marker(latlng,{icon:L.divIcon({className:'pulse-icon',html:'',iconSize:[24,24],iconAnchor:[12,12]}),zIndexOffset:1000});} return L.circleMarker(latlng,{renderer:canvas,radius:isQa(cat)?7:4,color:'#fff',weight:1,fillColor:pointColor(cat),fillOpacity:.9});}
+  function onPlace(f,l){const p=f.properties||{}; refs.placeLayers.set(String(val(p,'place_id','name')),l); if(isIso(val(p,'isolation_category'))) isolatedGroup.addLayer(l); l.bindTooltip(esc(val(p,'name')), {className:'place-label',direction:'top',offset:[0,-8],opacity:.95}); l.bindPopup(placePopup(p));}
+  function onClosure(f,l){const p=f.properties||{}; l.bindPopup(closurePopup(p));}
+  function placePopup(p){let nearby=[];try{nearby=JSON.parse(val(p,'nearby_blocking_closures_json')||'[]')}catch{}; return `<div class="popup-title">${esc(val(p,'name'))}</div><div class="popup-meta"><b>Status:</b> ${esc(val(p,'isolation_category'))}<br><b>Confidence:</b> ${esc(val(p,'isolation_confidence'))}<br><b>Snap:</b> ${esc(val(p,'snap_distance_m'))} m<br><b>Reason:</b> ${esc(val(p,'isolation_reason'))}${nearby.length?'<hr><b>Nearby blocking closures</b><br>'+nearby.slice(0,5).map(c=>`${esc(c.source_event_id||'')} — ${esc(c.road_name||c.description||'closure')}`).join('<br>'):''}</div>`;}
+  function closurePopup(p){const id=val(p,'source_event_id','event_id'); const road=val(p,'road_name'); const desc=val(p,'description','title'); const url=val(p,'url'); return `<div class="popup-title">${esc(road||desc||'Road event')}</div><div class="popup-meta"><b>Event:</b> ${esc(id)}<br><b>Category:</b> ${esc(val(p,'category_norm'))} / ${esc(val(p,'passability_norm'))}<br><b>Locality:</b> ${esc(val(p,'locality'))}<br><b>Advice:</b> ${esc(val(p,'raw_advice','restrictions_text'))}<br><b>Description:</b> ${esc(desc)}${url?`<br><a href="${esc(url)}" target="_blank" rel="noopener">Open QLD Traffic event</a>`:''}</div>`;}
+  async function fetchJson(path){const sep=path.includes('?')?'&':'?'; const res=await fetch(path+sep+'v='+Date.now(),{cache:'no-store'}); if(!res.ok) throw new Error(path+' returned '+res.status); return res.json();}
+  function niceDate(s){if(!s)return '–'; const d=new Date(s); if(isNaN(d))return s; return d.toLocaleString('en-AU',{day:'numeric',month:'short',year:'numeric',hour:'numeric',minute:'2-digit'});}
+  function updateSummary(){const s=refs.summary||{}, counts=s.counts||{}; const cats=counts.place_categories||{}; $('countIso').textContent=cats.isolated_full_closures||0; $('countQa').textContent=cats.unknown_preexisting_disconnected||cats.unknown_place_not_snapped||0; $('countOk').textContent=cats.not_isolated||0; $('countClosures').textContent=counts.closures_normalised??refs.allClosures.length; $('lastRun').textContent=niceDate(s.created_at||s.closure_source?.fetched_at); $('subtitle').textContent='Outputs loaded from /out_isolation_current/ · '+niceDate(s.created_at||s.closure_source?.fetched_at);}
+  function placeMatches(p){const cat=val(p,'isolation_category'); const sf=$('statusFilter').value; if(sf==='isolated'&&!isIso(cat))return false; if(sf==='qa'&&!isQa(cat))return false; if(sf==='not_isolated'&&cat!=='not_isolated')return false; const q=$('search').value.trim().toLowerCase(); if(q){const hay=[val(p,'name'),val(p,'lga'),val(p,'state'),val(p,'place_id'),val(p,'isolation_reason'),val(p,'nearby_blocking_closures_json')].join(' ').toLowerCase(); if(!hay.includes(q))return false;} return true;}
+  function closureMatches(f){const p=f.properties||{}; const cf=$('closureFilter').value, cls=closureClass(p); if(cf==='impassable'&&cls!=='impassable')return false; if(cf==='restricted'&&cls!=='restricted')return false; if($('hideNonBlocking').checked && cls==='other')return false; const q=$('search').value.trim().toLowerCase(); if(q){const hay=[val(p,'source_event_id','event_id'),val(p,'description','title'),val(p,'road_name'),val(p,'locality'),val(p,'raw_advice','restrictions_text')].join(' ').toLowerCase(); if(!hay.includes(q))return false;} return true;}
+  function render(){placeGroup.clearLayers(); closureGroup.clearLayers(); isolatedGroup.clearLayers(); refs.placeLayers.clear(); if($('showClosures').checked) closureGroup.addData({type:'FeatureCollection',features:refs.allClosures.filter(closureMatches)}); if($('showPlaces').checked) placeGroup.addData({type:'FeatureCollection',features:refs.allPlaces.filter(f=>placeMatches(f.properties||{}))}); renderTable(); $('status').innerHTML=`<b>${refs.allPlaces.filter(f=>isIso(val(f.properties,'isolation_category'))).length}</b> isolated place · ${refs.allPlaces.filter(f=>placeMatches(f.properties||{})).length} places shown · ${refs.allClosures.filter(closureMatches).length} closure geometries shown`;}
+  function badge(cat){if(isIso(cat))return '<span class="badge iso">ISOLATED</span>'; if(isQa(cat))return '<span class="badge qa">QA</span>'; return '<span class="badge ok">OK</span>';}
+  function renderTable(){const rows=refs.allPlaces.map(f=>f.properties||{}).filter(placeMatches).sort((a,b)=>{const ra=isIso(val(a,'isolation_category'))?0:isQa(val(a,'isolation_category'))?1:2; const rb=isIso(val(b,'isolation_category'))?0:isQa(val(b,'isolation_category'))?1:2; return ra-rb||String(val(a,'name')).localeCompare(String(val(b,'name')));}); $('tbody').innerHTML=rows.map(p=>`<tr data-key="${esc(String(val(p,'place_id','name')))}"><td><div class="place">${esc(val(p,'name'))}</div><div class="small">${esc(val(p,'state','lga'))}</div></td><td>${badge(val(p,'isolation_category'))}<div class="small">${esc(val(p,'isolation_confidence'))}</div></td><td>${esc(val(p,'snap_distance_m'))} m</td></tr>`).join('')||'<tr><td colspan="3">No matching places.</td></tr>'; document.querySelectorAll('#tbody tr[data-key]').forEach(tr=>tr.onclick=()=>{const l=refs.placeLayers.get(tr.dataset.key); if(l){map.setView(l.getLatLng?l.getLatLng():l.getBounds().getCenter(),12); l.openPopup();}});}
+  async function load(){try{$('error').classList.add('hidden'); $('status').textContent='Loading data…'; const [summary,closures,places]=await Promise.all([fetchJson(DATA_DIR+'qld_isolation_summary.json'),fetchJson(DATA_DIR+'closures_qld_current.geojson'),fetchJson(DATA_DIR+'qld_place_isolation_current.geojson')]); refs.summary=summary; refs.allClosures=closures.features||[]; refs.allPlaces=places.features||[]; updateSummary(); render(); setTimeout(()=>map.invalidateSize(true),50); fitIsolatedOrQld();}catch(err){console.error(err); const msg=location.protocol==='file:'?'Data load failed because this page is open as file://. Use GitHub Pages or run `py -m http.server 8000` from the repo folder.':'Data load failed: '+err.message; $('error').textContent=msg; $('error').classList.remove('hidden'); $('status').textContent='Data load failed'; }}
+  function fitIsolatedOrQld(){if(isolatedGroup.getLayers().length){map.fitBounds(isolatedGroup.getBounds(),{padding:[70,70],maxZoom:11});}else map.fitBounds(QLD_BOUNDS,{padding:[20,20]});}
+  $('fitIso').onclick=fitIsolatedOrQld; $('fitQld').onclick=()=>map.fitBounds(QLD_BOUNDS,{padding:[20,20]}); $('reload').onclick=load; $('theme').onclick=()=>{document.body.classList.toggle('dark'); $('theme').textContent=document.body.classList.contains('dark')?'Light mode':'Dark mode'; setTimeout(()=>map.invalidateSize(true),50);}; ['statusFilter','closureFilter','search','showPlaces','showClosures','hideNonBlocking'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
+  load();
+})();
+</script>
 </body>
 </html>
