@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-07-07T09:39:01.649420+00:00",
+  "script": "qld_isolation_proper_v6.py",
+  "inputs": {
+    "graph": "graph/qld_drive.graphml",
+    "places": "places.csv",
+    "closures_geojson": "",
+    "closures_csv": "",
+    "include_planned": false
+  },
+  "parameters": {
+    "point_block_radius_m": 75.0,
+    "line_buffer_m": 75.0,
+    "polygon_buffer_m": 25.0,
+    "max_closure_snap_m": 300.0,
+    "max_place_snap_m": 5000.0
+  },
+  "closure_source": {
+    "source_mode": "live_qldtraffic",
+    "url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
+    "http_status": 200,
+    "fetched_at": "2026-07-07T09:36:31.884199+00:00",
+    "raw_count": 529,
+    "normalised_count": 291,
+    "skipped_planned": 238,
+    "errors": []
+  },
+  "counts": {
+    "closures_normalised": 291,
+    "closures_active": 291,
+    "closures_impassable_blocking": 58,
+    "closures_all_blocking": 90,
+    "places": 132,
+    "hubs": 9,
+    "snapped_hubs": 9,
+    "graph_nodes": 524324,
+    "graph_edges": 1324730,
+    "blocked_edges_impassable_only": 990,
+    "blocked_edges_all_blocking": 1692,
+    "reachable_nodes_before": 518479,
+    "reachable_nodes_impassable_only": 517898,
+    "reachable_nodes_all_blocking": 517359,
+    "place_categories": {
+      "not_isolated": 130,
+      "unknown_preexisting_disconnected": 1,
+      "isolated_full_closures": 1
+    },
+    "unmatched_closure_rows": 1
+  },
+  "outputs": {
+    "closures_csv": "out_isolation_current/closures_qld_current.csv",
+    "closures_geojson": "out_isolation_current/closures_qld_current.geojson",
+    "places_csv": "out_isolation_current/qld_place_isolation_current.csv",
+    "isolated_csv": "out_isolation_current/isolated_places_qld.csv",
+    "places_geojson": "out_isolation_current/qld_place_isolation_current.geojson",
+    "isolated_geojson": "out_isolation_current/isolated_places_qld.geojson",
+    "match_report_csv": "out_isolation_current/closure_match_report_qld.csv",
+    "unmatched_closures_csv": "out_isolation_current/unmatched_closures_qld.csv",
+    "summary_json": "out_isolation_current/qld_isolation_summary.json"
+  },
+  "notes": [
+    "isolated_full_closures means the place had hub access before closures but not after impassable closures were blocked.",
+    "isolated_with_restrictions means the place still has access under full-closure blocking, but loses access when restricted/conditional-access events are also blocked.",
+    "unknown_preexisting_disconnected means the place could not reach a hub even before applying current closures, so it is not safe to attribute isolation to current closures.",
+    "This is an automated graph estimate, not an authoritative emergency-services isolation declaration."
+  ]
+}

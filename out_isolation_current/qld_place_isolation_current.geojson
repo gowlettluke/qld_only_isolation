@@ -1,0 +1,3569 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.6375809,
+          -23.6487639
+        ]
+      },
+      "properties": {
+        "place_id": "53",
+        "name": "Alpha",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "797788",
+        "snap_distance_m": 31.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6746864,
+          -26.3453044
+        ]
+      },
+      "properties": {
+        "place_id": "58",
+        "name": "Amamoor",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1987737",
+        "snap_distance_m": 21.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.1875799,
+          -26.5490156
+        ]
+      },
+      "properties": {
+        "place_id": "60",
+        "name": "Amby",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "981410",
+        "snap_distance_m": 29.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.84266,
+          -28.7988456
+        ]
+      },
+      "properties": {
+        "place_id": "148",
+        "name": "Ballandean",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2325004",
+        "snap_distance_m": 67.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.3920741,
+          -10.8884267
+        ]
+      },
+      "properties": {
+        "place_id": "162",
+        "name": "Bamaga",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "321263",
+        "snap_distance_m": 68.6,
+        "hub_access_before": false,
+        "hub_access_impassable_only": false,
+        "hub_access_all_blocking": false,
+        "isolation_category": "unknown_preexisting_disconnected",
+        "isolation_confidence": "unknown",
+        "isolation_reason": "Place could not reach a hub even before current closures were applied; this is likely a graph/data issue or a genuinely disconnected place.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9569066,
+          -26.8580257
+        ]
+      },
+      "properties": {
+        "place_id": "232",
+        "name": "Beerwah",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2098887",
+        "snap_distance_m": 30.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4494868,
+          -26.92752
+        ]
+      },
+      "properties": {
+        "place_id": "243",
+        "name": "Bell",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1714155",
+        "snap_distance_m": 272.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0458009,
+          -25.5105
+        ]
+      },
+      "properties": {
+        "place_id": "303",
+        "name": "Biggenden",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "591393",
+        "snap_distance_m": 45.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4648487,
+          -24.4231685
+        ]
+      },
+      "properties": {
+        "place_id": "321",
+        "name": "Blackall",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "657714",
+        "snap_distance_m": 11.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1031034,
+          -26.8830029
+        ]
+      },
+      "properties": {
+        "place_id": "326",
+        "name": "Blackbutt",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1867010",
+        "snap_distance_m": 73.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6819604,
+          -27.9968966
+        ]
+      },
+      "properties": {
+        "place_id": "386",
+        "name": "Boonah",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2570885",
+        "snap_distance_m": 61.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2060131,
+          -20.0466594
+        ]
+      },
+      "properties": {
+        "place_id": "393",
+        "name": "Bootooloo",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "776866",
+        "snap_distance_m": 519.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7911363,
+          -26.8415264
+        ]
+      },
+      "properties": {
+        "place_id": "443",
+        "name": "Brigalow",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1146114",
+        "snap_distance_m": 202.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0234991,
+          -27.4689682
+        ]
+      },
+      "properties": {
+        "place_id": "449",
+        "name": "Brisbane",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "3668486",
+        "snap_distance_m": 80.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3516785,
+          -24.8653253
+        ]
+      },
+      "properties": {
+        "place_id": "507",
+        "name": "Bundaberg",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "1539377",
+        "snap_distance_m": 26.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5465396,
+          -17.7400597
+        ]
+      },
+      "properties": {
+        "place_id": "521",
+        "name": "Burketown",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "32119",
+        "snap_distance_m": 99.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9696319,
+          -27.1566105
+        ]
+      },
+      "properties": {
+        "place_id": "529",
+        "name": "Burpengary",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3322450",
+        "snap_distance_m": 17.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7721854,
+          -16.9206657
+        ]
+      },
+      "properties": {
+        "place_id": "566",
+        "name": "Cairns",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "392090",
+        "snap_distance_m": 6.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.165254,
+          -28.0171019
+        ]
+      },
+      "properties": {
+        "place_id": "604",
+        "name": "Canungra",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3746674",
+        "snap_distance_m": 30.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1918063,
+          -27.522037
+        ]
+      },
+      "properties": {
+        "place_id": "605",
+        "name": "Capalaba",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3449571",
+        "snap_distance_m": 5.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1040678,
+          -27.5032764
+        ]
+      },
+      "properties": {
+        "place_id": "626",
+        "name": "Carindale",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3273033",
+        "snap_distance_m": 25.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1947602,
+          -27.532137
+        ]
+      },
+      "properties": {
+        "place_id": "665",
+        "name": "Cecil Plains",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1619911",
+        "snap_distance_m": 98.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2420417,
+          -26.406265
+        ]
+      },
+      "properties": {
+        "place_id": "682",
+        "name": "Charleville",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "780666",
+        "snap_distance_m": 102.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0313687,
+          -27.3863441
+        ]
+      },
+      "properties": {
+        "place_id": "692",
+        "name": "Chermside",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3230778",
+        "snap_distance_m": 62.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2768198,
+          -25.2345404
+        ]
+      },
+      "properties": {
+        "place_id": "697",
+        "name": "Childers",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1727609",
+        "snap_distance_m": 51.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6225161,
+          -26.7416613
+        ]
+      },
+      "properties": {
+        "place_id": "699",
+        "name": "Chinchilla",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1093351",
+        "snap_distance_m": 27.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.6403071,
+          -22.8246746
+        ]
+      },
+      "properties": {
+        "place_id": "730",
+        "name": "Clermont",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "965666",
+        "snap_distance_m": 6.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5058305,
+          -20.7051873
+        ]
+      },
+      "properties": {
+        "place_id": "740",
+        "name": "Cloncurry",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "403279",
+        "snap_distance_m": 57.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.199715,
+          -13.9446365
+        ]
+      },
+      "properties": {
+        "place_id": "767",
+        "name": "Coen",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "155645",
+        "snap_distance_m": 52.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8434135,
+          -20.549259
+        ]
+      },
+      "properties": {
+        "place_id": "785",
+        "name": "Collinsville",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "770721",
+        "snap_distance_m": 57.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2534218,
+          -15.4726622
+        ]
+      },
+      "properties": {
+        "place_id": "812",
+        "name": "Cooktown",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "190982",
+        "snap_distance_m": 74.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.538753,
+          -28.1682934
+        ]
+      },
+      "properties": {
+        "place_id": "813",
+        "name": "Coolangatta",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2824632",
+        "snap_distance_m": 28.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.834014,
+          -26.9825098
+        ]
+      },
+      "properties": {
+        "place_id": "829",
+        "name": "Cooyar",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1829094",
+        "snap_distance_m": 42.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8917758,
+          -27.5252363
+        ]
+      },
+      "properties": {
+        "place_id": "847",
+        "name": "Cotswold Hills",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2347370",
+        "snap_distance_m": 109.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0555164,
+          -27.2612975
+        ]
+      },
+      "properties": {
+        "place_id": "884",
+        "name": "Crows Nest",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1818660",
+        "snap_distance_m": 66.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2447977,
+          -18.2043431
+        ]
+      },
+      "properties": {
+        "place_id": "889",
+        "name": "Croydon",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "38741",
+        "snap_distance_m": 50.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5140034,
+          -21.6947487
+        ]
+      },
+      "properties": {
+        "place_id": "919",
+        "name": "Dajarra",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "6275",
+        "snap_distance_m": 42.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2634168,
+          -27.1822593
+        ]
+      },
+      "properties": {
+        "place_id": "920",
+        "name": "Dalby",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "928358",
+        "snap_distance_m": 72.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.982537,
+          -27.6170218
+        ]
+      },
+      "properties": {
+        "place_id": "1009",
+        "name": "Doolandella",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3703893",
+        "snap_distance_m": 36.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9479851,
+          -27.7739227
+        ]
+      },
+      "properties": {
+        "place_id": "1066",
+        "name": "East Greenmount",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2278487",
+        "snap_distance_m": 418.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.005344,
+          -17.8055705
+        ]
+      },
+      "properties": {
+        "place_id": "1103",
+        "name": "El Arish",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "250830",
+        "snap_distance_m": 57.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9702476,
+          -27.6228769
+        ]
+      },
+      "properties": {
+        "place_id": "1217",
+        "name": "Forest Lake",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2557203",
+        "snap_distance_m": 69.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6083508,
+          -25.6246003
+        ]
+      },
+      "properties": {
+        "place_id": "1265",
+        "name": "Gayndah",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1764358",
+        "snap_distance_m": 37.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9572254,
+          -24.9928306
+        ]
+      },
+      "properties": {
+        "place_id": "1288",
+        "name": "Gin Gin",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1087984",
+        "snap_distance_m": 24.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.877181,
+          -28.7383899
+        ]
+      },
+      "properties": {
+        "place_id": "1302",
+        "name": "Glen Aplin",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2322324",
+        "snap_distance_m": 49.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.6770934,
+          -27.2492505
+        ]
+      },
+      "properties": {
+        "place_id": "1321",
+        "name": "Glenmorgan",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1169628",
+        "snap_distance_m": 70.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8508953,
+          -27.3048246
+        ]
+      },
+      "properties": {
+        "place_id": "1345",
+        "name": "Goombungee",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1724257",
+        "snap_distance_m": 93.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3073801,
+          -28.5471732
+        ]
+      },
+      "properties": {
+        "place_id": "1347",
+        "name": "Goondiwindi",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1588166",
+        "snap_distance_m": 13.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7841829,
+          -17.0935921
+        ]
+      },
+      "properties": {
+        "place_id": "1353",
+        "name": "Gordonvale",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "262149",
+        "snap_distance_m": 106.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9054167,
+          -27.7866626
+        ]
+      },
+      "properties": {
+        "place_id": "1383",
+        "name": "Greenmount",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2272588",
+        "snap_distance_m": 41.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0692403,
+          -27.3570077
+        ]
+      },
+      "properties": {
+        "place_id": "1442",
+        "name": "Hampton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1815025",
+        "snap_distance_m": 48.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9567544,
+          -27.5295699
+        ]
+      },
+      "properties": {
+        "place_id": "1449",
+        "name": "Harlaxton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2362542",
+        "snap_distance_m": 63.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9325511,
+          -27.5768649
+        ]
+      },
+      "properties": {
+        "place_id": "1455",
+        "name": "Harristown",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2328012",
+        "snap_distance_m": 113.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1244658,
+          -27.5505235
+        ]
+      },
+      "properties": {
+        "place_id": "1490",
+        "name": "Helidon",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2334856",
+        "snap_distance_m": 58.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3856563,
+          -17.3841292
+        ]
+      },
+      "properties": {
+        "place_id": "1497",
+        "name": "Herberton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "181923",
+        "snap_distance_m": 79.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8535216,
+          -25.2985784
+        ]
+      },
+      "properties": {
+        "place_id": "1502",
+        "name": "Hervey Bay",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "1425352",
+        "snap_distance_m": 64.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2002892,
+          -20.8422448
+        ]
+      },
+      "properties": {
+        "place_id": "1557",
+        "name": "Hughenden",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "19068",
+        "snap_distance_m": 48.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6763063,
+          -26.4604871
+        ]
+      },
+      "properties": {
+        "place_id": "1580",
+        "name": "Imbil",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1988534",
+        "snap_distance_m": 69.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9745281,
+          -27.5014579
+        ]
+      },
+      "properties": {
+        "place_id": "1582",
+        "name": "Indooroopilly",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3138866",
+        "snap_distance_m": 60.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1603448,
+          -18.6476374
+        ]
+      },
+      "properties": {
+        "place_id": "1583",
+        "name": "Ingham",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1271502",
+        "snap_distance_m": 15.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5660188,
+          -25.8428201
+        ]
+      },
+      "properties": {
+        "place_id": "1589",
+        "name": "Injune",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "786720",
+        "snap_distance_m": 47.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0311418,
+          -17.5241721
+        ]
+      },
+      "properties": {
+        "place_id": "1592",
+        "name": "Innisfail",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1290916",
+        "snap_distance_m": 3.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1114103,
+          -26.7827089
+        ]
+      },
+      "properties": {
+        "place_id": "1609",
+        "name": "Jandowae",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1692026",
+        "snap_distance_m": 36.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1241529,
+          -23.6036388
+        ]
+      },
+      "properties": {
+        "place_id": "1616",
+        "name": "Jericho",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "643293",
+        "snap_distance_m": 121.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7450538,
+          -20.6568484
+        ]
+      },
+      "properties": {
+        "place_id": "1636",
+        "name": "Julia Creek",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "17501",
+        "snap_distance_m": 83.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.434263,
+          -27.0600645
+        ]
+      },
+      "properties": {
+        "place_id": "1643",
+        "name": "Kaimkillenbun",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1697445",
+        "snap_distance_m": 118.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.67709,
+          -26.387641
+        ]
+      },
+      "properties": {
+        "place_id": "1654",
+        "name": "Kandanga",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1873229",
+        "snap_distance_m": 41.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7272623,
+          -26.5953498
+        ]
+      },
+      "properties": {
+        "place_id": "1699",
+        "name": "Kenilworth",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2218755",
+        "snap_distance_m": 45.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5653789,
+          -26.9426721
+        ]
+      },
+      "properties": {
+        "place_id": "1727",
+        "name": "Kilcoy",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1864502",
+        "snap_distance_m": 51.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2371582,
+          -26.0857107
+        ]
+      },
+      "properties": {
+        "place_id": "1728",
+        "name": "Kilkivan",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1900771",
+        "snap_distance_m": 51.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.2957331,
+          -28.3353902
+        ]
+      },
+      "properties": {
+        "place_id": "1733",
+        "name": "Killarney",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2288297",
+        "snap_distance_m": 21.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8394231,
+          -26.5412563
+        ]
+      },
+      "properties": {
+        "place_id": "1746",
+        "name": "Kingaroy",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1837489",
+        "snap_distance_m": 34.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8155622,
+          -27.4742182
+        ]
+      },
+      "properties": {
+        "place_id": "1758",
+        "name": "Kingsthorpe",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2351990",
+        "snap_distance_m": 68.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4468578,
+          -15.561293
+        ]
+      },
+      "properties": {
+        "place_id": "1862",
+        "name": "Laura",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "142313",
+        "snap_distance_m": 170.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2586898,
+          -23.4378387
+        ]
+      },
+      "properties": {
+        "place_id": "1932",
+        "name": "Longreach",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "658998",
+        "snap_distance_m": 60.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5805147,
+          -27.4623314
+        ]
+      },
+      "properties": {
+        "place_id": "1945",
+        "name": "Lowood",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1629911",
+        "snap_distance_m": 16.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5971808,
+          -27.5645733
+        ]
+      },
+      "properties": {
+        "place_id": "2021",
+        "name": "Marburg",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2648472",
+        "snap_distance_m": 86.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0946684,
+          -26.6556523
+        ]
+      },
+      "properties": {
+        "place_id": "2034",
+        "name": "Maroochydore",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3263476",
+        "snap_distance_m": 40.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7019182,
+          -25.537583
+        ]
+      },
+      "properties": {
+        "place_id": "2047",
+        "name": "Maryborough",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1939210",
+        "snap_distance_m": 67.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.8826039,
+          -27.3231146
+        ]
+      },
+      "properties": {
+        "place_id": "2073",
+        "name": "Meandarra",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1624395",
+        "snap_distance_m": 76.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2700914,
+          -27.8760319
+        ]
+      },
+      "properties": {
+        "place_id": "2131",
+        "name": "Millmerran",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2255910",
+        "snap_distance_m": 69.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9770505,
+          -26.4869964
+        ]
+      },
+      "properties": {
+        "place_id": "2155",
+        "name": "Mitchell",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "980719",
+        "snap_distance_m": 43.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975009,
+          -27.4120363
+        ]
+      },
+      "properties": {
+        "place_id": "2158",
+        "name": "Mitchelton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3539884",
+        "snap_distance_m": 38.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8765061,
+          -27.5702931
+        ]
+      },
+      "properties": {
+        "place_id": "2165",
+        "name": "Moggill",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2517134",
+        "snap_distance_m": 36.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.122358,
+          -24.86393
+        ]
+      },
+      "properties": {
+        "place_id": "2181",
+        "name": "Monto",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1415093",
+        "snap_distance_m": 98.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3726649,
+          -16.4614455
+        ]
+      },
+      "properties": {
+        "place_id": "2224",
+        "name": "Mossman",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "27665",
+        "snap_distance_m": 93.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4931522,
+          -20.7289898
+        ]
+      },
+      "properties": {
+        "place_id": "2248",
+        "name": "Mount Isa",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "12651",
+        "snap_distance_m": 40.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3883059,
+          -23.6451419
+        ]
+      },
+      "properties": {
+        "place_id": "2259",
+        "name": "Mount Morgan",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1058522",
+        "snap_distance_m": 53.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7866894,
+          -27.3985272
+        ]
+      },
+      "properties": {
+        "place_id": "2261",
+        "name": "Mount Nebo",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1664151",
+        "snap_distance_m": 238.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.935593,
+          -27.5459356
+        ]
+      },
+      "properties": {
+        "place_id": "2262",
+        "name": "Mount Ommaney",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2030042",
+        "snap_distance_m": 83.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1323128,
+          -24.9642553
+        ]
+      },
+      "properties": {
+        "place_id": "2288",
+        "name": "Mulgildie",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1099258",
+        "snap_distance_m": 31.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0029724,
+          -26.6726127
+        ]
+      },
+      "properties": {
+        "place_id": "2322",
+        "name": "Nanango",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1841698",
+        "snap_distance_m": 92.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9585398,
+          -27.2036111
+        ]
+      },
+      "properties": {
+        "place_id": "2327",
+        "name": "Narangba",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3318568",
+        "snap_distance_m": 10.7,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0897466,
+          -26.3970775
+        ]
+      },
+      "properties": {
+        "place_id": "2388",
+        "name": "Noosa Heads",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3363434",
+        "snap_distance_m": 79.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0780422,
+          -17.6709158
+        ]
+      },
+      "properties": {
+        "place_id": "2395",
+        "name": "Normanton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "36666",
+        "snap_distance_m": 16.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0603789,
+          -27.4012298
+        ]
+      },
+      "properties": {
+        "place_id": "2463",
+        "name": "Nundah",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3522526",
+        "snap_distance_m": 53.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7189067,
+          -27.4360062
+        ]
+      },
+      "properties": {
+        "place_id": "2478",
+        "name": "Oakey",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1719284",
+        "snap_distance_m": 74.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9587982,
+          -26.6855009
+        ]
+      },
+      "properties": {
+        "place_id": "2546",
+        "name": "Palmwoods",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2104434",
+        "snap_distance_m": 60.4,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8551002,
+          -26.366215
+        ]
+      },
+      "properties": {
+        "place_id": "2647",
+        "name": "Pomona",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1998106",
+        "snap_distance_m": 29.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4636294,
+          -16.4845983
+        ]
+      },
+      "properties": {
+        "place_id": "2656",
+        "name": "Port Douglas",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "401034",
+        "snap_distance_m": 133.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2697245,
+          -26.6153007
+        ]
+      },
+      "properties": {
+        "place_id": "2707",
+        "name": "Quilpie",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "601591",
+        "snap_distance_m": 96.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8652382,
+          -28.2100613
+        ]
+      },
+      "properties": {
+        "place_id": "2720",
+        "name": "Rathdowney",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2478509",
+        "snap_distance_m": 81.8,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4819407,
+          -17.6079404
+        ]
+      },
+      "properties": {
+        "place_id": "2723",
+        "name": "Ravenshoe",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "209848",
+        "snap_distance_m": 66.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1414029,
+          -20.7287264
+        ]
+      },
+      "properties": {
+        "place_id": "2752",
+        "name": "Richmond",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "17925",
+        "snap_distance_m": 13.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6229365,
+          -24.4634609
+        ]
+      },
+      "properties": {
+        "place_id": "2784",
+        "name": "Rolleston",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "815389",
+        "snap_distance_m": 31.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5925632,
+          -27.6396775
+        ]
+      },
+      "properties": {
+        "place_id": "2797",
+        "name": "Rosewood",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2407631",
+        "snap_distance_m": 4.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8180076,
+          -20.5724036
+        ]
+      },
+      "properties": {
+        "place_id": "2854",
+        "name": "Scottville",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "769179",
+        "snap_distance_m": 64.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1308699,
+          -27.6188844
+        ]
+      },
+      "properties": {
+        "place_id": "2973",
+        "name": "Springwood",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3111017",
+        "snap_distance_m": 19.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5807995,
+          -28.0367225
+        ]
+      },
+      "properties": {
+        "place_id": "2982",
+        "name": "St George",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1121835",
+        "snap_distance_m": 64.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9338265,
+          -28.6559947
+        ]
+      },
+      "properties": {
+        "place_id": "3001",
+        "name": "Stanthorpe",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2281212",
+        "snap_distance_m": 31.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9905347,
+          -27.3099861
+        ]
+      },
+      "properties": {
+        "place_id": "3023",
+        "name": "Strathpine",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3665442",
+        "snap_distance_m": 24.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0688944,
+          -27.1521567
+        ]
+      },
+      "properties": {
+        "place_id": "3042",
+        "name": "Surat",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1126698",
+        "snap_distance_m": 52.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4569563,
+          -27.2769305
+        ]
+      },
+      "properties": {
+        "place_id": "3078",
+        "name": "Tara",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1210868",
+        "snap_distance_m": 30.0,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9786001,
+          -27.4923992
+        ]
+      },
+      "properties": {
+        "place_id": "3084",
+        "name": "Taringa",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3141921",
+        "snap_distance_m": 14.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1665699,
+          -28.8550619
+        ]
+      },
+      "properties": {
+        "place_id": "3114",
+        "name": "Texas",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1699937",
+        "snap_distance_m": 92.3,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8203995,
+          -27.9959679
+        ]
+      },
+      "properties": {
+        "place_id": "3115",
+        "name": "Thargomindah",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "720515",
+        "snap_distance_m": 126.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": false,
+        "hub_access_all_blocking": false,
+        "isolation_category": "isolated_full_closures",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place could reach a hub before closures, but cannot reach any hub after active impassable closures are blocked.",
+        "nearby_blocking_closures_json": "[{\"closure_id\": \"qld.qldtraffic.5393f81f02ce8a92cbb0\", \"source_event_id\": \"812363\", \"distance_m\": 1419.1, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Between Thargomindah and Cooper Dev Road | Road closed to all traffic\", \"road_name\": \"Bulloo Developmental Road / Bulloo Developmental Road (Cooper Developmental Road)\", \"locality\": \"Durham / Thargomindah\", \"restrictions_text\": \"Do not drive in flood waters\", \"raw_advice\": \"Do not drive in flood waters\", \"raw_event_type\": \"Flooding\", \"raw_event_subtype\": \"Long-term flooding\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/812363\"}, {\"closure_id\": \"qld.qldtraffic.8babf191f89b024968e6\", \"source_event_id\": \"808959\", \"distance_m\": 1466.7, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Thargomindah Bypass\", \"locality\": \"Thargomindah\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/808959\"}, {\"closure_id\": \"qld.qldtraffic.b9f3c5e22b1122c11139\", \"source_event_id\": \"811998\", \"distance_m\": 1968.2, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Hungerford Eulo Road / Unnamed Road / Old Hungerford Road / Thargomindah Hungerford Road / Hungerford Road\", \"locality\": \"Hungerford / Thargomindah\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/811998\"}, {\"closure_id\": \"qld.qldtraffic.370652658d091f8b5c59\", \"source_event_id\": \"809707\", \"distance_m\": 4897.7, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Bulloo Downs Road / Bulloo Developmental Road / Tickalara Road\", \"locality\": \"Bulloo Downs / Cameron Corner / Thargomindah\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/809707\"}, {\"closure_id\": \"qld.qldtraffic.4f0f123998718097afdd\", \"source_event_id\": \"809705\", \"distance_m\": 9326.7, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Soonah Crossing Road\", \"locality\": \"Quilpie / Thargomindah\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/809705\"}]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9481983,
+          -28.5742444
+        ]
+      },
+      "properties": {
+        "place_id": "3129",
+        "name": "The Summit",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2286092",
+        "snap_distance_m": 95.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5828397,
+          -25.7273224
+        ]
+      },
+      "properties": {
+        "place_id": "3146",
+        "name": "Tiaro",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1934586",
+        "snap_distance_m": 80.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9915943,
+          -27.4857407
+        ]
+      },
+      "properties": {
+        "place_id": "3168",
+        "name": "Toowong",
+        "place_type": "",
+        "state": "Qld",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3140262",
+        "snap_distance_m": 16.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.953351,
+          -27.5610193
+        ]
+      },
+      "properties": {
+        "place_id": "3169",
+        "name": "Toowoomba",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "2625531",
+        "snap_distance_m": 6.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8239537,
+          -19.2569391
+        ]
+      },
+      "properties": {
+        "place_id": "3177",
+        "name": "Townsville",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": true,
+        "nearest_node": "1478544",
+        "snap_distance_m": 41.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9272624,
+          -17.9329498
+        ]
+      },
+      "properties": {
+        "place_id": "3194",
+        "name": "Tully",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "249205",
+        "snap_distance_m": 41.6,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0815491,
+          -27.5589562
+        ]
+      },
+      "properties": {
+        "place_id": "3228",
+        "name": "Upper Mount Gravatt",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "3793350",
+        "snap_distance_m": 67.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.0327039,
+          -28.2163204
+        ]
+      },
+      "properties": {
+        "place_id": "3336",
+        "name": "Warwick",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "2379315",
+        "snap_distance_m": 11.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0364812,
+          -22.3845163
+        ]
+      },
+      "properties": {
+        "place_id": "3465",
+        "name": "Winton",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "528761",
+        "snap_distance_m": 117.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7783116,
+          -26.9548098
+        ]
+      },
+      "properties": {
+        "place_id": "3500",
+        "name": "Woodford",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1986129",
+        "snap_distance_m": 16.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9828356,
+          -26.8408295
+        ]
+      },
+      "properties": {
+        "place_id": "3564",
+        "name": "Yarraman",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1834691",
+        "snap_distance_m": 55.2,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7529041,
+          -28.572247
+        ]
+      },
+      "properties": {
+        "place_id": "3574",
+        "name": "Yelarbon",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "1672940",
+        "snap_distance_m": 22.9,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.583273,
+          -17.2699604
+        ]
+      },
+      "properties": {
+        "place_id": "3587",
+        "name": "Yungaburra",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "221339",
+        "snap_distance_m": 26.1,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.1858111,
+          -17.4580526
+        ]
+      },
+      "properties": {
+        "place_id": "3590",
+        "name": "Howitt",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "28735",
+        "snap_distance_m": 43.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0286343,
+          -20.03459109
+        ]
+      },
+      "properties": {
+        "place_id": "3590",
+        "name": "Kajabbi",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "28735",
+        "snap_distance_m": 43.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8310765,
+          -17.94325134
+        ]
+      },
+      "properties": {
+        "place_id": "3590",
+        "name": "Doomadgee",
+        "place_type": "",
+        "state": "QLD",
+        "lga": "",
+        "is_hub": false,
+        "nearest_node": "28735",
+        "snap_distance_m": 43.5,
+        "hub_access_before": true,
+        "hub_access_impassable_only": true,
+        "hub_access_all_blocking": true,
+        "isolation_category": "not_isolated",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place still has hub access under both closure scenarios.",
+        "nearby_blocking_closures_json": "[]"
+      }
+    }
+  ]
+}
