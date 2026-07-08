@@ -222,6 +222,10 @@ PLACE_CSV_FIELDS = [
     "hub_access_before",
     "hub_access_impassable_only",
     "hub_access_all_blocking",
+    "reachable_hubs_before",
+    "reachable_hubs_impassable_only",
+    "reachable_hubs_all_blocking",
+    "hub_network_warning",
     "isolation_category",
     "isolation_confidence",
     "isolation_reason",
@@ -1621,8 +1625,15 @@ def iter_adjacent_edges(G: nx.Graph, node: Any) -> Iterable[Tuple[Any, Tuple[Any
                 yield other, (u, v, 0)
 
 
+def is_edge_blocked(edge: Tuple[Any, Any, Any], blocked_edges: set[Tuple[Any, Any, Any]]) -> bool:
+    if edge in blocked_edges:
+        return True
+    # If graph has explicit reverse edge with a different key it should be
+    # matched separately, but this helps if an undirected graph is used.
+    return (edge[1], edge[0], edge[2]) in blocked_edges
+
+
 def reachable_from_hubs(G: nx.Graph, hub_nodes: Sequence[Any], blocked_edges: set[Tuple[Any, Any, Any]]) -> set[Any]:
-    blocked = blocked_edges
     queue = deque(n for n in hub_nodes if n is not None)
     seen: set[Any] = set()
 
@@ -1632,16 +1643,56 @@ def reachable_from_hubs(G: nx.Graph, hub_nodes: Sequence[Any], blocked_edges: se
             continue
         seen.add(node)
         for neighbour, edge in iter_adjacent_edges(G, node):
-            if edge in blocked:
-                continue
-            # If graph has explicit reverse edge with a different key it should be
-            # matched separately, but this helps if an undirected graph is used.
-            rev = (edge[1], edge[0], edge[2])
-            if rev in blocked:
+            if is_edge_blocked(edge, blocked_edges):
                 continue
             if neighbour not in seen:
                 queue.append(neighbour)
     return seen
+
+
+def hub_component_access(
+    G: nx.Graph,
+    hub_nodes: Sequence[Any],
+    blocked_edges: set[Tuple[Any, Any, Any]],
+) -> Tuple[Dict[Any, int], List[int]]:
+    """Return each node's reachable hub count and all hub-containing component sizes."""
+    hub_set = {n for n in hub_nodes if n is not None}
+    node_hub_counts: Dict[Any, int] = {}
+    hub_component_sizes: List[int] = []
+    seen: set[Any] = set()
+
+    for start in G.nodes:
+        if start in seen:
+            continue
+        component_nodes: List[Any] = []
+        component_hubs = 0
+        queue = deque([start])
+        seen.add(start)
+        while queue:
+            node = queue.popleft()
+            component_nodes.append(node)
+            if node in hub_set:
+                component_hubs += 1
+            for neighbour, edge in iter_adjacent_edges(G, node):
+                if neighbour in seen or is_edge_blocked(edge, blocked_edges):
+                    continue
+                seen.add(neighbour)
+                queue.append(neighbour)
+
+        if component_hubs:
+            hub_component_sizes.append(component_hubs)
+            for node in component_nodes:
+                node_hub_counts[node] = component_hubs
+
+    return node_hub_counts, sorted(hub_component_sizes, reverse=True)
+
+
+def summarise_hub_components(component_sizes: Sequence[int]) -> Dict[str, Any]:
+    return {
+        "components_with_hubs": len(component_sizes),
+        "largest_hub_component_size": max(component_sizes) if component_sizes else 0,
+        "single_hub_components": sum(1 for size in component_sizes if size == 1),
+    }
 
 
 def snap_places_to_graph(
@@ -1717,6 +1768,9 @@ def classify_places(
     reachable_before: set[Any],
     reachable_impassable: set[Any],
     reachable_all: set[Any],
+    hub_counts_before: Dict[Any, int],
+    hub_counts_impassable: Dict[Any, int],
+    hub_counts_all: Dict[Any, int],
     matched_impassable_closures: Sequence[Closure],
     matched_all_blocking_closures: Sequence[Closure],
 ) -> List[Dict[str, Any]]:
@@ -1728,6 +1782,14 @@ def classify_places(
         before = bool(node in reachable_before) if node is not None else False
         imp = bool(node in reachable_impassable) if node is not None else False
         allb = bool(node in reachable_all) if node is not None else False
+        before_hubs = hub_counts_before.get(node, 0) if node is not None else 0
+        imp_hubs = hub_counts_impassable.get(node, 0) if node is not None else 0
+        all_hubs = hub_counts_all.get(node, 0) if node is not None else 0
+        hub_warning = ""
+        if allb and all_hubs == 1:
+            hub_warning = "Place can reach only one hub when restricted/conditional closures are also blocked; that hub cannot reach another modelled hub under this scenario."
+        elif imp and imp_hubs == 1:
+            hub_warning = "Place can reach only one hub when full closures are blocked; that hub cannot reach another modelled hub under this scenario."
 
         if node is None:
             category = "unknown_place_not_snapped"
@@ -1774,6 +1836,10 @@ def classify_places(
                 "hub_access_before": before,
                 "hub_access_impassable_only": imp,
                 "hub_access_all_blocking": allb,
+                "reachable_hubs_before": before_hubs,
+                "reachable_hubs_impassable_only": imp_hubs,
+                "reachable_hubs_all_blocking": all_hubs,
+                "hub_network_warning": hub_warning,
                 "isolation_category": category,
                 "isolation_confidence": confidence,
                 "isolation_reason": reason,
@@ -1916,16 +1982,19 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
 
     # Reachability before and after closures.
     t0 = time.perf_counter()
-    reachable_before = reachable_from_hubs(G, hub_nodes, blocked_edges=set())
-    print(f"[REACH] before closures reachable_nodes={len(reachable_before):,} elapsed={time.perf_counter() - t0:.1f}s")
+    hub_counts_before, hub_components_before = hub_component_access(G, hub_nodes, blocked_edges=set())
+    reachable_before = set(hub_counts_before)
+    print(f"[REACH] before closures reachable_nodes={len(reachable_before):,} hub_components={len(hub_components_before):,} elapsed={time.perf_counter() - t0:.1f}s")
 
     t0 = time.perf_counter()
-    reachable_imp = reachable_from_hubs(G, hub_nodes, blocked_edges=blocked_imp)
-    print(f"[REACH] impassable_only reachable_nodes={len(reachable_imp):,} elapsed={time.perf_counter() - t0:.1f}s")
+    hub_counts_imp, hub_components_imp = hub_component_access(G, hub_nodes, blocked_edges=blocked_imp)
+    reachable_imp = set(hub_counts_imp)
+    print(f"[REACH] impassable_only reachable_nodes={len(reachable_imp):,} hub_components={len(hub_components_imp):,} elapsed={time.perf_counter() - t0:.1f}s")
 
     t0 = time.perf_counter()
-    reachable_all = reachable_from_hubs(G, hub_nodes, blocked_edges=blocked_all)
-    print(f"[REACH] all_blocking reachable_nodes={len(reachable_all):,} elapsed={time.perf_counter() - t0:.1f}s")
+    hub_counts_all, hub_components_all = hub_component_access(G, hub_nodes, blocked_edges=blocked_all)
+    reachable_all = set(hub_counts_all)
+    print(f"[REACH] all_blocking reachable_nodes={len(reachable_all):,} hub_components={len(hub_components_all):,} elapsed={time.perf_counter() - t0:.1f}s")
 
     place_rows = classify_places(
         places,
@@ -1934,6 +2003,9 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
         reachable_before,
         reachable_imp,
         reachable_all,
+        hub_counts_before,
+        hub_counts_imp,
+        hub_counts_all,
         matched_imp_closures,
         matched_all_closures,
     )
@@ -1979,6 +2051,9 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
             "reachable_nodes_before": len(reachable_before),
             "reachable_nodes_impassable_only": len(reachable_imp),
             "reachable_nodes_all_blocking": len(reachable_all),
+            "hub_components_before": summarise_hub_components(hub_components_before),
+            "hub_components_impassable_only": summarise_hub_components(hub_components_imp),
+            "hub_components_all_blocking": summarise_hub_components(hub_components_all),
             "place_categories": counts_by_category,
             "unmatched_closure_rows": len(unmatched_rows),
         },
@@ -1996,6 +2071,7 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
         "notes": [
             "isolated_full_closures means the place had hub access before closures but not after impassable closures were blocked.",
             "isolated_with_restrictions means the place still has access under full-closure blocking, but loses access when restricted/conditional-access events are also blocked.",
+            "hub_network_warning is set when a place can reach only one modelled hub in the relevant closure scenario, meaning that hub cannot reach another modelled hub even though the place still has local hub access.",
             "unknown_preexisting_disconnected means the place could not reach a hub even before applying current closures, so it is not safe to attribute isolation to current closures.",
             "This is an automated graph estimate, not an authoritative emergency-services isolation declaration.",
         ],
