@@ -86,7 +86,7 @@ import zipfile
 from collections import deque
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 import xml.etree.ElementTree as ET
 
 import networkx as nx
@@ -630,6 +630,58 @@ def _read_kmz_kml_texts(path: Path) -> List[str]:
                     texts.append(archive.read(name).decode("utf-8-sig"))
         return texts
     return [path.read_text(encoding="utf-8-sig")]
+
+
+def resolve_state_border_path(path_value: Optional[str], *, base_dir: Optional[Path] = None) -> Optional[Path]:
+    """Resolve the configured state-border KML/KMZ, searching the repo if needed."""
+    if path_value is None or not str(path_value).strip():
+        return None
+
+    requested = Path(str(path_value).strip()).expanduser()
+    candidates: List[Path] = []
+    if requested.is_absolute():
+        candidates.append(requested)
+    else:
+        cwd = Path.cwd()
+        script_dir = base_dir or Path(__file__).resolve().parent
+        candidates.extend([cwd / requested, script_dir / requested])
+
+    seen: Set[Path] = set()
+    for candidate in candidates:
+        try:
+            key = candidate.resolve()
+        except Exception:
+            key = candidate
+        if key in seen:
+            continue
+        seen.add(key)
+        if candidate.exists():
+            return candidate
+
+    # The workflow can run from a different working directory, and users often put
+    # the KMZ under a data/assets folder.  If the direct path did not resolve,
+    # search from the script/repo directory for a matching KML/KMZ basename.
+    if requested.is_absolute():
+        return requested
+
+    script_dir = base_dir or Path(__file__).resolve().parent
+    requested_name = requested.name.lower()
+    kmz_kml_files = [p for pattern in ("*.kmz", "*.kml") for p in script_dir.rglob(pattern)]
+    for candidate in kmz_kml_files:
+        if candidate.name.lower() == requested_name:
+            return candidate
+
+    # Be forgiving for minor naming differences such as state_border.kmz,
+    # state-border.kmz, or State Border.kmz when the default Stateborder.kmz is used.
+    requested_stem_norm = re.sub(r"[^a-z0-9]+", "", requested.stem.lower())
+    for candidate in kmz_kml_files:
+        stem_norm = re.sub(r"[^a-z0-9]+", "", candidate.stem.lower())
+        if requested_stem_norm and requested_stem_norm == stem_norm:
+            return candidate
+        if requested_stem_norm == "stateborder" and "state" in stem_norm and "border" in stem_norm:
+            return candidate
+
+    return candidates[0] if candidates else requested
 
 
 def load_qld_boundary_data(path: Optional[Path]) -> QldBoundaryData:
@@ -3072,7 +3124,9 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
     G = load_graph(Path(args.graph))
     if getattr(args, "manual_connectors", ""):
         apply_manual_connectors(G, Path(args.manual_connectors))
-    boundary = load_qld_boundary_data(Path(args.state_border_kmz) if getattr(args, "state_border_kmz", "") else None)
+    state_border_path = resolve_state_border_path(getattr(args, "state_border_kmz", ""))
+    print(f"[BORDER] state_border_kmz={state_border_path}")
+    boundary = load_qld_boundary_data(state_border_path)
     qld_traversal_nodes = qld_traversal_nodes_from_boundary(G, boundary)
     qld_traversal_edges = qld_traversal_edges_from_boundary(G, boundary, qld_traversal_nodes)
     node_index = build_node_index(G)
@@ -3264,7 +3318,7 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
             "smart_resnap_max_distance_m": args.smart_resnap_max_distance_m,
             "smart_resnap_k_nearest": args.smart_resnap_k_nearest,
             "state_border_access_distance_m": args.state_border_access_distance_m,
-            "state_border_kmz": str(args.state_border_kmz or ""),
+            "state_border_kmz": str(state_border_path or ""),
         },
         "closure_source": source_meta,
         "counts": {
@@ -3353,7 +3407,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--smart-resnap-max-distance-m", type=float, default=2000.0, help="Maximum distance to a hub-connected node for smart re-snapping.")
     parser.add_argument("--smart-resnap-k-nearest", type=int, default=250, help="Number of nearby graph nodes to inspect during smart re-snapping.")
     parser.add_argument("--state-border-access-distance-m", type=float, default=5000.0, help="Distance from the SA/NT/NSW border used to label non-hub-connected components with state-border access.")
-    parser.add_argument("--state-border-kmz", default="stateborder.kmz", help="KML/KMZ containing Queensland boundary/state-border geometry for Queensland-only routing and border diagnostics.")
+    parser.add_argument("--state-border-kmz", default="Stateborder.kmz", help="KML/KMZ containing Queensland boundary/state-border geometry for Queensland-only routing and border diagnostics.")
     parser.add_argument("--manual-connectors", default="", help="Optional CSV of audited manual graph connector edges to apply before analysis.")
     return parser
 
