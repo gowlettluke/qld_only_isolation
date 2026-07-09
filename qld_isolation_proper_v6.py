@@ -79,6 +79,7 @@ import heapq
 import json
 import math
 import numbers
+import pickle
 import re
 import sys
 import time
@@ -683,6 +684,103 @@ def resolve_state_border_path(path_value: Optional[str], *, base_dir: Optional[P
 
     return candidates[0] if candidates else requested
 
+
+BOUNDARY_MASK_CACHE_VERSION = "qld-boundary-mask-v1"
+
+
+def sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def boundary_mask_cache_path(graph_path: Path, boundary: QldBoundaryData, G: nx.Graph) -> Optional[Path]:
+    """Return a stable cache path for the graph/boundary traversal mask."""
+    if boundary.qld_geom is None and not boundary.border_lines_wgs:
+        return None
+
+    graph_path = graph_path.expanduser()
+    graph_stat = None
+    graph_hash = ""
+    if graph_path.exists():
+        try:
+            graph_stat = graph_path.stat()
+            graph_hash = sha256_file(graph_path)
+        except OSError:
+            graph_stat = None
+
+    boundary_path = Path(boundary.source_path).expanduser() if boundary.source_path else None
+    boundary_stat = None
+    boundary_hash = ""
+    if boundary_path and boundary_path.exists():
+        try:
+            boundary_stat = boundary_path.stat()
+            boundary_hash = sha256_file(boundary_path)
+        except OSError:
+            boundary_stat = None
+
+    key_data = {
+        "version": BOUNDARY_MASK_CACHE_VERSION,
+        "graph_path": str(graph_path.resolve() if graph_path.exists() else graph_path),
+        "graph_size": graph_stat.st_size if graph_stat else None,
+        "graph_sha256": graph_hash,
+        "graph_nodes": G.number_of_nodes(),
+        "graph_edges": G.number_of_edges(),
+        "boundary_path": str(boundary_path.resolve() if boundary_path and boundary_path.exists() else boundary_path or ""),
+        "boundary_size": boundary_stat.st_size if boundary_stat else None,
+        "boundary_sha256": boundary_hash,
+    }
+    key = hashlib.sha256(json.dumps(key_data, sort_keys=True).encode("utf-8")).hexdigest()[:16]
+    cache_dir = graph_path.parent if graph_path.parent else Path(".")
+    return cache_dir / f"qld_boundary_mask_{key}.pkl"
+
+
+def qld_traversal_mask_from_boundary_cache(
+    G: nx.Graph,
+    boundary: QldBoundaryData,
+    graph_path: Path,
+) -> Tuple[Optional[set[Any]], Optional[set[Tuple[Any, Any, Any]]]]:
+    """Load or build the Queensland traversal node/edge masks for this graph/boundary."""
+    cache_path = boundary_mask_cache_path(graph_path, boundary, G)
+    if cache_path is None:
+        return qld_traversal_nodes_from_boundary(G, boundary), qld_traversal_edges_from_boundary(G, boundary, None)
+
+    t0 = time.perf_counter()
+    if cache_path.exists():
+        try:
+            with cache_path.open("rb") as f:
+                payload = pickle.load(f)
+            nodes = payload.get("nodes")
+            edges = payload.get("edges")
+            if isinstance(nodes, set) and isinstance(edges, set):
+                print(
+                    "[BORDER] loaded Queensland traversal mask cache "
+                    f"path={cache_path} nodes={len(nodes):,} edges={len(edges):,} elapsed={time.perf_counter() - t0:.1f}s"
+                )
+                return nodes, edges
+        except Exception as exc:
+            print(f"[BORDER] ignoring unreadable traversal mask cache path={cache_path} error={exc}")
+
+    nodes = qld_traversal_nodes_from_boundary(G, boundary)
+    edges = qld_traversal_edges_from_boundary(G, boundary, nodes)
+    if nodes is None or edges is None:
+        return nodes, edges
+
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        tmp_path = cache_path.with_suffix(cache_path.suffix + ".tmp")
+        with tmp_path.open("wb") as f:
+            pickle.dump({"nodes": nodes, "edges": edges}, f, protocol=pickle.HIGHEST_PROTOCOL)
+        tmp_path.replace(cache_path)
+        print(
+            "[BORDER] saved Queensland traversal mask cache "
+            f"path={cache_path} nodes={len(nodes):,} edges={len(edges):,} elapsed={time.perf_counter() - t0:.1f}s"
+        )
+    except Exception as exc:
+        print(f"[BORDER] could not save traversal mask cache path={cache_path} error={exc}")
+    return nodes, edges
 
 def load_qld_boundary_data(path: Optional[Path]) -> QldBoundaryData:
     """Load Queensland polygon/border-line geometry from a KML/KMZ state border file."""
@@ -3121,14 +3219,14 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
     print(f"[PLACES] places={len(places):,} hubs={len(hubs):,}")
 
     # Load graph and indexes.
-    G = load_graph(Path(args.graph))
+    graph_path = Path(args.graph)
+    G = load_graph(graph_path)
     if getattr(args, "manual_connectors", ""):
         apply_manual_connectors(G, Path(args.manual_connectors))
     state_border_path = resolve_state_border_path(getattr(args, "state_border_kmz", ""))
     print(f"[BORDER] state_border_kmz={state_border_path}")
     boundary = load_qld_boundary_data(state_border_path)
-    qld_traversal_nodes = qld_traversal_nodes_from_boundary(G, boundary)
-    qld_traversal_edges = qld_traversal_edges_from_boundary(G, boundary, qld_traversal_nodes)
+    qld_traversal_nodes, qld_traversal_edges = qld_traversal_mask_from_boundary_cache(G, boundary, graph_path)
     node_index = build_node_index(G)
     edge_index = build_edge_index(G)
 
