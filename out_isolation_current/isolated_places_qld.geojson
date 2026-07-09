@@ -27,6 +27,8 @@
         "reachable_hubs_before": 9,
         "reachable_hubs_impassable_only": 0,
         "reachable_hubs_all_blocking": 0,
+        "state_border_access_before": true,
+        "reachable_state_borders_before": "NSW, NT, SA",
         "hub_network_warning": "",
         "isolation_category": "isolated_full_closures",
         "isolation_confidence": "high",
@@ -60,6 +62,8 @@
         "reachable_hubs_before": 9,
         "reachable_hubs_impassable_only": 0,
         "reachable_hubs_all_blocking": 0,
+        "state_border_access_before": true,
+        "reachable_state_borders_before": "NSW, NT, SA",
         "hub_network_warning": "",
         "isolation_category": "isolated_full_closures",
         "isolation_confidence": "high",
@@ -72,7 +76,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.58964835,
+          142.5896484,
           -27.81624777
         ]
       },
@@ -93,6 +97,8 @@
         "reachable_hubs_before": 9,
         "reachable_hubs_impassable_only": 0,
         "reachable_hubs_all_blocking": 0,
+        "state_border_access_before": true,
+        "reachable_state_borders_before": "NSW, NT, SA",
         "hub_network_warning": "",
         "isolation_category": "isolated_full_closures",
         "isolation_confidence": "high",
