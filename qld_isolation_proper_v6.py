@@ -227,6 +227,8 @@ PLACE_CSV_FIELDS = [
     "reachable_hubs_before",
     "reachable_hubs_impassable_only",
     "reachable_hubs_all_blocking",
+    "state_border_access_before",
+    "reachable_state_borders_before",
     "hub_network_warning",
     "isolation_category",
     "isolation_confidence",
@@ -2093,6 +2095,76 @@ def graph_component_node_sizes(
     return node_component_sizes
 
 
+QLD_STATE_BORDER_SEGMENTS: List[Tuple[str, Tuple[float, float], Tuple[float, float]]] = [
+    ("NT", (138.0, -26.0), (138.0, -16.0)),
+    ("SA", (138.0, -29.0), (141.0, -29.0)),
+    # Approximate the southern Queensland border for this reachability diagnostic.
+    # This is deliberately used only to label graph components that have practical
+    # access to a state border, not for legal boundary mapping.
+    ("NSW", (141.0, -29.0), (153.65, -28.15)),
+]
+
+
+def state_border_node_labels(G: nx.Graph, max_distance_m: float) -> Dict[Any, List[str]]:
+    """Return graph nodes that are close enough to the SA/NT/NSW borders."""
+    border_lines = []
+    for name, a, b in QLD_STATE_BORDER_SEGMENTS:
+        ax, ay = point_wgs_to_m(a[0], a[1])
+        bx, by = point_wgs_to_m(b[0], b[1])
+        border_lines.append((name, LineString([(ax, ay), (bx, by)])))
+
+    out: Dict[Any, List[str]] = {}
+    for node, data in G.nodes(data=True):
+        try:
+            lon = float(data["x"])
+            lat = float(data["y"])
+        except Exception:
+            continue
+        x, y = point_wgs_to_m(lon, lat)
+        p = Point(x, y)
+        labels = [name for name, line in border_lines if line.distance(p) <= max_distance_m]
+        if labels:
+            out[node] = sorted(set(labels))
+    return out
+
+
+def border_component_access(
+    G: nx.Graph,
+    border_node_labels: Dict[Any, List[str]],
+    blocked_edges: set[Tuple[Any, Any, Any]],
+) -> Tuple[Dict[Any, int], Dict[Any, str]]:
+    """Return each node's reachable border count/names under a blocking scenario."""
+    node_border_counts: Dict[Any, int] = {}
+    node_border_names: Dict[Any, str] = {}
+    seen: set[Any] = set()
+
+    for start in G.nodes:
+        if start in seen:
+            continue
+        component_nodes: List[Any] = []
+        component_borders: set[str] = set()
+        queue = deque([start])
+        seen.add(start)
+        while queue:
+            node = queue.popleft()
+            component_nodes.append(node)
+            component_borders.update(border_node_labels.get(node, []))
+            for neighbour, edge in iter_adjacent_edges(G, node):
+                if neighbour in seen or is_edge_blocked(edge, blocked_edges):
+                    continue
+                seen.add(neighbour)
+                queue.append(neighbour)
+
+        if component_borders:
+            border_names = ", ".join(sorted(component_borders))
+            border_count = len(component_borders)
+            for node in component_nodes:
+                node_border_counts[node] = border_count
+                node_border_names[node] = border_names
+
+    return node_border_counts, node_border_names
+
+
 def summarise_hub_components(component_sizes: Sequence[int]) -> Dict[str, Any]:
     return {
         "components_with_hubs": len(component_sizes),
@@ -2265,6 +2337,8 @@ def classify_places(
     hub_counts_before: Dict[Any, int],
     hub_counts_impassable: Dict[Any, int],
     hub_counts_all: Dict[Any, int],
+    border_counts_before: Dict[Any, int],
+    border_names_before: Dict[Any, str],
     matched_impassable_closures: Sequence[Closure],
     matched_all_blocking_closures: Sequence[Closure],
 ) -> List[Dict[str, Any]]:
@@ -2279,6 +2353,8 @@ def classify_places(
         before_hubs = hub_counts_before.get(node, 0) if node is not None else 0
         imp_hubs = hub_counts_impassable.get(node, 0) if node is not None else 0
         all_hubs = hub_counts_all.get(node, 0) if node is not None else 0
+        before_borders = border_counts_before.get(node, 0) if node is not None else 0
+        before_border_names = border_names_before.get(node, "") if node is not None else ""
         hub_warning = ""
         if allb and all_hubs == 1:
             hub_warning = "Place can reach only one hub when restricted/conditional closures are also blocked; that hub cannot reach another modelled hub under this scenario."
@@ -2291,9 +2367,17 @@ def classify_places(
             reason = "Place could not be snapped to the road graph within the configured distance."
             nearest = []
         elif not before:
-            category = "unknown_preexisting_disconnected"
-            confidence = "unknown"
-            reason = "Place could not reach a hub even before current closures were applied; this is likely a graph/data issue or a genuinely disconnected place."
+            if before_borders:
+                category = "isolated_from_qld_hubs_border_access"
+                confidence = "unknown"
+                reason = (
+                    "Place could not reach a modelled Queensland hub even before current closures were applied, "
+                    f"but can reach the {before_border_names} state border."
+                )
+            else:
+                category = "unknown_preexisting_disconnected"
+                confidence = "unknown"
+                reason = "Place could not reach a hub even before current closures were applied; this is likely a graph/data issue or a genuinely disconnected place."
             nearest = []
         elif not imp:
             category = "isolated_full_closures"
@@ -2335,6 +2419,8 @@ def classify_places(
                 "reachable_hubs_before": before_hubs,
                 "reachable_hubs_impassable_only": imp_hubs,
                 "reachable_hubs_all_blocking": all_hubs,
+                "state_border_access_before": bool(before_borders),
+                "reachable_state_borders_before": before_border_names,
                 "hub_network_warning": hub_warning,
                 "isolation_category": category,
                 "isolation_confidence": confidence,
@@ -2488,6 +2574,9 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
     reachable_before = set(hub_counts_before)
     print(f"[REACH] before closures reachable_nodes={len(reachable_before):,} hub_components={len(hub_components_before):,} elapsed={time.perf_counter() - t0:.1f}s")
     component_node_sizes_before = graph_component_node_sizes(G, blocked_edges=set())
+    border_node_labels = state_border_node_labels(G, max_distance_m=args.state_border_access_distance_m)
+    border_counts_before, border_names_before = border_component_access(G, border_node_labels, blocked_edges=set())
+    print(f"[REACH] state_border_access border_nodes={len(border_node_labels):,} reachable_nodes={len(border_counts_before):,}")
 
     t0 = time.perf_counter()
     hub_counts_imp, hub_components_imp = hub_component_access(G, hub_nodes, blocked_edges=blocked_imp)
@@ -2527,6 +2616,8 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
         hub_counts_before,
         hub_counts_imp,
         hub_counts_all,
+        border_counts_before,
+        border_names_before,
         matched_imp_closures,
         matched_all_closures,
     )
@@ -2559,6 +2650,7 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
             "smart_resnap_max_component_nodes": args.smart_resnap_max_component_nodes,
             "smart_resnap_max_distance_m": args.smart_resnap_max_distance_m,
             "smart_resnap_k_nearest": args.smart_resnap_k_nearest,
+            "state_border_access_distance_m": args.state_border_access_distance_m,
         },
         "closure_source": source_meta,
         "counts": {
@@ -2574,6 +2666,8 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
             "blocked_edges_impassable_only": len(blocked_imp),
             "blocked_edges_all_blocking": len(blocked_all),
             "reachable_nodes_before": len(reachable_before),
+            "state_border_nodes": len(border_node_labels),
+            "state_border_reachable_nodes_before": len(border_counts_before),
             "reachable_nodes_impassable_only": len(reachable_imp),
             "reachable_nodes_all_blocking": len(reachable_all),
             "hub_components_before": summarise_hub_components(hub_components_before),
@@ -2641,6 +2735,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--smart-resnap-max-component-nodes", type=int, default=10, help="Maximum disconnected component size eligible for smart re-snapping.")
     parser.add_argument("--smart-resnap-max-distance-m", type=float, default=2000.0, help="Maximum distance to a hub-connected node for smart re-snapping.")
     parser.add_argument("--smart-resnap-k-nearest", type=int, default=250, help="Number of nearby graph nodes to inspect during smart re-snapping.")
+    parser.add_argument("--state-border-access-distance-m", type=float, default=5000.0, help="Distance from the SA/NT/NSW border used to label non-hub-connected components with state-border access.")
     parser.add_argument("--manual-connectors", default="", help="Optional CSV of audited manual graph connector edges to apply before analysis.")
     return parser
 
