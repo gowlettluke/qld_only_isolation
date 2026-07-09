@@ -1469,13 +1469,15 @@ def shortest_hub_route(
     start: Any,
     hub_node_names: Dict[Any, str],
     *,
+    blocked_edges: Optional[set[Tuple[Any, Any, Any]]] = None,
     max_points: int = 1200,
 ) -> Dict[str, Any]:
-    """Return a shortest pre-closure route from a place node to the nearest hub node."""
+    """Return a shortest currently-open route from a place node to the nearest hub node."""
     if start is None or start not in G or not hub_node_names:
         return {}
 
     targets = set(hub_node_names)
+    blocked = blocked_edges or set()
     route_counter = 0
     queue: List[Tuple[float, int, Any]] = [(0.0, route_counter, start)]
     dist: Dict[Any, float] = {start: 0.0}
@@ -1495,6 +1497,7 @@ def shortest_hub_route(
             if neighbour in seen:
                 continue
             candidates = edge_records_between(G, edge[0], edge[1]) or edge_records_between(G, edge[1], edge[0])
+            candidates = [(key, data) for key, data in candidates if not is_edge_blocked((edge[0], edge[1], key), blocked)]
             if not candidates:
                 continue
             key, data = min(candidates, key=lambda item: graph_edge_length_m(G, edge[0], edge[1], item[1]))
@@ -1506,7 +1509,7 @@ def shortest_hub_route(
                 route_counter += 1
                 heapq.heappush(queue, (new_cost, route_counter, neighbour))
 
-    if end is None:
+    if end is None or end == start:
         return {}
 
     pieces: List[List[Tuple[float, float]]] = []
@@ -1549,12 +1552,13 @@ def shortest_hub_route(
     }
 
 
-def build_isolation_hub_routes(
+def build_hub_access_routes(
     G: nx.Graph,
     places: Sequence[Place],
     place_nodes: Dict[str, Any],
     hub_nodes_by_place_id: Dict[str, Any],
     place_rows: Sequence[Dict[str, Any]],
+    blocked_edges: set[Tuple[Any, Any, Any]],
 ) -> Dict[str, Dict[str, Any]]:
     hub_node_names: Dict[Any, str] = {}
     place_by_id = {p.place_id: p for p in places}
@@ -1565,10 +1569,10 @@ def build_isolation_hub_routes(
         hub_node_names.setdefault(node, hub_place.name if hub_place else str(place_id))
     routes: Dict[str, Dict[str, Any]] = {}
     for row in place_rows:
-        if row.get("isolation_category") not in {"isolated_full_closures", "isolated_with_restrictions"}:
+        if row.get("isolation_category") != "not_isolated" or str(row.get("is_hub", "")).strip().lower() in YES_VALUES:
             continue
         place_id = str(row.get("place_id") or "")
-        route = shortest_hub_route(G, place_nodes.get(place_id), hub_node_names)
+        route = shortest_hub_route(G, place_nodes.get(place_id), hub_node_names, blocked_edges=blocked_edges)
         if route:
             routes[place_id] = route
     return routes
@@ -2777,9 +2781,9 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
         matched_all_closures,
     )
 
-    hub_routes = build_isolation_hub_routes(G, places, place_nodes, hub_nodes_by_place_id, place_rows)
+    hub_routes = build_hub_access_routes(G, places, place_nodes, hub_nodes_by_place_id, place_rows, blocked_all)
     if hub_routes:
-        print(f"[ROUTES] pre-closure hub routes generated for isolated places: {len(hub_routes):,}")
+        print(f"[ROUTES] current open hub routes generated for not-isolated places: {len(hub_routes):,}")
         place_rows = classify_places(
             places,
             place_nodes,
@@ -2851,7 +2855,7 @@ def run_analysis(args: argparse.Namespace) -> Dict[str, Any]:
             "hub_components_impassable_only": summarise_hub_components(hub_components_imp),
             "hub_components_all_blocking": summarise_hub_components(hub_components_all),
             "smart_resnapped_places": smart_count,
-            "isolated_hub_routes": len(hub_routes),
+            "not_isolated_hub_routes": len(hub_routes),
             "place_categories": counts_by_category,
             "unmatched_closure_rows": len(unmatched_rows),
         },
