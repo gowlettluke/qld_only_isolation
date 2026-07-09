@@ -2563,6 +2563,8 @@ def hub_component_access(
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
+                if allowed_nodes is not None and neighbour not in allowed_nodes:
+                    continue
                 seen.add(neighbour)
                 queue.append(neighbour)
 
@@ -2596,6 +2598,8 @@ def graph_component_node_sizes(
             component_nodes.append(node)
             for neighbour, edge in iter_adjacent_edges(G, node):
                 if neighbour in seen or is_edge_blocked(edge, blocked_edges) or not is_edge_allowed(edge, allowed_edges):
+                    continue
+                if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
@@ -2676,6 +2680,8 @@ def border_component_access(
             component_borders.update(border_node_labels.get(node, []))
             for neighbour, edge in iter_adjacent_edges(G, node):
                 if neighbour in seen or is_edge_blocked(edge, blocked_edges) or not is_edge_allowed(edge, allowed_edges):
+                    continue
+                if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
