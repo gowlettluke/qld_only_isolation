@@ -637,10 +637,10 @@ def load_qld_boundary_data(path: Optional[Path]) -> QldBoundaryData:
     if not path or not str(path).strip():
         return QldBoundaryData()
     if not path.exists():
-        print(f"[BORDER] state border file not found, using approximate border diagnostic only: {path}")
-        return QldBoundaryData(source_path=str(path))
+        raise FileNotFoundError(f"State border KMZ/KML not found: {path}")
 
     qld_polygons: List[Any] = []
+    candidate_polygons: List[Any] = []
     border_lines_wgs: List[Tuple[str, Any]] = []
     for text in _read_kmz_kml_texts(path):
         root = ET.fromstring(text)
@@ -648,9 +648,9 @@ def load_qld_boundary_data(path: Optional[Path]) -> QldBoundaryData:
             if _kml_local_name(placemark.tag) != "Placemark":
                 continue
             name = _kml_child_text(placemark, "name")
-            description = _kml_child_text(placemark, "description")
-            label_text = f"{name} {description}".lower()
+            label_text = " ".join(t.strip() for t in placemark.itertext() if t and t.strip()).lower()
             polygons, lines = _kml_geometries_from_placemark(placemark)
+            candidate_polygons.extend(polygons)
 
             is_qld = "queensland" in label_text or re.search(r"\bqld\b", label_text) is not None
             if is_qld:
@@ -660,6 +660,14 @@ def load_qld_boundary_data(path: Optional[Path]) -> QldBoundaryData:
             for line in lines:
                 border_lines_wgs.append((label, line))
 
+    if not qld_polygons:
+        for polygon in candidate_polygons:
+            try:
+                point = polygon.representative_point()
+                if in_qld_bbox(float(point.y), float(point.x)):
+                    qld_polygons.append(polygon)
+            except Exception:
+                continue
     qld_geom = unary_union(qld_polygons) if qld_polygons else None
     border_lines_m = [(label, geom_to_m(line)) for label, line in border_lines_wgs]
     print(
@@ -712,6 +720,8 @@ def qld_traversal_edges_from_boundary(
             if qld_geom is not None:
                 if qld_geom.covers(geom):
                     allowed_edges.add((u, v, k))
+                continue
+            if any(geom.crosses(border_line) for _label, border_line in boundary.border_lines_wgs):
                 continue
             if isinstance(geom, MultiLineString):
                 coords_to_check = [coord for part in geom.geoms for coord in part.coords]
@@ -2563,8 +2573,6 @@ def hub_component_access(
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
-                if allowed_nodes is not None and neighbour not in allowed_nodes:
-                    continue
                 seen.add(neighbour)
                 queue.append(neighbour)
 
@@ -2598,8 +2606,6 @@ def graph_component_node_sizes(
             component_nodes.append(node)
             for neighbour, edge in iter_adjacent_edges(G, node):
                 if neighbour in seen or is_edge_blocked(edge, blocked_edges) or not is_edge_allowed(edge, allowed_edges):
-                    continue
-                if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
@@ -2680,8 +2686,6 @@ def border_component_access(
             component_borders.update(border_node_labels.get(node, []))
             for neighbour, edge in iter_adjacent_edges(G, node):
                 if neighbour in seen or is_edge_blocked(edge, blocked_edges) or not is_edge_allowed(edge, allowed_edges):
-                    continue
-                if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
                 if allowed_nodes is not None and neighbour not in allowed_nodes:
                     continue
