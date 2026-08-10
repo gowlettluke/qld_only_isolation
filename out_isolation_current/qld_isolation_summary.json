@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-10T06:19:25.937930+00:00",
+  "created_at": "2026-08-10T07:56:44.548623+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -26,15 +26,15 @@
     "source_mode": "live_qldtraffic",
     "url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
     "http_status": 200,
-    "fetched_at": "2026-08-10T06:13:24.109065+00:00",
-    "raw_count": 499,
-    "normalised_count": 229,
-    "skipped_planned": 270,
+    "fetched_at": "2026-08-10T07:52:43.409089+00:00",
+    "raw_count": 493,
+    "normalised_count": 220,
+    "skipped_planned": 273,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 229,
-    "closures_active": 229,
+    "closures_normalised": 220,
+    "closures_active": 220,
     "closures_impassable_blocking": 33,
     "closures_all_blocking": 37,
     "places": 2057,
@@ -85,10 +85,12 @@
     "summary_json": "out_isolation_current/qld_isolation_summary.json"
   },
   "notes": [
-    "isolated_full_closures means the place had hub access before closures but not after impassable closures were blocked.",
-    "isolated_with_restrictions means the place still has access under full-closure blocking, but loses access when restricted/conditional-access events are also blocked.",
+    "A viable hub connection requires a component to contain at least two modelled hubs; a hub does not count itself as external hub access.",
+    "isolated_full_closures means a place lost viable hub-network access after impassable closures were blocked; for a hub, this includes being left unable to reach any other modelled hub.",
+    "isolated_with_restrictions means viable hub-network access remains with full closures only, but is lost when restricted/conditional-access events are also blocked.",
+    "isolated_via_stranded_hub_full_closures and isolated_via_stranded_hub_with_restrictions mean a non-hub place can still reach one local hub, but that hub cannot reach another modelled hub; this is isolation with a local-access caveat.",
     "hub_network_warning is set when a place can reach only one modelled hub in the relevant closure scenario, meaning that hub cannot reach another modelled hub even though the place still has local hub access.",
-    "unknown_preexisting_disconnected means the place could not reach a hub even before applying current closures, so it is not safe to attribute isolation to current closures.",
+    "unknown_preexisting_disconnected and unknown_preexisting_single_hub_component identify baseline graph/hub-network conditions that existed before current closures, so they are not attributed to current closures.",
     "This is an automated graph estimate, not an authoritative emergency-services isolation declaration."
   ]
 }
