@@ -67,7 +67,9 @@ class HubIsolationLogicTests(unittest.TestCase):
         rows = self._classify(blocked_imp={("T", "B", 0)})
         town = rows["town_t"]
         self.assertEqual(town["reachable_hubs_impassable_only"], 1)
-        self.assertFalse(town["hub_access_impassable_only"])
+        # A normal place DOES have direct hub access here.  Its isolation is
+        # caveated only because the sole reachable hub is itself stranded.
+        self.assertTrue(town["hub_access_impassable_only"])
         self.assertEqual(
             town["isolation_category"],
             "isolated_via_stranded_hub_full_closures",
@@ -85,12 +87,15 @@ class HubIsolationLogicTests(unittest.TestCase):
             "isolated_via_stranded_hub_with_restrictions",
         )
 
-    def test_two_reachable_hubs_is_not_isolated(self):
+    def test_connected_hub_network_is_not_isolated(self):
         rows = self._classify()
         for row in rows.values():
             self.assertTrue(row["hub_access_impassable_only"])
             self.assertEqual(row["reachable_hubs_impassable_only"], 2)
             self.assertEqual(row["isolation_category"], "not_isolated")
+        self.assertIn("This hub can reach at least one other modelled hub", rows["hub_a"]["isolation_reason"])
+        self.assertIn("Place can reach a modelled hub that remains connected", rows["town_t"]["isolation_reason"])
+        self.assertNotIn("Place can reach at least two", rows["town_t"]["isolation_reason"])
 
     def test_preexisting_single_hub_component_is_qa_not_current_closure_isolation(self):
         G = nx.Graph()

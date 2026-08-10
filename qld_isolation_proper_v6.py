@@ -3087,26 +3087,52 @@ def classify_places(
         node = place_nodes.get(p.place_id)
         snap_dist = place_dist.get(p.place_id)
 
-        # A component containing exactly one modelled hub is not a viable hub
-        # network: that hub can only reach itself.  Keep the raw booleans/counts
-        # for diagnostics, but classification below treats >=2 reachable hubs as
-        # the threshold for access to another hub.
+        # Keep two concepts deliberately separate:
+        #
+        #   1. Direct hub access -- can this place reach at least one hub?
+        #   2. Hub-network viability -- does the reachable hub component contain
+        #      another hub, so the hub itself is not stranded?
+        #
+        # For a HUB, direct access to itself is not sufficient: it must reach a
+        # different hub.  For a NON-HUB, reaching one hub *is* direct hub access.
+        # Only if that is the sole hub in the component do we apply the stranded-
+        # hub caveat.
         before = bool(node in reachable_before) if node is not None else False
         imp = bool(node in reachable_impassable) if node is not None else False
         allb = bool(node in reachable_all) if node is not None else False
         before_hubs = hub_counts_before.get(node, 0) if node is not None else 0
         imp_hubs = hub_counts_impassable.get(node, 0) if node is not None else 0
         all_hubs = hub_counts_all.get(node, 0) if node is not None else 0
-        before_has_other_hub = before_hubs >= 2
-        imp_has_other_hub = imp_hubs >= 2
-        all_has_other_hub = all_hubs >= 2
+
+        # User-facing/direct hub access semantics differ for hubs and non-hubs.
+        before_hub_access = before_hubs >= (2 if p.is_hub else 1)
+        imp_hub_access = imp_hubs >= (2 if p.is_hub else 1)
+        all_hub_access = all_hubs >= (2 if p.is_hub else 1)
+
+        # A component is connected to the wider modelled hub network when it has
+        # at least two hubs.  For non-hubs with exactly one reachable hub this is
+        # the SECOND-stage test: the place reaches a hub, but that hub is stranded.
+        before_viable_network = before_hubs >= 2
+        imp_viable_network = imp_hubs >= 2
+        all_viable_network = all_hubs >= 2
+
         before_borders = border_counts_before.get(node, 0) if node is not None else 0
         before_border_names = border_names_before.get(node, "") if node is not None else ""
         hub_warning = ""
-        if imp and imp_hubs == 1:
-            hub_warning = "Place can reach only one hub when full closures are blocked; that hub cannot reach another modelled hub under this scenario."
-        elif allb and all_hubs == 1:
-            hub_warning = "Place can reach only one hub when restricted/conditional closures are also blocked; that hub cannot reach another modelled hub under this scenario."
+        if not p.is_hub and imp and imp_hubs == 1:
+            hub_warning = (
+                "Place can reach a modelled hub when full closures are blocked, "
+                "but that hub cannot reach another modelled hub under this scenario."
+            )
+        elif p.is_hub and imp and imp_hubs == 1:
+            hub_warning = "This hub cannot reach any other modelled hub when full closures are blocked."
+        elif not p.is_hub and allb and all_hubs == 1:
+            hub_warning = (
+                "Place can reach a modelled hub when restricted/conditional closures are also blocked, "
+                "but that hub cannot reach another modelled hub under this scenario."
+            )
+        elif p.is_hub and allb and all_hubs == 1:
+            hub_warning = "This hub cannot reach any other modelled hub when restricted/conditional closures are also blocked."
 
         if node is None:
             category = "unknown_place_not_snapped"
@@ -3126,18 +3152,25 @@ def classify_places(
                 confidence = "unknown"
                 reason = "Place could not reach a hub even before current closures were applied; this is likely a graph/data issue or a genuinely disconnected place."
             nearest = []
-        elif not before_has_other_hub:
-            # Do not attribute a one-hub component to current closures if it was
-            # already that way in the unblocked baseline.  This is usually a
-            # graph/hub-model QA issue and avoids permanent false positives.
+        elif not before_viable_network:
+            # If the baseline component contains only one hub, do not attribute
+            # that wider-network disconnection to today's closures.  A non-hub
+            # may still have perfectly valid direct access to that one hub; the
+            # issue here is that the hub itself is already stranded in baseline.
             category = "unknown_preexisting_single_hub_component"
             confidence = "unknown"
-            reason = (
-                "Place could reach only one modelled hub even before current closures were applied; "
-                "that hub could not reach another modelled hub in the baseline network."
-            )
+            if p.is_hub:
+                reason = (
+                    "This hub could not reach any other modelled hub even before current closures were applied; "
+                    "this is a baseline graph/hub-network condition rather than current-closure isolation."
+                )
+            else:
+                reason = (
+                    "Place could reach a modelled hub before current closures were applied, but that hub could not "
+                    "reach another modelled hub in the baseline network."
+                )
             nearest = []
-        elif not imp_has_other_hub:
+        elif not imp_viable_network:
             nearest = nearest_closures_for_place(p, matched_impassable_closures)
             confidence = "medium"
             if p.is_hub:
@@ -3149,16 +3182,16 @@ def classify_places(
             elif imp_hubs == 1:
                 category = "isolated_via_stranded_hub_full_closures"
                 reason = (
-                    "Place can still reach one local hub after active impassable closures are blocked, but that hub "
+                    "Place can still reach a modelled hub after active impassable closures are blocked, but that hub "
                     "cannot reach any other modelled hub. The place is therefore isolated with the caveat that local "
                     "access to the stranded hub remains."
                 )
             else:
                 category = "isolated_full_closures"
-                reason = "Place could reach a viable hub network before closures, but cannot reach any hub after active impassable closures are blocked."
+                reason = "Place cannot reach any modelled hub after active impassable closures are blocked."
             if nearest and nearest[0].get("distance_m", 999999) <= 5000:
                 confidence = "high"
-        elif not all_has_other_hub:
+        elif not all_viable_network:
             nearest = nearest_closures_for_place(p, matched_all_blocking_closures)
             confidence = "medium"
             if p.is_hub:
@@ -3170,17 +3203,23 @@ def classify_places(
             elif all_hubs == 1:
                 category = "isolated_via_stranded_hub_with_restrictions"
                 reason = (
-                    "Place can still reach one local hub when restricted/conditional-access closures are also blocked, "
+                    "Place can still reach a modelled hub when restricted/conditional-access closures are also blocked, "
                     "but that hub cannot reach any other modelled hub. The place is therefore isolated with the caveat "
                     "that local access to the stranded hub remains."
                 )
             else:
                 category = "isolated_with_restrictions"
-                reason = "Place can reach a viable hub network with only impassable closures blocked, but cannot reach any hub when restricted/conditional-access closures are also blocked."
+                reason = "Place cannot reach any modelled hub when restricted/conditional-access closures are also blocked."
         else:
             category = "not_isolated"
             confidence = "high"
-            reason = "Place can reach at least two modelled hubs under both closure scenarios, so its reachable hub can also reach another hub."
+            if p.is_hub:
+                reason = "This hub can reach at least one other modelled hub under both closure scenarios."
+            else:
+                reason = (
+                    "Place can reach a modelled hub that remains connected to at least one other modelled hub "
+                    "under both closure scenarios."
+                )
             nearest = []
 
         route = (hub_routes or {}).get(p.place_id, {})
@@ -3199,9 +3238,9 @@ def classify_places(
                 "snap_distance_m": round(float(snap_dist), 1) if snap_dist is not None else "",
                 "snap_strategy": snap_strategy.get(p.place_id) or ("not_snapped" if node is None else "nearest"),
                 "snap_note": snap_note.get(p.place_id, ""),
-                "hub_access_before": before_has_other_hub,
-                "hub_access_impassable_only": imp_has_other_hub,
-                "hub_access_all_blocking": all_has_other_hub,
+                "hub_access_before": before_hub_access,
+                "hub_access_impassable_only": imp_hub_access,
+                "hub_access_all_blocking": all_hub_access,
                 "reachable_hubs_before": before_hubs,
                 "reachable_hubs_impassable_only": imp_hubs,
                 "reachable_hubs_all_blocking": all_hubs,
