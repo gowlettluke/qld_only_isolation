@@ -50,6 +50,10 @@ jobs:
           unzip -o graph/qld_drive_graphml.zip -d graph
           ls -lh graph
 
+      - name: Run hub isolation regression tests
+        run: |
+          python -m unittest -v test_hub_isolation_logic.py
+
       - name: Run QLD isolation
         run: |
           python -u qld_isolation_proper_v6.py \
