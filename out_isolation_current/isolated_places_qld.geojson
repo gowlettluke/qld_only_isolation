@@ -1,4 +1,43 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.9759101,
+          -24.5728554
+        ]
+      },
+      "properties": {
+        "place_id": "qld_locality_3293",
+        "name": "Moura",
+        "place_type": "locality_road_representative_point",
+        "state": "QLD",
+        "lga": "Banana Shire",
+        "is_hub": false,
+        "nearest_node": "1498089",
+        "snap_distance_m": 0.0,
+        "snap_strategy": "nearest",
+        "snap_note": "Nearest graph node is already in a pre-closure hub-connected component.",
+        "hub_access_before": true,
+        "hub_access_impassable_only": false,
+        "hub_access_all_blocking": false,
+        "reachable_hubs_before": 9,
+        "reachable_hubs_impassable_only": 0,
+        "reachable_hubs_all_blocking": 0,
+        "state_border_access_before": true,
+        "reachable_state_borders_before": "State Border",
+        "hub_network_warning": "",
+        "isolation_category": "isolated_full_closures",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place cannot reach any modelled hub after active impassable closures are blocked.",
+        "nearby_blocking_closures_json": "[{\"closure_id\": \"qld.qldtraffic.2ad0918b8a29207a70e4\", \"source_event_id\": \"822640\", \"distance_m\": 233.9, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Roads closed for Moura Coal and Country Festival Parade | Road closed to all traffic\", \"road_name\": \"Gillespie Street / Minogue Street / Young Street / Young Street / Gillespie Street\", \"locality\": \"Moura\", \"restrictions_text\": \"Diversions are in place\", \"raw_advice\": \"Diversions are in place\", \"raw_event_type\": \"Special event\", \"raw_event_subtype\": \"N/A\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/822640\"}, {\"closure_id\": \"qld.qldtraffic.f86be34ccf786f961abb\", \"source_event_id\": \"787707\", \"distance_m\": 16115.7, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Banana Mungi Road\", \"locality\": \"Banana\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/787707\"}, {\"closure_id\": \"qld.qldtraffic.44a669d734d093f56347\", \"source_event_id\": \"822396\", \"distance_m\": 50452.0, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Road closed from Wooroonah Rd to Mimosa Street Baralaba for Campdraft | Road closed to all traffic\", \"road_name\": \"Dunstan Street / Baralaba Rannes Road\", \"locality\": \"Baralaba\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Special event\", \"raw_event_subtype\": \"N/A\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/822396\"}, {\"closure_id\": \"qld.qldtraffic.0cc5d251bf8a8cfb5d25\", \"source_event_id\": \"788811\", \"distance_m\": 131944.4, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Mount Sunlight Road is closed to through traffic due to road damage | Road closed to through traffic\", \"road_name\": \"Mount Sunlight Road\", \"locality\": \"Humboldt\", \"restrictions_text\": \"Changed traffic conditions\", \"raw_advice\": \"Changed traffic conditions\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to through traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/788811\"}, {\"closure_id\": \"qld.qldtraffic.bd1ec70da52f242c7f82\", \"source_event_id\": \"787168\", \"distance_m\": 224942.4, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Bon Accord Bridge | Road closed to all traffic\", \"road_name\": \"Wetheron Road\", \"locality\": \"Bon Accord\", \"restrictions_text\": \"Use alternative route\", \"raw_advice\": \"Use alternative route\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Bridge or culvert damaged\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/787168\"}]",
+        "hub_route_name": "",
+        "hub_route_distance_m": "",
+        "hub_route_geojson": ""
+      }
+    }
+  ]
 }
