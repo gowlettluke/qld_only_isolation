@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-25T18:50:34.188158+00:00",
+  "created_at": "2026-08-25T19:41:34.787269+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -26,15 +26,15 @@
     "source_mode": "live_qldtraffic",
     "url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
     "http_status": 200,
-    "fetched_at": "2026-08-25T18:45:24.079080+00:00",
-    "raw_count": 584,
-    "normalised_count": 256,
-    "skipped_planned": 328,
+    "fetched_at": "2026-08-25T19:35:47.000131+00:00",
+    "raw_count": 582,
+    "normalised_count": 255,
+    "skipped_planned": 327,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 256,
-    "closures_active": 256,
+    "closures_normalised": 255,
+    "closures_active": 255,
     "closures_impassable_blocking": 86,
     "closures_all_blocking": 99,
     "places": 2057,
