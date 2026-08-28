@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-27T16:24:17.603916+00:00",
+  "created_at": "2026-08-28T01:27:21.309992+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -26,17 +26,17 @@
     "source_mode": "live_qldtraffic",
     "url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
     "http_status": 200,
-    "fetched_at": "2026-08-27T16:18:14.743274+00:00",
-    "raw_count": 560,
-    "normalised_count": 232,
+    "fetched_at": "2026-08-28T01:23:35.166017+00:00",
+    "raw_count": 556,
+    "normalised_count": 228,
     "skipped_planned": 328,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 232,
-    "closures_active": 232,
-    "closures_impassable_blocking": 46,
-    "closures_all_blocking": 61,
+    "closures_normalised": 228,
+    "closures_active": 228,
+    "closures_impassable_blocking": 47,
+    "closures_all_blocking": 51,
     "places": 2057,
     "hubs": 9,
     "snapped_hubs": 9,
@@ -44,34 +44,35 @@
     "graph_edges": 1324734,
     "qld_traversal_nodes": "",
     "qld_traversal_edges": "",
-    "blocked_edges_impassable_only": 594,
-    "blocked_edges_all_blocking": 766,
+    "blocked_edges_impassable_only": 2780,
+    "blocked_edges_all_blocking": 2806,
     "reachable_nodes_before": 518785,
     "state_border_nodes": 11494,
     "state_border_reachable_nodes_before": 518877,
-    "reachable_nodes_impassable_only": 518608,
-    "reachable_nodes_all_blocking": 518468,
+    "reachable_nodes_impassable_only": 517857,
+    "reachable_nodes_all_blocking": 517840,
     "hub_components_before": {
       "components_with_hubs": 1,
       "largest_hub_component_size": 9,
       "single_hub_components": 0
     },
     "hub_components_impassable_only": {
-      "components_with_hubs": 1,
-      "largest_hub_component_size": 9,
-      "single_hub_components": 0
+      "components_with_hubs": 2,
+      "largest_hub_component_size": 8,
+      "single_hub_components": 1
     },
     "hub_components_all_blocking": {
-      "components_with_hubs": 1,
-      "largest_hub_component_size": 9,
-      "single_hub_components": 0
+      "components_with_hubs": 2,
+      "largest_hub_component_size": 8,
+      "single_hub_components": 1
     },
     "smart_resnapped_places": 2,
-    "not_isolated_hub_routes": 2048,
+    "not_isolated_hub_routes": 2047,
     "place_categories": {
-      "not_isolated": 2057
+      "not_isolated": 2055,
+      "isolated_full_closures": 2
     },
-    "unmatched_closure_rows": 7
+    "unmatched_closure_rows": 6
   },
   "outputs": {
     "closures_csv": "out_isolation_current/closures_qld_current.csv",
