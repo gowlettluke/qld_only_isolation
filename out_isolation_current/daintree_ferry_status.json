@@ -1,0 +1,34 @@
+{
+  "status": "OPEN",
+  "check_url": "https://daintreeferry.com.au/status-updates/",
+  "source_url": "https://daintreeferry.com.au/status-updates/",
+  "fetched_at": "2026-09-02T22:23:19.987722+00:00",
+  "evidence": "https://daintreeferry.com.au/status-updates/ -> OPEN (FERRY OPEN); https://daintreeferry.com.au/ -> OPEN (FERRY OPEN)",
+  "error": "",
+  "source_checks": [
+    {
+      "url": "https://daintreeferry.com.au/status-updates/",
+      "http_status": 200,
+      "status": "OPEN",
+      "evidence": "FERRY OPEN",
+      "error": ""
+    },
+    {
+      "url": "https://daintreeferry.com.au/",
+      "http_status": 200,
+      "status": "OPEN",
+      "evidence": "FERRY OPEN",
+      "error": ""
+    }
+  ],
+  "connector_name": "Daintree River Ferry graph connector",
+  "map_lat": -16.259813,
+  "map_lon": 145.39814,
+  "connector_policy": "left traversable",
+  "synthetic_event_injected": false,
+  "synthetic_event_blocks_isolation": false,
+  "qld_traffic_url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
+  "qld_traffic_http_status": 200,
+  "qld_traffic_feature_count_before_ferry": 518,
+  "qld_traffic_feature_count_after_ferry": 518
+}
