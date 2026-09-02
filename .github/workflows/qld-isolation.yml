@@ -50,9 +50,18 @@ jobs:
           unzip -o graph/qld_drive_graphml.zip -d graph
           ls -lh graph
 
-      - name: Run hub isolation regression tests
+      - name: Run regression tests
         run: |
           python -m unittest -v test_hub_isolation_logic.py
+          python -m unittest -v test_daintree_ferry_status.py
+
+      - name: Prepare live closures with Daintree Ferry status
+        run: |
+          mkdir -p runtime out_isolation_current
+          python -u prepare_daintree_ferry_status.py \
+            --manual-connectors manual_graph_connectors.csv \
+            --closures-out runtime/closures_qld_with_daintree.geojson \
+            --status-out out_isolation_current/daintree_ferry_status.json
 
       - name: Run QLD isolation
         run: |
@@ -60,10 +69,14 @@ jobs:
             --graph graph/qld_drive.graphml \
             --places places.csv \
             --manual-connectors manual_graph_connectors.csv \
+            --closures-geojson runtime/closures_qld_with_daintree.geojson \
             --out-dir out_isolation_current
 
       - name: Show isolation summary
         run: |
+          echo "=== daintree_ferry_status.json ==="
+          cat out_isolation_current/daintree_ferry_status.json || true
+          echo ""
           echo "=== qld_isolation_summary.json ==="
           cat out_isolation_current/qld_isolation_summary.json || true
           echo ""
