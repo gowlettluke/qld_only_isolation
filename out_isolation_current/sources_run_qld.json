@@ -1,7 +1,7 @@
 {
   "source_mode": "geojson_file",
   "source_path": "runtime/closures_qld_with_daintree.geojson",
-  "raw_count": 518,
-  "normalised_count": 197,
+  "raw_count": 522,
+  "normalised_count": 199,
   "errors": []
 }
