@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-03T13:32:32.039829+00:00",
+  "created_at": "2026-09-03T17:48:01.696885+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -25,13 +25,13 @@
   "closure_source": {
     "source_mode": "geojson_file",
     "source_path": "runtime/closures_qld_with_ferries.geojson",
-    "raw_count": 497,
-    "normalised_count": 180,
+    "raw_count": 498,
+    "normalised_count": 181,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 180,
-    "closures_active": 180,
+    "closures_normalised": 181,
+    "closures_active": 181,
     "closures_impassable_blocking": 38,
     "closures_all_blocking": 40,
     "places": 2058,
