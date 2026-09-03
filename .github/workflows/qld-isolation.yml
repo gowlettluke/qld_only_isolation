@@ -54,6 +54,7 @@ jobs:
         run: |
           python -m unittest -v test_hub_isolation_logic.py
           python -m unittest -v test_daintree_ferry_status.py
+          python -m unittest -v test_noosa_ferry_status.py
 
       - name: Prepare live closures with Daintree Ferry status
         run: |
@@ -63,19 +64,31 @@ jobs:
             --closures-out runtime/closures_qld_with_daintree.geojson \
             --status-out out_isolation_current/daintree_ferry_status.json
 
+      - name: Add Noosa Ferry status and conditional Cooloola 4WD access
+        run: |
+          python -u prepare_noosa_ferry_status.py \
+            --manual-connectors manual_graph_connectors.csv \
+            --graph graph/qld_drive.graphml \
+            --closures-in runtime/closures_qld_with_daintree.geojson \
+            --closures-out runtime/closures_qld_with_ferries.geojson \
+            --status-out out_isolation_current/noosa_ferry_status.json
+
       - name: Run QLD isolation
         run: |
           python -u qld_isolation_proper_v6.py \
             --graph graph/qld_drive.graphml \
             --places places.csv \
             --manual-connectors manual_graph_connectors.csv \
-            --closures-geojson runtime/closures_qld_with_daintree.geojson \
+            --closures-geojson runtime/closures_qld_with_ferries.geojson \
             --out-dir out_isolation_current
 
       - name: Show isolation summary
         run: |
           echo "=== daintree_ferry_status.json ==="
           cat out_isolation_current/daintree_ferry_status.json || true
+          echo ""
+          echo "=== noosa_ferry_status.json ==="
+          cat out_isolation_current/noosa_ferry_status.json || true
           echo ""
           echo "=== qld_isolation_summary.json ==="
           cat out_isolation_current/qld_isolation_summary.json || true
