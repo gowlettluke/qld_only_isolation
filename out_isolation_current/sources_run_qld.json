@@ -1,7 +1,7 @@
 {
   "source_mode": "geojson_file",
   "source_path": "runtime/closures_qld_with_ferries.geojson",
-  "raw_count": 498,
-  "normalised_count": 181,
+  "raw_count": 496,
+  "normalised_count": 185,
   "errors": []
 }
