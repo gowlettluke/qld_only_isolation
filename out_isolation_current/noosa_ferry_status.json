@@ -3,7 +3,7 @@
   "check_url": "https://status.noosa-northshoreferries.com.au/",
   "source_url": "https://status.noosa-northshoreferries.com.au/",
   "info_url": "https://noosa-northshoreferries.com.au/ferry-info/",
-  "fetched_at": "2026-09-03T08:47:18.104932+00:00",
+  "fetched_at": "2026-09-03T13:26:00.232039+00:00",
   "http_status": 200,
   "evidence": "Noosa Northshore Ferries – River Conditions Update Following the recent heavy rainfall across the region and the Minor Flood Warning for the Noosa River, conditions in the area are now beginning to improve. At this stage, it appears we have moved through the worst of the flooding, and river levels are expected to continue returning to safer operating conditions from today onwards. Our team will continue to closely monitor river levels, tides, and weather conditions; however ferry services are currently operating as normal between Tewantin and Noosa Northshore. Due to elevated river levels, ferry ramps remain steeper than usual. Customers travelling in buses, motorhomes, lowered vehicles, or vehicles towing trailers are asked to take extra care when boarding and disembarking the ferry, and to follow all instructions from our deck crew to ensure safe loading and unloading. — Noosa Northsho",
   "error": "",
@@ -39,8 +39,8 @@
       "graph_path": "graph/qld_drive.graphml"
     }
   },
-  "input_feature_count": 501,
-  "output_feature_count": 501,
+  "input_feature_count": 497,
+  "output_feature_count": 497,
   "noosa_ferry_event_injected": false,
   "noosa_ferry_event_mode": "none",
   "cooloola_4wd_conditional_event_injected": false
