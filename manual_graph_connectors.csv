@@ -1,3 +1,4 @@
 from_node,to_node,from_lat,from_lon,to_lat,to_lon,length_m,name,reason,source
 320459,320441,-11.1037405,142.2845412,-11.1036904,142.2840715,52.6,Jardine River Ferry graph connector,Connects north and south road components at the Jardine River Ferry crossing; graph omitted ferry/crossing edge,manual QA from diagnose_bamaga_gap.py
 ,,-16.258718,145.398780,-16.260908,145.397500,278.6,Daintree River Ferry graph connector,Connects north and south road components at the Daintree River Ferry crossing; coordinate-snapped because graph omitted ferry/crossing edge,manual QA from Daintree Ferry public wharf coordinates
+,,-26.373699,153.038208,-26.371931,153.039689,245.8,Noosa North Shore Ferry graph connector,Connects Moorindil Street Tewantin to Maximillion Road Noosa North Shore across the vehicle ferry crossing; live ferry status can block this edge,Noosa Council ferry service + operator map / mapped north-shore approach
