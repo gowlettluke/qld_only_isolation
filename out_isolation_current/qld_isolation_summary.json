@@ -1,10 +1,10 @@
 {
-  "created_at": "2026-09-04T08:48:47.764838+00:00",
+  "created_at": "2026-09-04T12:35:53.836505+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
     "places": "places.csv",
-    "closures_geojson": "runtime/closures_qld_with_ferries.geojson",
+    "closures_geojson": "runtime/closures_qld_current_for_analysis.geojson",
     "closures_csv": "",
     "include_planned": false
   },
@@ -24,16 +24,16 @@
   },
   "closure_source": {
     "source_mode": "geojson_file",
-    "source_path": "runtime/closures_qld_with_ferries.geojson",
-    "raw_count": 484,
-    "normalised_count": 184,
+    "source_path": "runtime/closures_qld_current_for_analysis.geojson",
+    "raw_count": 406,
+    "normalised_count": 165,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 184,
-    "closures_active": 184,
-    "closures_impassable_blocking": 35,
-    "closures_all_blocking": 37,
+    "closures_normalised": 165,
+    "closures_active": 165,
+    "closures_impassable_blocking": 23,
+    "closures_all_blocking": 25,
     "places": 2058,
     "hubs": 9,
     "snapped_hubs": 9,
@@ -41,35 +41,34 @@
     "graph_edges": 1324736,
     "qld_traversal_nodes": "",
     "qld_traversal_edges": "",
-    "blocked_edges_impassable_only": 13058,
-    "blocked_edges_all_blocking": 13062,
+    "blocked_edges_impassable_only": 146,
+    "blocked_edges_all_blocking": 150,
     "reachable_nodes_before": 518840,
     "state_border_nodes": 11494,
     "state_border_reachable_nodes_before": 518932,
-    "reachable_nodes_impassable_only": 513632,
-    "reachable_nodes_all_blocking": 513632,
+    "reachable_nodes_impassable_only": 518782,
+    "reachable_nodes_all_blocking": 518782,
     "hub_components_before": {
       "components_with_hubs": 1,
       "largest_hub_component_size": 9,
       "single_hub_components": 0
     },
     "hub_components_impassable_only": {
-      "components_with_hubs": 2,
-      "largest_hub_component_size": 8,
-      "single_hub_components": 1
+      "components_with_hubs": 1,
+      "largest_hub_component_size": 9,
+      "single_hub_components": 0
     },
     "hub_components_all_blocking": {
-      "components_with_hubs": 2,
-      "largest_hub_component_size": 8,
-      "single_hub_components": 1
+      "components_with_hubs": 1,
+      "largest_hub_component_size": 9,
+      "single_hub_components": 0
     },
     "smart_resnapped_places": 2,
-    "not_isolated_hub_routes": 2037,
+    "not_isolated_hub_routes": 2049,
     "place_categories": {
-      "not_isolated": 2045,
-      "isolated_full_closures": 13
+      "not_isolated": 2058
     },
-    "unmatched_closure_rows": 4
+    "unmatched_closure_rows": 2
   },
   "outputs": {
     "closures_csv": "out_isolation_current/closures_qld_current.csv",
