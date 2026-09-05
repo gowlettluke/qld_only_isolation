@@ -2934,7 +2934,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Vehicle access is closed to all vehicles and will remain closed until further notice | Road closed to all traffic",
         "road_name": "Duck Creek Road",
@@ -9858,7 +9858,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "20-tonne load limit on Lamington National Park Road from Sarabah to O'Reillys.",
         "road_name": "Lamington National Park Road",
@@ -10136,7 +10136,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Black Pinch Road, Cootharaba closed to all traffic due to landslip | Road closed to all traffic",
         "road_name": "Black Pinch Road",
@@ -10182,7 +10182,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "The Shelf Rd, Tamborine Mountain | All lanes affected",
         "road_name": "The Shelf Road",
@@ -10263,7 +10263,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Meanings Mill Bridge over Ant Hill Creek on Wairuna Road is now reduced to 8 tonne GVM limit. Motorists are advised to observe signage and proceed with caution. | Subject to a 5 tonne GVM limit",
         "road_name": "Wairuna Road",
@@ -10309,7 +10309,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Lobs Hole Ravine Road",
@@ -10355,7 +10355,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Tantangara Road",
@@ -10423,7 +10423,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Barron River Bridge Kuranda | Subject to a 42.5 tonne GVM limit",
         "road_name": "Kennedy Highway (Barron River Bridge)",
@@ -10452,12 +10452,12 @@
         "type": "MultiPoint",
         "coordinates": [
           [
-            145.430565663,
-            -16.1404688
-          ],
-          [
             145.430658168,
             -16.139993855
+          ],
+          [
+            145.430565663,
+            -16.1404688
           ]
         ]
       },
@@ -10473,7 +10473,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Bridge load limit 16 tonne GVM. Bypass to be used for vehicles over 16t GVM | All lanes affected",
         "road_name": "Cape Tribulation Road",
@@ -10519,7 +10519,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Jenolan Caves Road",
@@ -10565,7 +10565,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mamre Road",
@@ -10611,7 +10611,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Bradfield Highway",
@@ -10657,7 +10657,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Vicinity of Mount Whitestone | All lanes affected",
         "road_name": "Gatton Clifton Road",
@@ -10703,7 +10703,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "West Botany Street",
@@ -10749,7 +10749,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Changed traffic conditions | Lane or lanes reduced",
         "road_name": "Illinbah Road",
@@ -10819,7 +10819,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Goat Track - single lane side track is open to light vehicles | Partial lane closures",
         "road_name": "Tamborine Mountain Road",
@@ -11331,7 +11331,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Proceed with caution | All lanes affected",
         "road_name": "Milo Road / Unnamed Road",
@@ -11377,7 +11377,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Flood Damage at Bunya Crossing Reserve car park | Road closed to all traffic",
         "road_name": "Dugandan Road",
@@ -11423,7 +11423,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Changed traffic conditions | Lane or lanes reduced",
         "road_name": "Barney View Road",
@@ -11469,7 +11469,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Observe signage | Road closed to through traffic",
         "road_name": "Barney View Road",
@@ -12737,7 +12737,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Road restricted to light vehicles only at Lake Dartmouth. | Subject to a 5 tonne GVM limit",
         "road_name": "Adavale Road",
@@ -13997,7 +13997,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Gregory to Century Mine Access | All lanes affected",
         "road_name": "Lawn Hill Road",
@@ -14053,7 +14053,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Changed traffic conditions | All lanes affected",
         "road_name": "Knoll Road",
@@ -14113,7 +14113,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Access is limited to vehicles up to a fully loaded Class 5 four-axle truck (maximum GVM of 27 tonnes) | Subject to a 25 tonne GVM limit",
         "road_name": "Mount Fox Road",
@@ -14401,7 +14401,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Observe signage | All lanes affected",
         "road_name": "Golden Mile Road",
@@ -15005,7 +15005,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Rosewood Marburg Road Embankment Restoration Works. | All lanes affected",
         "road_name": "Rosewood Marburg Road",
@@ -15051,7 +15051,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Between Newton - Stephen Road and Paull Lane | All lanes affected",
         "road_name": "Warrego Highway",
@@ -15149,7 +15149,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Single lane of traffic with temporary traffic lights due to landslip | Lane or lanes reduced",
         "road_name": "Nandroya Road",
@@ -15229,7 +15229,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Road Closed - Seek Alternative Route | Road closed to all traffic",
         "road_name": "Laidley Creek West Road",
@@ -15279,7 +15279,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Proceed with caution",
         "road_name": "Dawson Highway / Orion Ten Chain Road",
@@ -15325,7 +15325,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "14t Maximum Load limit imposed on Culvert Structure.",
         "road_name": "Grasstree Road",
@@ -15371,7 +15371,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Oxley Highway",
@@ -15411,6 +15411,24 @@
             [
               142.4422119,
               -15.897961
+            ]
+          ],
+          [
+            [
+              142.4423825,
+              -15.8914301
+            ],
+            [
+              142.44258,
+              -15.89156
+            ],
+            [
+              142.44271,
+              -15.89163
+            ],
+            [
+              142.4430823,
+              -15.8917721
             ]
           ],
           [
@@ -15483,24 +15501,6 @@
             [
               142.3769705,
               -16.0119991
-            ]
-          ],
-          [
-            [
-              142.4423825,
-              -15.8914301
-            ],
-            [
-              142.44258,
-              -15.89156
-            ],
-            [
-              142.44271,
-              -15.89163
-            ],
-            [
-              142.4430823,
-              -15.8917721
             ]
           ],
           [
@@ -16259,7 +16259,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Dunbar to Koolatah | Road closed to all traffic",
         "road_name": "Dunbar Koolatah Road / Dunbar Kowanyama Road / Koolatah Access",
@@ -25263,7 +25263,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Crystal Creek to Paluma | All lanes affected",
         "road_name": "Mt Spec Road",
@@ -27695,7 +27695,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Alpha to Clermont (Alpha to Isaac Council boundary) | All lanes affected",
         "road_name": "Clermont Alpha Road",
@@ -27715,7 +27715,7 @@
         "raw_road": "Clermont Alpha Road",
         "raw_locality": "Alpha / Surbiton",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 776191, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/776191\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Road damage\", \"event_due_to\": \"Earlier flooding\", \"impact\": {\"direction\": \"All directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-01-23T11:55:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"Alpha to Clermont (Alpha to Isaac Council boundary)\", \"advice\": \"Do not drive in flood waters\", \"information\": \"Belyando Bridge - CLOSED. Detour open with nil restrictions.\", \"road_summary\": {\"road_name\": \"Clermont Alpha Road\", \"locality\": \"Alpha / Surbiton\", \"postcode\": \"- / 4724\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-04T10:10:22.502597+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 776191, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/776191\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Road damage\", \"event_due_to\": \"Earlier flooding\", \"impact\": {\"direction\": \"All directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-01-23T11:55:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"Alpha to Clermont (Alpha to Isaac Council boundary)\", \"advice\": \"Do not drive in flood waters\", \"information\": \"Belyando Bridge - CLOSED. Detour open with nil restrictions.\", \"road_summary\": {\"road_name\": \"Clermont Alpha Road\", \"locality\": \"Alpha / Surbiton\", \"postcode\": \"- / 4724\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T10:23:15.544707+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -27835,7 +27835,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Use alternative route | All lanes affected",
         "road_name": "Tierawoomba Road",
@@ -28309,7 +28309,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Toona Gate Road",
@@ -28337,6 +28337,13 @@
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              142.571641715,
+              -27.358493712
+            ]
+          },
           {
             "type": "LineString",
             "coordinates": [
@@ -29793,13 +29800,6 @@
                 -27.08054817
               ]
             ]
-          },
-          {
-            "type": "Point",
-            "coordinates": [
-              142.571641715,
-              -27.358493712
-            ]
           }
         ]
       },
@@ -29815,7 +29815,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Woonanooka Road / Woonanooka Road / Durham Downs Road",
@@ -32527,7 +32527,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Omicron Road",
@@ -36971,7 +36971,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Moomba Road",
@@ -40731,7 +40731,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Doomadgee to Hells Gate | All lanes affected",
         "road_name": "Doomadgee Road",
@@ -42335,7 +42335,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Hells Gate to NT Border | Restricted to four wheel drive vehicles only",
         "road_name": "Westmoreland Road",
@@ -43455,7 +43455,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Century Mine to Lawn Hill National Park turn-off | Restricted to four wheel drive vehicles only",
         "road_name": "Lawn Hill Road",
@@ -43483,436 +43483,6 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
-          [
-            [
-              138.5631091,
-              -18.6631963
-            ],
-            [
-              138.56277,
-              -18.66351
-            ],
-            [
-              138.56241,
-              -18.66386
-            ],
-            [
-              138.56222,
-              -18.66404
-            ],
-            [
-              138.56206,
-              -18.66418
-            ],
-            [
-              138.56192,
-              -18.66427
-            ],
-            [
-              138.56178,
-              -18.66432
-            ],
-            [
-              138.56159,
-              -18.66433
-            ],
-            [
-              138.56144,
-              -18.66432
-            ],
-            [
-              138.56127,
-              -18.6643
-            ],
-            [
-              138.56065,
-              -18.66415
-            ],
-            [
-              138.56045,
-              -18.66415
-            ],
-            [
-              138.56026,
-              -18.66414
-            ],
-            [
-              138.56009,
-              -18.66413
-            ],
-            [
-              138.5599,
-              -18.66415
-            ],
-            [
-              138.55942,
-              -18.66428
-            ],
-            [
-              138.55924,
-              -18.66436
-            ],
-            [
-              138.55908,
-              -18.66447
-            ],
-            [
-              138.55902,
-              -18.66452
-            ],
-            [
-              138.5589,
-              -18.66464
-            ],
-            [
-              138.55867,
-              -18.66498
-            ],
-            [
-              138.55854,
-              -18.66516
-            ],
-            [
-              138.55835,
-              -18.6654
-            ],
-            [
-              138.55818,
-              -18.66558
-            ],
-            [
-              138.55796,
-              -18.66578
-            ],
-            [
-              138.55693,
-              -18.66666
-            ],
-            [
-              138.55595,
-              -18.6675
-            ],
-            [
-              138.55584,
-              -18.6676
-            ],
-            [
-              138.55548,
-              -18.66788
-            ],
-            [
-              138.55511,
-              -18.6681
-            ],
-            [
-              138.55495,
-              -18.66821
-            ],
-            [
-              138.55485,
-              -18.66828
-            ],
-            [
-              138.55475,
-              -18.66837
-            ],
-            [
-              138.55462,
-              -18.66848
-            ],
-            [
-              138.55444,
-              -18.6687
-            ],
-            [
-              138.55387,
-              -18.66944
-            ],
-            [
-              138.55372,
-              -18.66965
-            ],
-            [
-              138.55358,
-              -18.66988
-            ],
-            [
-              138.55309,
-              -18.67068
-            ],
-            [
-              138.55287,
-              -18.67102
-            ],
-            [
-              138.55244,
-              -18.67158
-            ],
-            [
-              138.55139,
-              -18.67286
-            ],
-            [
-              138.55126,
-              -18.67304
-            ],
-            [
-              138.55114,
-              -18.67326
-            ],
-            [
-              138.55094,
-              -18.67362
-            ],
-            [
-              138.55083,
-              -18.67379
-            ],
-            [
-              138.55077,
-              -18.67386
-            ],
-            [
-              138.55072,
-              -18.67391
-            ],
-            [
-              138.55062,
-              -18.67398
-            ],
-            [
-              138.55021,
-              -18.67431
-            ],
-            [
-              138.55003,
-              -18.67444
-            ],
-            [
-              138.54988,
-              -18.67457
-            ],
-            [
-              138.54938,
-              -18.67503
-            ],
-            [
-              138.54848,
-              -18.67605
-            ],
-            [
-              138.5483,
-              -18.67623
-            ],
-            [
-              138.54822,
-              -18.67633
-            ],
-            [
-              138.54814,
-              -18.67645
-            ],
-            [
-              138.54808,
-              -18.67655
-            ],
-            [
-              138.54803,
-              -18.67668
-            ],
-            [
-              138.54799,
-              -18.67684
-            ],
-            [
-              138.54794,
-              -18.67708
-            ],
-            [
-              138.54792,
-              -18.67716
-            ],
-            [
-              138.54789,
-              -18.67729
-            ],
-            [
-              138.54787,
-              -18.67738
-            ],
-            [
-              138.54784,
-              -18.67743
-            ],
-            [
-              138.54782,
-              -18.67749
-            ],
-            [
-              138.5477,
-              -18.67772
-            ],
-            [
-              138.54727,
-              -18.67843
-            ],
-            [
-              138.54689,
-              -18.67908
-            ],
-            [
-              138.5468,
-              -18.67926
-            ],
-            [
-              138.54673,
-              -18.6794
-            ],
-            [
-              138.54667,
-              -18.6795
-            ],
-            [
-              138.54655,
-              -18.67966
-            ],
-            [
-              138.54629,
-              -18.67998
-            ],
-            [
-              138.54621,
-              -18.68008
-            ],
-            [
-              138.54614,
-              -18.68019
-            ],
-            [
-              138.54606,
-              -18.68032
-            ],
-            [
-              138.54594,
-              -18.68056
-            ],
-            [
-              138.54585,
-              -18.68073
-            ],
-            [
-              138.54578,
-              -18.6809
-            ],
-            [
-              138.54554,
-              -18.68146
-            ],
-            [
-              138.54537,
-              -18.68188
-            ],
-            [
-              138.54531,
-              -18.68201
-            ],
-            [
-              138.54511,
-              -18.68238
-            ],
-            [
-              138.54502,
-              -18.68256
-            ],
-            [
-              138.54497,
-              -18.68265
-            ],
-            [
-              138.54494,
-              -18.68274
-            ],
-            [
-              138.54487,
-              -18.68295
-            ],
-            [
-              138.54463,
-              -18.68395
-            ],
-            [
-              138.54451,
-              -18.68439
-            ],
-            [
-              138.54393,
-              -18.68577
-            ],
-            [
-              138.54371,
-              -18.6863
-            ],
-            [
-              138.5435,
-              -18.68692
-            ],
-            [
-              138.54343,
-              -18.68708
-            ],
-            [
-              138.54335,
-              -18.68721
-            ],
-            [
-              138.5433,
-              -18.68727
-            ],
-            [
-              138.54326,
-              -18.68733
-            ],
-            [
-              138.54321,
-              -18.68738
-            ],
-            [
-              138.54319,
-              -18.68741
-            ],
-            [
-              138.54316,
-              -18.68744
-            ],
-            [
-              138.54313,
-              -18.68747
-            ],
-            [
-              138.5431,
-              -18.6875
-            ],
-            [
-              138.543,
-              -18.68759
-            ],
-            [
-              138.54296,
-              -18.68762
-            ],
-            [
-              138.5429,
-              -18.68766
-            ],
-            [
-              138.54286,
-              -18.68769
-            ],
-            [
-              138.5427489,
-              -18.6877598
-            ]
-          ],
           [
             [
               138.580857,
@@ -44173,6 +43743,164 @@
             [
               138.5633173,
               -18.6629953
+            ]
+          ],
+          [
+            [
+              138.593291,
+              -18.5868318
+            ],
+            [
+              138.5935,
+              -18.58747
+            ],
+            [
+              138.59396,
+              -18.58911
+            ],
+            [
+              138.59407,
+              -18.58954
+            ],
+            [
+              138.5942,
+              -18.58987
+            ],
+            [
+              138.59442,
+              -18.59034
+            ],
+            [
+              138.59482,
+              -18.59114
+            ],
+            [
+              138.59528,
+              -18.592
+            ],
+            [
+              138.59609,
+              -18.59362
+            ],
+            [
+              138.59619,
+              -18.59406
+            ],
+            [
+              138.59629,
+              -18.59476
+            ],
+            [
+              138.59627,
+              -18.59527
+            ],
+            [
+              138.59622,
+              -18.59563
+            ],
+            [
+              138.5961,
+              -18.59606
+            ],
+            [
+              138.59566,
+              -18.59741
+            ],
+            [
+              138.59559,
+              -18.59768
+            ],
+            [
+              138.59548,
+              -18.59797
+            ],
+            [
+              138.59526,
+              -18.59836
+            ],
+            [
+              138.5949,
+              -18.59893
+            ],
+            [
+              138.59362,
+              -18.60078
+            ],
+            [
+              138.59181,
+              -18.60355
+            ],
+            [
+              138.59037,
+              -18.60578
+            ],
+            [
+              138.58942,
+              -18.60727
+            ],
+            [
+              138.58815,
+              -18.60905
+            ],
+            [
+              138.58733,
+              -18.61012
+            ],
+            [
+              138.58695,
+              -18.61057
+            ],
+            [
+              138.5863,
+              -18.61123
+            ],
+            [
+              138.58551,
+              -18.61213
+            ],
+            [
+              138.58468,
+              -18.61305
+            ],
+            [
+              138.58365,
+              -18.61457
+            ],
+            [
+              138.58347,
+              -18.61486
+            ],
+            [
+              138.58332,
+              -18.61504
+            ],
+            [
+              138.58307,
+              -18.61521
+            ],
+            [
+              138.58283,
+              -18.61535
+            ],
+            [
+              138.58209,
+              -18.61569
+            ],
+            [
+              138.58171,
+              -18.61588
+            ],
+            [
+              138.58136,
+              -18.61609
+            ],
+            [
+              138.58106,
+              -18.61631
+            ],
+            [
+              138.580857,
+              -18.616531
             ]
           ],
           [
@@ -45839,160 +45567,432 @@
           ],
           [
             [
-              138.593291,
-              -18.5868318
+              138.5631091,
+              -18.6631963
             ],
             [
-              138.5935,
-              -18.58747
+              138.56277,
+              -18.66351
             ],
             [
-              138.59396,
-              -18.58911
+              138.56241,
+              -18.66386
             ],
             [
-              138.59407,
-              -18.58954
+              138.56222,
+              -18.66404
             ],
             [
-              138.5942,
-              -18.58987
+              138.56206,
+              -18.66418
             ],
             [
-              138.59442,
-              -18.59034
+              138.56192,
+              -18.66427
             ],
             [
-              138.59482,
-              -18.59114
+              138.56178,
+              -18.66432
             ],
             [
-              138.59528,
-              -18.592
+              138.56159,
+              -18.66433
             ],
             [
-              138.59609,
-              -18.59362
+              138.56144,
+              -18.66432
             ],
             [
-              138.59619,
-              -18.59406
+              138.56127,
+              -18.6643
             ],
             [
-              138.59629,
-              -18.59476
+              138.56065,
+              -18.66415
             ],
             [
-              138.59627,
-              -18.59527
+              138.56045,
+              -18.66415
             ],
             [
-              138.59622,
-              -18.59563
+              138.56026,
+              -18.66414
             ],
             [
-              138.5961,
-              -18.59606
+              138.56009,
+              -18.66413
             ],
             [
-              138.59566,
-              -18.59741
+              138.5599,
+              -18.66415
             ],
             [
-              138.59559,
-              -18.59768
+              138.55942,
+              -18.66428
             ],
             [
-              138.59548,
-              -18.59797
+              138.55924,
+              -18.66436
             ],
             [
-              138.59526,
-              -18.59836
+              138.55908,
+              -18.66447
             ],
             [
-              138.5949,
-              -18.59893
+              138.55902,
+              -18.66452
             ],
             [
-              138.59362,
-              -18.60078
+              138.5589,
+              -18.66464
             ],
             [
-              138.59181,
-              -18.60355
+              138.55867,
+              -18.66498
             ],
             [
-              138.59037,
-              -18.60578
+              138.55854,
+              -18.66516
             ],
             [
-              138.58942,
-              -18.60727
+              138.55835,
+              -18.6654
             ],
             [
-              138.58815,
-              -18.60905
+              138.55818,
+              -18.66558
             ],
             [
-              138.58733,
-              -18.61012
+              138.55796,
+              -18.66578
             ],
             [
-              138.58695,
-              -18.61057
+              138.55693,
+              -18.66666
             ],
             [
-              138.5863,
-              -18.61123
+              138.55595,
+              -18.6675
             ],
             [
-              138.58551,
-              -18.61213
+              138.55584,
+              -18.6676
             ],
             [
-              138.58468,
-              -18.61305
+              138.55548,
+              -18.66788
             ],
             [
-              138.58365,
-              -18.61457
+              138.55511,
+              -18.6681
             ],
             [
-              138.58347,
-              -18.61486
+              138.55495,
+              -18.66821
             ],
             [
-              138.58332,
-              -18.61504
+              138.55485,
+              -18.66828
             ],
             [
-              138.58307,
-              -18.61521
+              138.55475,
+              -18.66837
             ],
             [
-              138.58283,
-              -18.61535
+              138.55462,
+              -18.66848
             ],
             [
-              138.58209,
-              -18.61569
+              138.55444,
+              -18.6687
             ],
             [
-              138.58171,
-              -18.61588
+              138.55387,
+              -18.66944
             ],
             [
-              138.58136,
-              -18.61609
+              138.55372,
+              -18.66965
             ],
             [
-              138.58106,
-              -18.61631
+              138.55358,
+              -18.66988
             ],
             [
-              138.580857,
-              -18.616531
+              138.55309,
+              -18.67068
+            ],
+            [
+              138.55287,
+              -18.67102
+            ],
+            [
+              138.55244,
+              -18.67158
+            ],
+            [
+              138.55139,
+              -18.67286
+            ],
+            [
+              138.55126,
+              -18.67304
+            ],
+            [
+              138.55114,
+              -18.67326
+            ],
+            [
+              138.55094,
+              -18.67362
+            ],
+            [
+              138.55083,
+              -18.67379
+            ],
+            [
+              138.55077,
+              -18.67386
+            ],
+            [
+              138.55072,
+              -18.67391
+            ],
+            [
+              138.55062,
+              -18.67398
+            ],
+            [
+              138.55021,
+              -18.67431
+            ],
+            [
+              138.55003,
+              -18.67444
+            ],
+            [
+              138.54988,
+              -18.67457
+            ],
+            [
+              138.54938,
+              -18.67503
+            ],
+            [
+              138.54848,
+              -18.67605
+            ],
+            [
+              138.5483,
+              -18.67623
+            ],
+            [
+              138.54822,
+              -18.67633
+            ],
+            [
+              138.54814,
+              -18.67645
+            ],
+            [
+              138.54808,
+              -18.67655
+            ],
+            [
+              138.54803,
+              -18.67668
+            ],
+            [
+              138.54799,
+              -18.67684
+            ],
+            [
+              138.54794,
+              -18.67708
+            ],
+            [
+              138.54792,
+              -18.67716
+            ],
+            [
+              138.54789,
+              -18.67729
+            ],
+            [
+              138.54787,
+              -18.67738
+            ],
+            [
+              138.54784,
+              -18.67743
+            ],
+            [
+              138.54782,
+              -18.67749
+            ],
+            [
+              138.5477,
+              -18.67772
+            ],
+            [
+              138.54727,
+              -18.67843
+            ],
+            [
+              138.54689,
+              -18.67908
+            ],
+            [
+              138.5468,
+              -18.67926
+            ],
+            [
+              138.54673,
+              -18.6794
+            ],
+            [
+              138.54667,
+              -18.6795
+            ],
+            [
+              138.54655,
+              -18.67966
+            ],
+            [
+              138.54629,
+              -18.67998
+            ],
+            [
+              138.54621,
+              -18.68008
+            ],
+            [
+              138.54614,
+              -18.68019
+            ],
+            [
+              138.54606,
+              -18.68032
+            ],
+            [
+              138.54594,
+              -18.68056
+            ],
+            [
+              138.54585,
+              -18.68073
+            ],
+            [
+              138.54578,
+              -18.6809
+            ],
+            [
+              138.54554,
+              -18.68146
+            ],
+            [
+              138.54537,
+              -18.68188
+            ],
+            [
+              138.54531,
+              -18.68201
+            ],
+            [
+              138.54511,
+              -18.68238
+            ],
+            [
+              138.54502,
+              -18.68256
+            ],
+            [
+              138.54497,
+              -18.68265
+            ],
+            [
+              138.54494,
+              -18.68274
+            ],
+            [
+              138.54487,
+              -18.68295
+            ],
+            [
+              138.54463,
+              -18.68395
+            ],
+            [
+              138.54451,
+              -18.68439
+            ],
+            [
+              138.54393,
+              -18.68577
+            ],
+            [
+              138.54371,
+              -18.6863
+            ],
+            [
+              138.5435,
+              -18.68692
+            ],
+            [
+              138.54343,
+              -18.68708
+            ],
+            [
+              138.54335,
+              -18.68721
+            ],
+            [
+              138.5433,
+              -18.68727
+            ],
+            [
+              138.54326,
+              -18.68733
+            ],
+            [
+              138.54321,
+              -18.68738
+            ],
+            [
+              138.54319,
+              -18.68741
+            ],
+            [
+              138.54316,
+              -18.68744
+            ],
+            [
+              138.54313,
+              -18.68747
+            ],
+            [
+              138.5431,
+              -18.6875
+            ],
+            [
+              138.543,
+              -18.68759
+            ],
+            [
+              138.54296,
+              -18.68762
+            ],
+            [
+              138.5429,
+              -18.68766
+            ],
+            [
+              138.54286,
+              -18.68769
+            ],
+            [
+              138.5427489,
+              -18.6877598
             ]
           ]
         ]
@@ -46009,7 +46009,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Lawn Hill National Park to Riversleigh | Restricted to four wheel drive vehicles only",
         "road_name": "Riversleigh Doomadgee Road / Riversleigh Road",
@@ -47611,44 +47611,6 @@
           ],
           [
             [
-              141.382072677,
-              -28.689692519
-            ],
-            [
-              141.3836752,
-              -28.6880309
-            ],
-            [
-              141.3848378,
-              -28.6868151
-            ],
-            [
-              141.3852902,
-              -28.6864282
-            ],
-            [
-              141.385490572,
-              -28.686275249
-            ],
-            [
-              141.3855995,
-              -28.6861921
-            ],
-            [
-              141.3897574,
-              -28.6838508
-            ],
-            [
-              141.3969526,
-              -28.6798413
-            ],
-            [
-              141.397013118,
-              -28.679806524
-            ]
-          ],
-          [
-            [
               141.612936146,
               -28.675561088
             ],
@@ -47699,6 +47661,44 @@
             [
               141.643748106,
               -28.673426126
+            ]
+          ],
+          [
+            [
+              141.382072677,
+              -28.689692519
+            ],
+            [
+              141.3836752,
+              -28.6880309
+            ],
+            [
+              141.3848378,
+              -28.6868151
+            ],
+            [
+              141.3852902,
+              -28.6864282
+            ],
+            [
+              141.385490572,
+              -28.686275249
+            ],
+            [
+              141.3855995,
+              -28.6861921
+            ],
+            [
+              141.3897574,
+              -28.6838508
+            ],
+            [
+              141.3969526,
+              -28.6798413
+            ],
+            [
+              141.397013118,
+              -28.679806524
             ]
           ],
           [
@@ -48929,7 +48929,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Camerons Corner Road",
@@ -48975,7 +48975,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Road Opened with give way signage in place | Lane or lanes reduced",
         "road_name": "Olsens Road",
@@ -55087,7 +55087,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Gregory Downs - Camooweal Road to Old Herbert Vale Road (Mount Isa LGA Only) | Road closed to all traffic",
         "road_name": "Riversleigh Road",
@@ -55133,7 +55133,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "EMERGENCY ROADWORK Road damage MOUNT VICTORIA Great Western Highway at Victoria Pass",
         "road_name": "Great Western Highway",
@@ -55179,7 +55179,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Glenorina Road is OPEN with CAUTION | Lane or lanes reduced",
         "road_name": "Glenorina Road",
@@ -55225,7 +55225,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Flood event - lane closures | All lanes affected",
         "road_name": "Three Chain Road",
@@ -55271,7 +55271,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Elizabeth Drive",
@@ -55317,7 +55317,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Proceed with caution | Single lane in operation",
         "road_name": "C D Jenkinsons Road",
@@ -55363,7 +55363,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Bon Accord Bridge | Road closed to all traffic",
         "road_name": "Wetheron Road",
@@ -55409,7 +55409,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Clermont Rubyvale Road is OPEN at Theresa Creek with CAUTION | Lane or lanes reduced",
         "road_name": "Clermont Rubyvale Road",
@@ -55455,7 +55455,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Clermont Rubyvale Road is OPEN at Thomahawk Creek with Caution | Lane or lanes reduced",
         "road_name": "Clermont Rubyvale Road",
@@ -55501,7 +55501,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Near McKell Road | Lane or lanes reduced",
         "road_name": "Kennedy Highway",
@@ -55553,7 +55553,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Banana Mungi Road",
@@ -55599,7 +55599,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Proceed with caution | Lane or lanes reduced",
         "road_name": "Sandarrah Road",
@@ -55645,7 +55645,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "REDUCED LOAD LIMIT Max. 15T - St Agnes Bridge - Walla Road | Subject to a 15 tonne GVM limit",
         "road_name": "Walla Road",
@@ -55691,7 +55691,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Dogwood Creek - Between Dulacca S Road and Yullabilla Road | All lanes affected",
         "road_name": "Roma Condamine Road ( Condamine Road)",
@@ -55737,7 +55737,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Mount Sunlight Road is closed to through traffic due to road damage | Road closed to through traffic",
         "road_name": "Mount Sunlight Road",
@@ -56001,7 +56001,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Fishermans Pocket Road closed between Dobbos Road and Fishermans Pocket Road No 1 due to culvert damage. | Road closed to all traffic",
         "road_name": "Fishermans Pocket Road",
@@ -56047,7 +56047,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Cape Tribulation, Bloomfield Road from Cape Tribulation through to Wujal Wujal is OPEN to traffic 4WD advised and drive to weather conditions. | Restricted to four wheel drive vehicles only",
         "road_name": "Rykers Road",
@@ -56075,6 +56075,24 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
+          [
+            [
+              139.5436004,
+              -17.7408629
+            ],
+            [
+              139.54575,
+              -17.7409
+            ],
+            [
+              139.54782,
+              -17.74093
+            ],
+            [
+              139.547917,
+              -17.7409324
+            ]
+          ],
           [
             [
               139.2519926,
@@ -59224,24 +59242,6 @@
               139.5436004,
               -17.7408629
             ]
-          ],
-          [
-            [
-              139.5436004,
-              -17.7408629
-            ],
-            [
-              139.54575,
-              -17.7409
-            ],
-            [
-              139.54782,
-              -17.74093
-            ],
-            [
-              139.547917,
-              -17.7409324
-            ]
           ]
         ]
       },
@@ -59257,7 +59257,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Gregory to Burketown | All lanes affected",
         "road_name": "Wills Developmental Road",
@@ -59357,7 +59357,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Proceed with caution | All lanes affected",
         "road_name": "New Cadarga Road",
@@ -59409,7 +59409,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Damage to bitumen road, proceed with caution | All lanes affected",
         "road_name": "Pioneer Clydevale Road / Albro Pioneer Road",
@@ -63045,7 +63045,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Burketown to Leichhart River Crossing | All lanes affected",
         "road_name": "Nardoo Burketown Road",
@@ -63091,7 +63091,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Belyando Bridge is closed with detours in place., nil restrictions",
         "road_name": "Clermont - Alpha Road",
@@ -63839,7 +63839,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Gregory to Camooweal | All lanes affected",
         "road_name": "Gregory Downs Camooweal Road",
@@ -65907,7 +65907,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Aramac to Torrens Creek (from Muttaburra Aramac Rd turn off to Flinders Shire Council Boundary) | All lanes affected",
         "road_name": "Aramac Torrens Creek Road",
@@ -65927,7 +65927,7 @@
         "raw_road": "Aramac Torrens Creek Road",
         "raw_locality": "Pelican Creek / Torrens Creek",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 795450, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/795450\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Road damage\", \"event_due_to\": \"Earlier flooding\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-04-17T14:14:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"Aramac to Torrens Creek (from Muttaburra Aramac Rd turn off to Flinders Shire Council Boundary)\", \"advice\": \"Reduced speed limit (40km/h)\", \"information\": \"Drive with caution due to flood damaged road (Potholes and missing bitumen sections) \", \"road_summary\": {\"road_name\": \"Aramac Torrens Creek Road\", \"locality\": \"Pelican Creek / Torrens Creek\", \"postcode\": \"- / 4726\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-04T10:10:08.288297+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 795450, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/795450\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Road damage\", \"event_due_to\": \"Earlier flooding\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-04-17T14:14:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"Aramac to Torrens Creek (from Muttaburra Aramac Rd turn off to Flinders Shire Council Boundary)\", \"advice\": \"Reduced speed limit (40km/h)\", \"information\": \"Drive with caution due to flood damaged road (Potholes and missing bitumen sections) \", \"road_summary\": {\"road_name\": \"Aramac Torrens Creek Road\", \"locality\": \"Pelican Creek / Torrens Creek\", \"postcode\": \"- / 4726\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T10:24:20.00165+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -65953,7 +65953,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Moss Vale Road",
@@ -67789,7 +67789,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Burketown to Doomadgee | Restricted to high clearance vehicles only",
         "road_name": "Doomadgee Road",
@@ -67841,7 +67841,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Part Shoulder Closed - Road Damage - Observe Signage | Lane or lanes reduced",
         "road_name": "Mountain View Drive",
@@ -67887,7 +67887,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Hazardous conditions | All lanes affected",
         "road_name": "Dawson Developmental Road",
@@ -67933,7 +67933,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Castlereagh Highway",
@@ -75257,7 +75257,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Windeyer to Springsure | All lanes affected",
         "road_name": "Dawson Developmental Road",
@@ -75303,7 +75303,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Olympic Highway",
@@ -75349,7 +75349,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "North of Rockwood Road | All lanes affected",
         "road_name": "Leichhardt Highway",
@@ -75997,7 +75997,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Between Porcupine and Lyndhurst",
         "road_name": "Kennedy Developmental Road",
@@ -76043,7 +76043,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "East Camp Drive",
@@ -77127,7 +77127,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Just north of Wyandra | All lanes affected",
         "road_name": "Mitchell Highway",
@@ -79255,7 +79255,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Walkers Creek to Gilbert River | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -85095,7 +85095,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Gilbert River to Dunbar Station | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -86163,7 +86163,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Dunbar Station to Mareeba Shire Council boundary | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -86209,7 +86209,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Observe signage | Lane or lanes reduced",
         "road_name": "Lefthand Branch Road",
@@ -86255,7 +86255,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "500m south east of Nathan Road",
         "road_name": "Leichhardt Highway",
@@ -86301,7 +86301,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "30m east of Macarthur Street",
         "road_name": "James Street",
@@ -86361,7 +86361,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Near Munbilla Road | All lanes affected",
         "road_name": "Warrill View Peak Crossing Road",
@@ -86453,7 +86453,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Railway Crossing between Kennedy Road and Schriek Road | All lanes affected",
         "road_name": "Allora Road",
@@ -86499,7 +86499,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Swan Creek Bridge | All lanes affected",
         "road_name": "Yangan   Killarney Road (Top Swanfels Road)",
@@ -86545,7 +86545,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Hazard - Road Damage - Caution Drive Carefully - 4WD Access only | Lane or lanes reduced",
         "road_name": "Mulga Downs Road",
@@ -86591,7 +86591,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Sandy Creek Bridge | All lanes affected",
         "road_name": "Cunningham Highway",
@@ -87127,7 +87127,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Road damaged after flooding, proceed with caution | All lanes affected",
         "road_name": "Donald Street / Kyabra Road / Raymore Road",
@@ -87199,7 +87199,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Between McKinlay and Kynuna | All lanes affected",
         "road_name": "Landsborough Highway",
@@ -87245,7 +87245,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Arthurville Road",
@@ -87381,7 +87381,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Rough Surface in sections, 4WD only | Restricted to four wheel drive vehicles only",
         "road_name": "Old Thargomindah Road / Soonah Crossing Road",
@@ -87427,7 +87427,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "At the Julia Creek Bridge | All lanes affected",
         "road_name": "Flinders Highway",
@@ -87511,7 +87511,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Ilkley Road bridge over the Bruce Highway | Subject to a 5 tonne GVM limit",
         "road_name": "Ilkley Road",
@@ -87531,7 +87531,7 @@
         "raw_road": "Ilkley Road",
         "raw_locality": "Tanawha",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 815836, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/815836\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Bridge or culvert damaged\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Road restricted\", \"impact_subtype\": \"Subject to a 5 tonne GVM limit\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-07-17T15:45:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Ilkley Road bridge over the Bruce Highway\", \"advice\": \"Changed traffic conditions\", \"information\": \"Scheduled times: All hours (24 hours), lanes reduced, 5-tonne load limit and 2.5 metre maximum width.\\nWhat to expect: Signage, changed traffic conditions, temporary infrastructure and CCTV on the approaches to the Ilkley Road overpass to support compliance with restrictions. The Ilkley Road overpass over the Bruce Highway at Tanawha is currently operating under restrictions. Please comply with these restrictions for safety.\", \"road_summary\": {\"road_name\": \"Ilkley Road\", \"locality\": \"Tanawha\", \"postcode\": \"4556\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T06:08:32.112009+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 815836, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/815836\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Bridge or culvert damaged\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Road restricted\", \"impact_subtype\": \"Subject to a 5 tonne GVM limit\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-07-17T15:45:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Ilkley Road bridge over the Bruce Highway\", \"advice\": \"Changed traffic conditions\", \"information\": \"Scheduled times: All hours (24 hours), lanes reduced, 5-tonne load limit and 2.5 metre maximum width.\\nWhat to expect: Signage, changed traffic conditions, temporary infrastructure and CCTV on the approaches to the Ilkley Road overpass to support compliance with restrictions. The Ilkley Road overpass over the Bruce Highway at Tanawha is currently operating under restrictions. Please comply with these restrictions for safety.\", \"road_summary\": {\"road_name\": \"Ilkley Road\", \"locality\": \"Tanawha\", \"postcode\": \"4556\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T09:25:43.229174+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -87557,7 +87557,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "1km east of Tara (approx.) | All lanes affected",
         "road_name": "Tara Kogan Road ( Kogan Road)",
@@ -87603,7 +87603,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Brown Street",
@@ -87649,7 +87649,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Brown Street",
@@ -87695,7 +87695,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hill End Road",
@@ -87741,7 +87741,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Goolma Road",
@@ -87787,7 +87787,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Wilangee Road",
@@ -89687,7 +89687,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Leichardt River to Gregory | All lanes affected",
         "road_name": "Wills Developmental Road",
@@ -89733,7 +89733,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "8km from Cunnamulla | One lane blocked",
         "road_name": "Balonne Highway",
@@ -91237,7 +91237,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "from Aramac Rd to Eastmere Rd (Upland) | All lanes affected",
         "road_name": "Ballyneety Road",
@@ -91257,7 +91257,7 @@
         "raw_road": "Ballyneety Road",
         "raw_locality": "Dunrobin",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 821181, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821181\", \"image\": null, \"event_type\": \"Flooding\", \"event_subtype\": \"Long-term flooding\", \"event_due_to\": \"Heavy rain\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-08-13T13:01:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"from Aramac Rd to Eastmere Rd (Upland)\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Ballyneety Road\", \"locality\": \"Dunrobin\", \"postcode\": \"-\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T04:44:58.470615+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 821181, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821181\", \"image\": null, \"event_type\": \"Flooding\", \"event_subtype\": \"Long-term flooding\", \"event_due_to\": \"Heavy rain\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-08-13T13:01:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"from Aramac Rd to Eastmere Rd (Upland)\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Ballyneety Road\", \"locality\": \"Dunrobin\", \"postcode\": \"-\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T10:24:57.074957+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -92301,7 +92301,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Barcaldine Aramac Rd to Coreena Rd | All lanes affected",
         "road_name": "Politic Road",
@@ -92321,7 +92321,7 @@
         "raw_road": "Politic Road",
         "raw_locality": "Ingberry",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 821182, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821182\", \"image\": null, \"event_type\": \"Flooding\", \"event_subtype\": \"Long-term flooding\", \"event_due_to\": \"Heavy rain\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-08-13T13:02:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Barcaldine Aramac Rd to Coreena Rd\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Politic Road\", \"locality\": \"Ingberry\", \"postcode\": \"4726\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T04:44:59.034196+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 821182, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821182\", \"image\": null, \"event_type\": \"Flooding\", \"event_subtype\": \"Long-term flooding\", \"event_due_to\": \"Heavy rain\", \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-08-13T13:02:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Barcaldine Aramac Rd to Coreena Rd\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Politic Road\", \"locality\": \"Ingberry\", \"postcode\": \"4726\", \"local_government_area\": \"Barcaldine Regional\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-05T10:25:46.492879+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -92347,7 +92347,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "After Whites Road",
         "road_name": "Rockhampton   Yeppoon Road",
@@ -92655,7 +92655,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "between Peel St and Vulture St | Road closed to through traffic",
         "road_name": "Grey Street",
@@ -92683,6 +92683,60 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
+          [
+            [
+              153.0330534,
+              -27.4813991
+            ],
+            [
+              153.03324,
+              -27.481
+            ],
+            [
+              153.03331,
+              -27.48086
+            ],
+            [
+              153.03343,
+              -27.48062
+            ],
+            [
+              153.03368,
+              -27.48011
+            ],
+            [
+              153.03383,
+              -27.4798
+            ],
+            [
+              153.03409,
+              -27.47928
+            ],
+            [
+              153.03417,
+              -27.47911
+            ],
+            [
+              153.03444,
+              -27.47855
+            ],
+            [
+              153.03469,
+              -27.47803
+            ],
+            [
+              153.03497,
+              -27.47744
+            ],
+            [
+              153.03521,
+              -27.47693
+            ],
+            [
+              153.0352468,
+              -27.4768202
+            ]
+          ],
           [
             [
               153.0356829,
@@ -92819,60 +92873,6 @@
           ],
           [
             [
-              153.0330534,
-              -27.4813991
-            ],
-            [
-              153.03324,
-              -27.481
-            ],
-            [
-              153.03331,
-              -27.48086
-            ],
-            [
-              153.03343,
-              -27.48062
-            ],
-            [
-              153.03368,
-              -27.48011
-            ],
-            [
-              153.03383,
-              -27.4798
-            ],
-            [
-              153.03409,
-              -27.47928
-            ],
-            [
-              153.03417,
-              -27.47911
-            ],
-            [
-              153.03444,
-              -27.47855
-            ],
-            [
-              153.03469,
-              -27.47803
-            ],
-            [
-              153.03497,
-              -27.47744
-            ],
-            [
-              153.03521,
-              -27.47693
-            ],
-            [
-              153.0352468,
-              -27.4768202
-            ]
-          ],
-          [
-            [
               153.0329654,
               -27.4815857
             ],
@@ -92923,7 +92923,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "The Story Bridge is closed between Kemp Place & Main Street from 6:15pm – 8:00pm due to Riverfire | Road closed to all traffic",
         "road_name": "Bradfield Highway / Leopard Street / River Terrace",
@@ -92969,7 +92969,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Silverton Road",
@@ -93015,7 +93015,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Reola Road",
@@ -93061,7 +93061,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Wonnaminta Road",
@@ -95069,7 +95069,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Bransby Santos Road",
@@ -96329,7 +96329,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Tickalara Road / Wompah Gate Road",
@@ -96375,7 +96375,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Unnamed Road",
@@ -96421,7 +96421,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Garden Vale Road",
@@ -96467,7 +96467,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -96513,7 +96513,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Joulnie Road",
@@ -96559,7 +96559,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hawker Gate Road",
@@ -96605,7 +96605,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Border Downs Road",
@@ -96651,7 +96651,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Waka Road",
@@ -97099,7 +97099,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Birdsville to SA Border | All lanes affected",
         "road_name": "Inside Track Road (Birdsville Inside Track)",
@@ -100715,7 +100715,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Bulloo Downs Road / Bulloo Developmental Road / Tickalara Road",
@@ -102859,7 +102859,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Arrabury Road",
@@ -102905,7 +102905,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "The Cut Line",
@@ -102951,7 +102951,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mutawintji Road",
@@ -102997,7 +102997,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Yancannia Road",
@@ -103043,7 +103043,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Tandou Road",
@@ -103089,7 +103089,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Waterbag Road",
@@ -105157,7 +105157,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "ROAD OPEN for access between Bedourie to Birdsville. Drive to Prevailing Conditions",
         "road_name": "Lake Machattie Detour Road",
@@ -105203,7 +105203,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hawker Gate Road",
@@ -105249,7 +105249,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Kayrunnera Road",
@@ -105295,7 +105295,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hewart Downs Road",
@@ -105341,7 +105341,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "The Cut Line",
@@ -105387,7 +105387,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Wompah Gate Road",
@@ -105433,7 +105433,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Narriearra Road",
@@ -105479,7 +105479,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Netley Road",
@@ -105525,7 +105525,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Westwood Road",
@@ -105571,7 +105571,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Woowoolahra Road",
@@ -111139,7 +111139,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Orientos Road",
@@ -111185,7 +111185,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mutawintji Road",
@@ -111231,7 +111231,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -111277,7 +111277,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Arrowsmith Road",
@@ -111323,7 +111323,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Old Pooncarie Road",
@@ -111369,7 +111369,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -111415,7 +111415,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Toona Gate Road",
@@ -111461,7 +111461,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Border Downs Road",
@@ -111507,7 +111507,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hamilton Gate Road",
@@ -111553,7 +111553,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Old Pooncarie Road",
@@ -111599,7 +111599,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Bridge over Jimbour Creek | All lanes affected",
         "road_name": "Warrego Highway",
@@ -111645,7 +111645,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Chalmers Street",
@@ -111691,7 +111691,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Putty Road",
@@ -111737,7 +111737,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Prior to Coochin Creek",
         "road_name": "Bruce Highway",
@@ -111757,7 +111757,7 @@
         "raw_road": "Bruce Highway",
         "raw_locality": "Coochin Creek",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 825879, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/825879\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"Sunshine Coast\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-04T11:03:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Prior to Coochin Creek\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Bruce Highway\", \"locality\": \"Coochin Creek\", \"postcode\": \"4519\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T06:08:38.408613+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 825879, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/825879\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"Sunshine Coast\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-04T11:03:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Prior to Coochin Creek\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Bruce Highway\", \"locality\": \"Coochin Creek\", \"postcode\": \"4519\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T09:25:50.21897+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -111783,7 +111783,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Wakehurst Parkway",
@@ -111829,7 +111829,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Sturt Highway",
@@ -111875,7 +111875,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Approximately 7km north of Belyando Crossing | All lanes affected",
         "road_name": "Gregory Developmental Road",
@@ -111921,7 +111921,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Monaro Highway",
@@ -111967,7 +111967,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Hume Highway",
@@ -112013,7 +112013,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "Changed traffic conditions",
         "road_name": "Coorparoo Road",
@@ -112059,7 +112059,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "",
         "road_name": "Newell Highway",
@@ -112079,145 +112079,7 @@
         "raw_road": "Newell Highway",
         "raw_locality": "Boggabilla",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 826065, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287224\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826065\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T07:08:13+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Newell Highway\", \"locality\": \"Boggabilla\", \"postcode\": \"2409\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-05T07:30:26.153469+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            148.185974435,
-            -34.905399497
-          ]
-        ]
-      },
-      "properties": {
-        "event_id": "qld.qldtraffic.346c91d6733894278296",
-        "source": "qldtraffic",
-        "jurisdiction": "qld",
-        "category_raw": "Hazard",
-        "category_norm": "other",
-        "passability_norm": "unknown",
-        "status_norm": "active",
-        "reason_norm": "unknown",
-        "start_time": "",
-        "end_time": "",
-        "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
-        "title": "",
-        "description": "",
-        "road_name": "Hume Highway",
-        "locality": "Coolac",
-        "direction": "",
-        "lanes_affected": "",
-        "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826066",
-        "source_event_id": "826066",
-        "raw_title": "",
-        "raw_description": "",
-        "raw_advice": "",
-        "raw_event_type": "Hazard",
-        "raw_event_subtype": "Adverse driving conditions",
-        "raw_impact_type": "N/A",
-        "raw_impact_subtype": "",
-        "raw_road": "Hume Highway",
-        "raw_locality": "Coolac",
-        "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 826066, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287225\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826066\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T07:21:17+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Hume Highway\", \"locality\": \"Coolac\", \"postcode\": \"2727\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-05T07:24:42.629662+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            150.838631016,
-            -33.874661001
-          ]
-        ]
-      },
-      "properties": {
-        "event_id": "qld.qldtraffic.21dceb3f924eb092af91",
-        "source": "qldtraffic",
-        "jurisdiction": "qld",
-        "category_raw": "Hazard",
-        "category_norm": "other",
-        "passability_norm": "unknown",
-        "status_norm": "active",
-        "reason_norm": "unknown",
-        "start_time": "",
-        "end_time": "",
-        "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
-        "title": "",
-        "description": "",
-        "road_name": "Elizabeth Drive",
-        "locality": "Cecil Park",
-        "direction": "",
-        "lanes_affected": "",
-        "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826069",
-        "source_event_id": "826069",
-        "raw_title": "",
-        "raw_description": "",
-        "raw_advice": "",
-        "raw_event_type": "Hazard",
-        "raw_event_subtype": "Adverse driving conditions",
-        "raw_impact_type": "N/A",
-        "raw_impact_subtype": "",
-        "raw_road": "Elizabeth Drive",
-        "raw_locality": "Cecil Park",
-        "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 826069, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287227\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826069\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T08:09:26+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Elizabeth Drive\", \"locality\": \"Cecil Park\", \"postcode\": \"2178\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-05T08:12:46.157136+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            150.978552067,
-            -33.834258013
-          ]
-        ]
-      },
-      "properties": {
-        "event_id": "qld.qldtraffic.b30664fe52d650ec04a3",
-        "source": "qldtraffic",
-        "jurisdiction": "qld",
-        "category_raw": "Hazard",
-        "category_norm": "other",
-        "passability_norm": "unknown",
-        "status_norm": "active",
-        "reason_norm": "unknown",
-        "start_time": "",
-        "end_time": "",
-        "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
-        "title": "",
-        "description": "",
-        "road_name": "Merrylands Road",
-        "locality": "Merrylands",
-        "direction": "",
-        "lanes_affected": "",
-        "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826070",
-        "source_event_id": "826070",
-        "raw_title": "",
-        "raw_description": "",
-        "raw_advice": "",
-        "raw_event_type": "Hazard",
-        "raw_event_subtype": "Adverse driving conditions",
-        "raw_impact_type": "N/A",
-        "raw_impact_subtype": "",
-        "raw_road": "Merrylands Road",
-        "raw_locality": "Merrylands",
-        "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 826070, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287228\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826070\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T08:14:54+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Merrylands Road\", \"locality\": \"Merrylands\", \"postcode\": \"2160\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-05T08:15:31.77682+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 826065, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287224\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826065\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T07:08:13+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Newell Highway\", \"locality\": \"Boggabilla\", \"postcode\": \"2409\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-05T10:24:40.890563+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -112533,7 +112395,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-04T22:55:01.815450+00:00",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
         "title": "",
         "description": "After Kawana Way.",
         "road_name": "Sunshine Motorway",
@@ -112554,6 +112416,282 @@
         "raw_locality": "Mountain Creek / Sippy Downs",
         "raw_status": "Published",
         "raw_properties_json": "{\"id\": 826072, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826072\", \"image\": null, \"event_type\": \"Congestion\", \"event_subtype\": \"Recurring\", \"event_due_to\": null, \"impact\": {\"direction\": \"Eastbound\", \"towards\": \"Mooloolaba\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-09-05T08:24:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"After Kawana Way.\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Sunshine Motorway\", \"locality\": \"Mountain Creek / Sippy Downs\", \"postcode\": \"4556 / 4557\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T08:25:02.537199+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            153.2355127,
+            -27.5245797
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.50f1809d6077b3cec77a",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "At McDonald Road intersection | Lane or lanes reduced",
+        "road_name": "Finucane Road",
+        "locality": "Alexandra Hills",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Queensland Police on scene",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826085",
+        "source_event_id": "826085",
+        "raw_title": "",
+        "raw_description": "At McDonald Road intersection",
+        "raw_advice": "Queensland Police on scene",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Multi-vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "Lane or lanes reduced",
+        "raw_road": "Finucane Road",
+        "raw_locality": "Alexandra Hills",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826085, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826085\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Multi-vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Eastbound\", \"towards\": \"Alexandra Hills\", \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"Lane or lanes reduced\", \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-05T10:01:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"At McDonald Road intersection\", \"advice\": \"Queensland Police on scene\", \"information\": null, \"road_summary\": {\"road_name\": \"Finucane Road\", \"locality\": \"Alexandra Hills\", \"postcode\": \"4161\", \"local_government_area\": \"Redland City\", \"district\": \"Metropolitan\"}, \"last_updated\": \"2026-09-05T10:03:41.704125+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            152.1888973,
+            -26.8739084
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.8bba102600be79b14540",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "on Blackbutt Creek Bridge, 2km east of Old Esk Road | All lanes affected",
+        "road_name": "D'aguilar Highway",
+        "locality": "Moore",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Emergency services are on scene/en-route",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826087",
+        "source_event_id": "826087",
+        "raw_title": "",
+        "raw_description": "on Blackbutt Creek Bridge, 2km east of Old Esk Road",
+        "raw_advice": "Emergency services are on scene/en-route",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Single vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "All lanes affected",
+        "raw_road": "D'aguilar Highway",
+        "raw_locality": "Moore",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826087, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826087\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Single vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Westbound\", \"towards\": \"Benarkin\", \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-09-05T10:04:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"on Blackbutt Creek Bridge, 2km east of Old Esk Road\", \"advice\": \"Emergency services are on scene/en-route\", \"information\": null, \"road_summary\": {\"road_name\": \"D'aguilar Highway\", \"locality\": \"Moore\", \"postcode\": \"4314\", \"local_government_area\": \"Somerset Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T10:07:59.108065+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            153.0972939,
+            -26.7088984
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.27e036173041426bd2c7",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Congestion",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "unknown",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "Mountain Creek to Sippy Downs",
+        "road_name": "Sunshine Motorway",
+        "locality": "Mountain Creek",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826089",
+        "source_event_id": "826089",
+        "raw_title": "",
+        "raw_description": "Mountain Creek to Sippy Downs",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Congestion",
+        "raw_event_subtype": "Recurring",
+        "raw_impact_type": "No blockage",
+        "raw_impact_subtype": "",
+        "raw_road": "Sunshine Motorway",
+        "raw_locality": "Mountain Creek",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826089, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826089\", \"image\": null, \"event_type\": \"Congestion\", \"event_subtype\": \"Recurring\", \"event_due_to\": null, \"impact\": {\"direction\": \"Westbound\", \"towards\": \"Tanawha\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2026-09-05T10:27:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"Mountain Creek to Sippy Downs\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Sunshine Motorway\", \"locality\": \"Mountain Creek\", \"postcode\": \"4557\", \"local_government_area\": \"Sunshine Coast Regional\", \"district\": \"North Coast\"}, \"last_updated\": \"2026-09-05T10:27:50.211815+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            151.8900692,
+            -26.5383743
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.9c373582776d3a0a7045",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "near Redvale Road | Lane or lanes reduced",
+        "road_name": "Kingaroy   Barker's Creek Road (Kingaroy Barkers Creek Road)",
+        "locality": "Booie",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826091",
+        "source_event_id": "826091",
+        "raw_title": "",
+        "raw_description": "near Redvale Road",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Multi-vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "Lane or lanes reduced",
+        "raw_road": "Kingaroy   Barker's Creek Road (Kingaroy Barkers Creek Road)",
+        "raw_locality": "Booie",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826091, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826091\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Multi-vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"Lane or lanes reduced\", \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-05T10:35:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"near Redvale Road\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Kingaroy   Barker's Creek Road (Kingaroy Barkers Creek Road)\", \"locality\": \"Booie\", \"postcode\": \"4610\", \"local_government_area\": \"South Burnett Regional\", \"district\": \"Wide Bay/Burnett\"}, \"last_updated\": \"2026-09-05T10:37:16.050646+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            153.1771686,
+            -27.7959869
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.9d7c9a7c949542b2329f",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "Veivers Road | Lane or lanes reduced",
+        "road_name": "Beaudesert   Beenleigh Road",
+        "locality": "Wolffdene",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826092",
+        "source_event_id": "826092",
+        "raw_title": "",
+        "raw_description": "Veivers Road",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Multi-vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "Lane or lanes reduced",
+        "raw_road": "Beaudesert   Beenleigh Road",
+        "raw_locality": "Wolffdene",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826092, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826092\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Multi-vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Southbound\", \"towards\": \"Luscombe\", \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"Lane or lanes reduced\", \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T10:37:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Veivers Road\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Beaudesert   Beenleigh Road\", \"locality\": \"Wolffdene\", \"postcode\": \"4207\", \"local_government_area\": \"Logan City\", \"district\": \"South Coast\"}, \"last_updated\": \"2026-09-05T10:38:18.864636+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            153.2652056,
+            -27.8052761
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.a8402584bc4410fc0952",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-05T00:46:08.478518+00:00",
+        "title": "",
+        "description": "In the vicinity of exit 45 | Lane or lanes reduced",
+        "road_name": "Pacific Motorway",
+        "locality": "Pimpama",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/826093",
+        "source_event_id": "826093",
+        "raw_title": "",
+        "raw_description": "In the vicinity of exit 45",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Multi-vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "Lane or lanes reduced",
+        "raw_road": "Pacific Motorway",
+        "raw_locality": "Pimpama",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 826093, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/826093\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Multi-vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"Brisbane\", \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"Lane or lanes reduced\", \"delay\": null}, \"duration\": {\"start\": \"2026-09-05T10:43:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"In the vicinity of exit 45\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Pacific Motorway\", \"locality\": \"Pimpama\", \"postcode\": \"4209\", \"local_government_area\": \"Gold Coast City\", \"district\": \"South Coast\"}, \"last_updated\": \"2026-09-05T10:44:46.95937+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     }
   ]
