@@ -2934,7 +2934,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Vehicle access is closed to all vehicles and will remain closed until further notice | Road closed to all traffic",
         "road_name": "Duck Creek Road",
@@ -9858,7 +9858,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "20-tonne load limit on Lamington National Park Road from Sarabah to O'Reillys.",
         "road_name": "Lamington National Park Road",
@@ -9886,48 +9886,6 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
-          [
-            [
-              152.890920483,
-              -26.315838954
-            ],
-            [
-              152.8909641,
-              -26.3158856
-            ],
-            [
-              152.8910245,
-              -26.3159225
-            ],
-            [
-              152.8911139,
-              -26.3159535
-            ],
-            [
-              152.8911983,
-              -26.3159758
-            ],
-            [
-              152.8913898,
-              -26.3160632
-            ],
-            [
-              152.8915279,
-              -26.3161379
-            ],
-            [
-              152.8916795,
-              -26.3162374
-            ],
-            [
-              152.8918138,
-              -26.3163533
-            ],
-            [
-              152.891819675,
-              -26.316359514
-            ]
-          ],
           [
             [
               152.888281147,
@@ -10121,6 +10079,48 @@
               152.89094503,
               -26.315865206
             ]
+          ],
+          [
+            [
+              152.890920483,
+              -26.315838954
+            ],
+            [
+              152.8909641,
+              -26.3158856
+            ],
+            [
+              152.8910245,
+              -26.3159225
+            ],
+            [
+              152.8911139,
+              -26.3159535
+            ],
+            [
+              152.8911983,
+              -26.3159758
+            ],
+            [
+              152.8913898,
+              -26.3160632
+            ],
+            [
+              152.8915279,
+              -26.3161379
+            ],
+            [
+              152.8916795,
+              -26.3162374
+            ],
+            [
+              152.8918138,
+              -26.3163533
+            ],
+            [
+              152.891819675,
+              -26.316359514
+            ]
           ]
         ]
       },
@@ -10136,7 +10136,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Black Pinch Road, Cootharaba closed to all traffic due to landslip | Road closed to all traffic",
         "road_name": "Black Pinch Road",
@@ -10182,7 +10182,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "The Shelf Rd, Tamborine Mountain | All lanes affected",
         "road_name": "The Shelf Road",
@@ -10218,13 +10218,6 @@
             ]
           },
           {
-            "type": "Point",
-            "coordinates": [
-              145.159527455,
-              -18.309739495
-            ]
-          },
-          {
             "type": "LineString",
             "coordinates": [
               [
@@ -10248,6 +10241,13 @@
                 -18.309999308
               ]
             ]
+          },
+          {
+            "type": "Point",
+            "coordinates": [
+              145.159527455,
+              -18.309739495
+            ]
           }
         ]
       },
@@ -10263,7 +10263,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Meanings Mill Bridge over Ant Hill Creek on Wairuna Road is now reduced to 8 tonne GVM limit. Motorists are advised to observe signage and proceed with caution. | Subject to a 5 tonne GVM limit",
         "road_name": "Wairuna Road",
@@ -10309,7 +10309,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Lobs Hole Ravine Road",
@@ -10355,7 +10355,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Tantangara Road",
@@ -10423,7 +10423,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Barron River Bridge Kuranda | Subject to a 42.5 tonne GVM limit",
         "road_name": "Kennedy Highway (Barron River Bridge)",
@@ -10443,7 +10443,7 @@
         "raw_road": "Kennedy Highway (Barron River Bridge)",
         "raw_locality": "Kuranda",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 608815, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/608815\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Road restricted\", \"impact_subtype\": \"Subject to a 42.5 tonne GVM limit\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2023-12-19T15:23:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Barron River Bridge Kuranda\", \"advice\": \"Changed traffic conditions\", \"information\": null, \"road_summary\": {\"road_name\": \"Kennedy Highway (Barron River Bridge)\", \"locality\": \"Kuranda\", \"postcode\": \"4881\", \"local_government_area\": \"Mareeba Shire\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-13T23:16:57.788914+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 608815, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/608815\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Road restricted\", \"impact_subtype\": \"Subject to a 42.5 tonne GVM limit\", \"delay\": \"Delays expected\"}, \"duration\": {\"start\": \"2023-12-19T15:23:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Barron River Bridge Kuranda\", \"advice\": \"Changed traffic conditions\", \"information\": null, \"road_summary\": {\"road_name\": \"Kennedy Highway (Barron River Bridge)\", \"locality\": \"Kuranda\", \"postcode\": \"4881\", \"local_government_area\": \"Mareeba Shire\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-14T03:16:56.378237+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -10452,12 +10452,12 @@
         "type": "MultiPoint",
         "coordinates": [
           [
-            145.430658168,
-            -16.139993855
-          ],
-          [
             145.430565663,
             -16.1404688
+          ],
+          [
+            145.430658168,
+            -16.139993855
           ]
         ]
       },
@@ -10473,7 +10473,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Bridge load limit 16 tonne GVM. Bypass to be used for vehicles over 16t GVM | All lanes affected",
         "road_name": "Cape Tribulation Road",
@@ -10519,7 +10519,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Jenolan Caves Road",
@@ -10565,7 +10565,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mamre Road",
@@ -10611,7 +10611,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Bradfield Highway",
@@ -10657,7 +10657,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Vicinity of Mount Whitestone | All lanes affected",
         "road_name": "Gatton Clifton Road",
@@ -10703,7 +10703,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "West Botany Street",
@@ -10749,7 +10749,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Changed traffic conditions | Lane or lanes reduced",
         "road_name": "Illinbah Road",
@@ -10819,7 +10819,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Goat Track - single lane side track is open to light vehicles | Partial lane closures",
         "road_name": "Tamborine Mountain Road",
@@ -11331,7 +11331,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Proceed with caution | All lanes affected",
         "road_name": "Milo Road / Unnamed Road",
@@ -11377,7 +11377,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Flood Damage at Bunya Crossing Reserve car park | Road closed to all traffic",
         "road_name": "Dugandan Road",
@@ -11423,7 +11423,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Changed traffic conditions | Lane or lanes reduced",
         "road_name": "Barney View Road",
@@ -11469,7 +11469,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Observe signage | Road closed to through traffic",
         "road_name": "Barney View Road",
@@ -12737,7 +12737,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Road restricted to light vehicles only at Lake Dartmouth. | Subject to a 5 tonne GVM limit",
         "road_name": "Adavale Road",
@@ -13997,7 +13997,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Gregory to Century Mine Access | All lanes affected",
         "road_name": "Lawn Hill Road",
@@ -14053,7 +14053,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Changed traffic conditions | All lanes affected",
         "road_name": "Knoll Road",
@@ -14113,7 +14113,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Access is limited to vehicles up to a fully loaded Class 5 four-axle truck (maximum GVM of 27 tonnes) | Subject to a 25 tonne GVM limit",
         "road_name": "Mount Fox Road",
@@ -14401,7 +14401,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Observe signage | All lanes affected",
         "road_name": "Golden Mile Road",
@@ -15005,7 +15005,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Rosewood Marburg Road Embankment Restoration Works. | All lanes affected",
         "road_name": "Rosewood Marburg Road",
@@ -15051,7 +15051,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Between Newton - Stephen Road and Paull Lane | All lanes affected",
         "road_name": "Warrego Highway",
@@ -15149,7 +15149,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Single lane of traffic with temporary traffic lights due to landslip | Lane or lanes reduced",
         "road_name": "Nandroya Road",
@@ -15229,7 +15229,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Road Closed - Seek Alternative Route | Road closed to all traffic",
         "road_name": "Laidley Creek West Road",
@@ -15279,7 +15279,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Proceed with caution",
         "road_name": "Dawson Highway / Orion Ten Chain Road",
@@ -15325,7 +15325,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "14t Maximum Load limit imposed on Culvert Structure.",
         "road_name": "Grasstree Road",
@@ -15371,7 +15371,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Oxley Highway",
@@ -15415,6 +15415,70 @@
             [
               142.4430823,
               -15.8917721
+            ]
+          ],
+          [
+            [
+              142.4430823,
+              -15.8917721
+            ],
+            [
+              142.44296,
+              -15.89304
+            ],
+            [
+              142.44294,
+              -15.89336
+            ],
+            [
+              142.44291,
+              -15.89355
+            ],
+            [
+              142.44279,
+              -15.89385
+            ],
+            [
+              142.44254,
+              -15.89412
+            ],
+            [
+              142.44233,
+              -15.89436
+            ],
+            [
+              142.4419,
+              -15.89492
+            ],
+            [
+              142.44171,
+              -15.89545
+            ],
+            [
+              142.44175,
+              -15.89604
+            ],
+            [
+              142.44186,
+              -15.89665
+            ],
+            [
+              142.44193,
+              -15.8968528
+            ]
+          ],
+          [
+            [
+              142.44193,
+              -15.8968528
+            ],
+            [
+              142.44198,
+              -15.89699
+            ],
+            [
+              142.4422119,
+              -15.897961
             ]
           ],
           [
@@ -16180,70 +16244,6 @@
               142.3769705,
               -16.0119991
             ]
-          ],
-          [
-            [
-              142.44193,
-              -15.8968528
-            ],
-            [
-              142.44198,
-              -15.89699
-            ],
-            [
-              142.4422119,
-              -15.897961
-            ]
-          ],
-          [
-            [
-              142.4430823,
-              -15.8917721
-            ],
-            [
-              142.44296,
-              -15.89304
-            ],
-            [
-              142.44294,
-              -15.89336
-            ],
-            [
-              142.44291,
-              -15.89355
-            ],
-            [
-              142.44279,
-              -15.89385
-            ],
-            [
-              142.44254,
-              -15.89412
-            ],
-            [
-              142.44233,
-              -15.89436
-            ],
-            [
-              142.4419,
-              -15.89492
-            ],
-            [
-              142.44171,
-              -15.89545
-            ],
-            [
-              142.44175,
-              -15.89604
-            ],
-            [
-              142.44186,
-              -15.89665
-            ],
-            [
-              142.44193,
-              -15.8968528
-            ]
           ]
         ]
       },
@@ -16259,7 +16259,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Dunbar to Koolatah | Road closed to all traffic",
         "road_name": "Dunbar Koolatah Road / Dunbar Kowanyama Road / Koolatah Access",
@@ -25263,7 +25263,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Crystal Creek to Paluma | All lanes affected",
         "road_name": "Mt Spec Road",
@@ -27695,7 +27695,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Alpha to Clermont (Alpha to Isaac Council boundary) | All lanes affected",
         "road_name": "Clermont Alpha Road",
@@ -27835,7 +27835,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Use alternative route | All lanes affected",
         "road_name": "Tierawoomba Road",
@@ -28309,7 +28309,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Toona Gate Road",
@@ -29815,7 +29815,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Woonanooka Road / Woonanooka Road / Durham Downs Road",
@@ -32527,7 +32527,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Omicron Road",
@@ -36287,7 +36287,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Doomadgee to Hells Gate | All lanes affected",
         "road_name": "Doomadgee Road",
@@ -37891,7 +37891,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Hells Gate to NT Border | Restricted to four wheel drive vehicles only",
         "road_name": "Westmoreland Road",
@@ -39011,7 +39011,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Century Mine to Lawn Hill National Park turn-off | Restricted to four wheel drive vehicles only",
         "road_name": "Lawn Hill Road",
@@ -39039,594 +39039,6 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
-          [
-            [
-              138.5631091,
-              -18.6631963
-            ],
-            [
-              138.56277,
-              -18.66351
-            ],
-            [
-              138.56241,
-              -18.66386
-            ],
-            [
-              138.56222,
-              -18.66404
-            ],
-            [
-              138.56206,
-              -18.66418
-            ],
-            [
-              138.56192,
-              -18.66427
-            ],
-            [
-              138.56178,
-              -18.66432
-            ],
-            [
-              138.56159,
-              -18.66433
-            ],
-            [
-              138.56144,
-              -18.66432
-            ],
-            [
-              138.56127,
-              -18.6643
-            ],
-            [
-              138.56065,
-              -18.66415
-            ],
-            [
-              138.56045,
-              -18.66415
-            ],
-            [
-              138.56026,
-              -18.66414
-            ],
-            [
-              138.56009,
-              -18.66413
-            ],
-            [
-              138.5599,
-              -18.66415
-            ],
-            [
-              138.55942,
-              -18.66428
-            ],
-            [
-              138.55924,
-              -18.66436
-            ],
-            [
-              138.55908,
-              -18.66447
-            ],
-            [
-              138.55902,
-              -18.66452
-            ],
-            [
-              138.5589,
-              -18.66464
-            ],
-            [
-              138.55867,
-              -18.66498
-            ],
-            [
-              138.55854,
-              -18.66516
-            ],
-            [
-              138.55835,
-              -18.6654
-            ],
-            [
-              138.55818,
-              -18.66558
-            ],
-            [
-              138.55796,
-              -18.66578
-            ],
-            [
-              138.55693,
-              -18.66666
-            ],
-            [
-              138.55595,
-              -18.6675
-            ],
-            [
-              138.55584,
-              -18.6676
-            ],
-            [
-              138.55548,
-              -18.66788
-            ],
-            [
-              138.55511,
-              -18.6681
-            ],
-            [
-              138.55495,
-              -18.66821
-            ],
-            [
-              138.55485,
-              -18.66828
-            ],
-            [
-              138.55475,
-              -18.66837
-            ],
-            [
-              138.55462,
-              -18.66848
-            ],
-            [
-              138.55444,
-              -18.6687
-            ],
-            [
-              138.55387,
-              -18.66944
-            ],
-            [
-              138.55372,
-              -18.66965
-            ],
-            [
-              138.55358,
-              -18.66988
-            ],
-            [
-              138.55309,
-              -18.67068
-            ],
-            [
-              138.55287,
-              -18.67102
-            ],
-            [
-              138.55244,
-              -18.67158
-            ],
-            [
-              138.55139,
-              -18.67286
-            ],
-            [
-              138.55126,
-              -18.67304
-            ],
-            [
-              138.55114,
-              -18.67326
-            ],
-            [
-              138.55094,
-              -18.67362
-            ],
-            [
-              138.55083,
-              -18.67379
-            ],
-            [
-              138.55077,
-              -18.67386
-            ],
-            [
-              138.55072,
-              -18.67391
-            ],
-            [
-              138.55062,
-              -18.67398
-            ],
-            [
-              138.55021,
-              -18.67431
-            ],
-            [
-              138.55003,
-              -18.67444
-            ],
-            [
-              138.54988,
-              -18.67457
-            ],
-            [
-              138.54938,
-              -18.67503
-            ],
-            [
-              138.54848,
-              -18.67605
-            ],
-            [
-              138.5483,
-              -18.67623
-            ],
-            [
-              138.54822,
-              -18.67633
-            ],
-            [
-              138.54814,
-              -18.67645
-            ],
-            [
-              138.54808,
-              -18.67655
-            ],
-            [
-              138.54803,
-              -18.67668
-            ],
-            [
-              138.54799,
-              -18.67684
-            ],
-            [
-              138.54794,
-              -18.67708
-            ],
-            [
-              138.54792,
-              -18.67716
-            ],
-            [
-              138.54789,
-              -18.67729
-            ],
-            [
-              138.54787,
-              -18.67738
-            ],
-            [
-              138.54784,
-              -18.67743
-            ],
-            [
-              138.54782,
-              -18.67749
-            ],
-            [
-              138.5477,
-              -18.67772
-            ],
-            [
-              138.54727,
-              -18.67843
-            ],
-            [
-              138.54689,
-              -18.67908
-            ],
-            [
-              138.5468,
-              -18.67926
-            ],
-            [
-              138.54673,
-              -18.6794
-            ],
-            [
-              138.54667,
-              -18.6795
-            ],
-            [
-              138.54655,
-              -18.67966
-            ],
-            [
-              138.54629,
-              -18.67998
-            ],
-            [
-              138.54621,
-              -18.68008
-            ],
-            [
-              138.54614,
-              -18.68019
-            ],
-            [
-              138.54606,
-              -18.68032
-            ],
-            [
-              138.54594,
-              -18.68056
-            ],
-            [
-              138.54585,
-              -18.68073
-            ],
-            [
-              138.54578,
-              -18.6809
-            ],
-            [
-              138.54554,
-              -18.68146
-            ],
-            [
-              138.54537,
-              -18.68188
-            ],
-            [
-              138.54531,
-              -18.68201
-            ],
-            [
-              138.54511,
-              -18.68238
-            ],
-            [
-              138.54502,
-              -18.68256
-            ],
-            [
-              138.54497,
-              -18.68265
-            ],
-            [
-              138.54494,
-              -18.68274
-            ],
-            [
-              138.54487,
-              -18.68295
-            ],
-            [
-              138.54463,
-              -18.68395
-            ],
-            [
-              138.54451,
-              -18.68439
-            ],
-            [
-              138.54393,
-              -18.68577
-            ],
-            [
-              138.54371,
-              -18.6863
-            ],
-            [
-              138.5435,
-              -18.68692
-            ],
-            [
-              138.54343,
-              -18.68708
-            ],
-            [
-              138.54335,
-              -18.68721
-            ],
-            [
-              138.5433,
-              -18.68727
-            ],
-            [
-              138.54326,
-              -18.68733
-            ],
-            [
-              138.54321,
-              -18.68738
-            ],
-            [
-              138.54319,
-              -18.68741
-            ],
-            [
-              138.54316,
-              -18.68744
-            ],
-            [
-              138.54313,
-              -18.68747
-            ],
-            [
-              138.5431,
-              -18.6875
-            ],
-            [
-              138.543,
-              -18.68759
-            ],
-            [
-              138.54296,
-              -18.68762
-            ],
-            [
-              138.5429,
-              -18.68766
-            ],
-            [
-              138.54286,
-              -18.68769
-            ],
-            [
-              138.5427489,
-              -18.6877598
-            ]
-          ],
-          [
-            [
-              138.593291,
-              -18.5868318
-            ],
-            [
-              138.5935,
-              -18.58747
-            ],
-            [
-              138.59396,
-              -18.58911
-            ],
-            [
-              138.59407,
-              -18.58954
-            ],
-            [
-              138.5942,
-              -18.58987
-            ],
-            [
-              138.59442,
-              -18.59034
-            ],
-            [
-              138.59482,
-              -18.59114
-            ],
-            [
-              138.59528,
-              -18.592
-            ],
-            [
-              138.59609,
-              -18.59362
-            ],
-            [
-              138.59619,
-              -18.59406
-            ],
-            [
-              138.59629,
-              -18.59476
-            ],
-            [
-              138.59627,
-              -18.59527
-            ],
-            [
-              138.59622,
-              -18.59563
-            ],
-            [
-              138.5961,
-              -18.59606
-            ],
-            [
-              138.59566,
-              -18.59741
-            ],
-            [
-              138.59559,
-              -18.59768
-            ],
-            [
-              138.59548,
-              -18.59797
-            ],
-            [
-              138.59526,
-              -18.59836
-            ],
-            [
-              138.5949,
-              -18.59893
-            ],
-            [
-              138.59362,
-              -18.60078
-            ],
-            [
-              138.59181,
-              -18.60355
-            ],
-            [
-              138.59037,
-              -18.60578
-            ],
-            [
-              138.58942,
-              -18.60727
-            ],
-            [
-              138.58815,
-              -18.60905
-            ],
-            [
-              138.58733,
-              -18.61012
-            ],
-            [
-              138.58695,
-              -18.61057
-            ],
-            [
-              138.5863,
-              -18.61123
-            ],
-            [
-              138.58551,
-              -18.61213
-            ],
-            [
-              138.58468,
-              -18.61305
-            ],
-            [
-              138.58365,
-              -18.61457
-            ],
-            [
-              138.58347,
-              -18.61486
-            ],
-            [
-              138.58332,
-              -18.61504
-            ],
-            [
-              138.58307,
-              -18.61521
-            ],
-            [
-              138.58283,
-              -18.61535
-            ],
-            [
-              138.58209,
-              -18.61569
-            ],
-            [
-              138.58171,
-              -18.61588
-            ],
-            [
-              138.58136,
-              -18.61609
-            ],
-            [
-              138.58106,
-              -18.61631
-            ],
-            [
-              138.580857,
-              -18.616531
-            ]
-          ],
           [
             [
               138.5427783,
@@ -41291,6 +40703,594 @@
           ],
           [
             [
+              138.5631091,
+              -18.6631963
+            ],
+            [
+              138.56277,
+              -18.66351
+            ],
+            [
+              138.56241,
+              -18.66386
+            ],
+            [
+              138.56222,
+              -18.66404
+            ],
+            [
+              138.56206,
+              -18.66418
+            ],
+            [
+              138.56192,
+              -18.66427
+            ],
+            [
+              138.56178,
+              -18.66432
+            ],
+            [
+              138.56159,
+              -18.66433
+            ],
+            [
+              138.56144,
+              -18.66432
+            ],
+            [
+              138.56127,
+              -18.6643
+            ],
+            [
+              138.56065,
+              -18.66415
+            ],
+            [
+              138.56045,
+              -18.66415
+            ],
+            [
+              138.56026,
+              -18.66414
+            ],
+            [
+              138.56009,
+              -18.66413
+            ],
+            [
+              138.5599,
+              -18.66415
+            ],
+            [
+              138.55942,
+              -18.66428
+            ],
+            [
+              138.55924,
+              -18.66436
+            ],
+            [
+              138.55908,
+              -18.66447
+            ],
+            [
+              138.55902,
+              -18.66452
+            ],
+            [
+              138.5589,
+              -18.66464
+            ],
+            [
+              138.55867,
+              -18.66498
+            ],
+            [
+              138.55854,
+              -18.66516
+            ],
+            [
+              138.55835,
+              -18.6654
+            ],
+            [
+              138.55818,
+              -18.66558
+            ],
+            [
+              138.55796,
+              -18.66578
+            ],
+            [
+              138.55693,
+              -18.66666
+            ],
+            [
+              138.55595,
+              -18.6675
+            ],
+            [
+              138.55584,
+              -18.6676
+            ],
+            [
+              138.55548,
+              -18.66788
+            ],
+            [
+              138.55511,
+              -18.6681
+            ],
+            [
+              138.55495,
+              -18.66821
+            ],
+            [
+              138.55485,
+              -18.66828
+            ],
+            [
+              138.55475,
+              -18.66837
+            ],
+            [
+              138.55462,
+              -18.66848
+            ],
+            [
+              138.55444,
+              -18.6687
+            ],
+            [
+              138.55387,
+              -18.66944
+            ],
+            [
+              138.55372,
+              -18.66965
+            ],
+            [
+              138.55358,
+              -18.66988
+            ],
+            [
+              138.55309,
+              -18.67068
+            ],
+            [
+              138.55287,
+              -18.67102
+            ],
+            [
+              138.55244,
+              -18.67158
+            ],
+            [
+              138.55139,
+              -18.67286
+            ],
+            [
+              138.55126,
+              -18.67304
+            ],
+            [
+              138.55114,
+              -18.67326
+            ],
+            [
+              138.55094,
+              -18.67362
+            ],
+            [
+              138.55083,
+              -18.67379
+            ],
+            [
+              138.55077,
+              -18.67386
+            ],
+            [
+              138.55072,
+              -18.67391
+            ],
+            [
+              138.55062,
+              -18.67398
+            ],
+            [
+              138.55021,
+              -18.67431
+            ],
+            [
+              138.55003,
+              -18.67444
+            ],
+            [
+              138.54988,
+              -18.67457
+            ],
+            [
+              138.54938,
+              -18.67503
+            ],
+            [
+              138.54848,
+              -18.67605
+            ],
+            [
+              138.5483,
+              -18.67623
+            ],
+            [
+              138.54822,
+              -18.67633
+            ],
+            [
+              138.54814,
+              -18.67645
+            ],
+            [
+              138.54808,
+              -18.67655
+            ],
+            [
+              138.54803,
+              -18.67668
+            ],
+            [
+              138.54799,
+              -18.67684
+            ],
+            [
+              138.54794,
+              -18.67708
+            ],
+            [
+              138.54792,
+              -18.67716
+            ],
+            [
+              138.54789,
+              -18.67729
+            ],
+            [
+              138.54787,
+              -18.67738
+            ],
+            [
+              138.54784,
+              -18.67743
+            ],
+            [
+              138.54782,
+              -18.67749
+            ],
+            [
+              138.5477,
+              -18.67772
+            ],
+            [
+              138.54727,
+              -18.67843
+            ],
+            [
+              138.54689,
+              -18.67908
+            ],
+            [
+              138.5468,
+              -18.67926
+            ],
+            [
+              138.54673,
+              -18.6794
+            ],
+            [
+              138.54667,
+              -18.6795
+            ],
+            [
+              138.54655,
+              -18.67966
+            ],
+            [
+              138.54629,
+              -18.67998
+            ],
+            [
+              138.54621,
+              -18.68008
+            ],
+            [
+              138.54614,
+              -18.68019
+            ],
+            [
+              138.54606,
+              -18.68032
+            ],
+            [
+              138.54594,
+              -18.68056
+            ],
+            [
+              138.54585,
+              -18.68073
+            ],
+            [
+              138.54578,
+              -18.6809
+            ],
+            [
+              138.54554,
+              -18.68146
+            ],
+            [
+              138.54537,
+              -18.68188
+            ],
+            [
+              138.54531,
+              -18.68201
+            ],
+            [
+              138.54511,
+              -18.68238
+            ],
+            [
+              138.54502,
+              -18.68256
+            ],
+            [
+              138.54497,
+              -18.68265
+            ],
+            [
+              138.54494,
+              -18.68274
+            ],
+            [
+              138.54487,
+              -18.68295
+            ],
+            [
+              138.54463,
+              -18.68395
+            ],
+            [
+              138.54451,
+              -18.68439
+            ],
+            [
+              138.54393,
+              -18.68577
+            ],
+            [
+              138.54371,
+              -18.6863
+            ],
+            [
+              138.5435,
+              -18.68692
+            ],
+            [
+              138.54343,
+              -18.68708
+            ],
+            [
+              138.54335,
+              -18.68721
+            ],
+            [
+              138.5433,
+              -18.68727
+            ],
+            [
+              138.54326,
+              -18.68733
+            ],
+            [
+              138.54321,
+              -18.68738
+            ],
+            [
+              138.54319,
+              -18.68741
+            ],
+            [
+              138.54316,
+              -18.68744
+            ],
+            [
+              138.54313,
+              -18.68747
+            ],
+            [
+              138.5431,
+              -18.6875
+            ],
+            [
+              138.543,
+              -18.68759
+            ],
+            [
+              138.54296,
+              -18.68762
+            ],
+            [
+              138.5429,
+              -18.68766
+            ],
+            [
+              138.54286,
+              -18.68769
+            ],
+            [
+              138.5427489,
+              -18.6877598
+            ]
+          ],
+          [
+            [
+              138.593291,
+              -18.5868318
+            ],
+            [
+              138.5935,
+              -18.58747
+            ],
+            [
+              138.59396,
+              -18.58911
+            ],
+            [
+              138.59407,
+              -18.58954
+            ],
+            [
+              138.5942,
+              -18.58987
+            ],
+            [
+              138.59442,
+              -18.59034
+            ],
+            [
+              138.59482,
+              -18.59114
+            ],
+            [
+              138.59528,
+              -18.592
+            ],
+            [
+              138.59609,
+              -18.59362
+            ],
+            [
+              138.59619,
+              -18.59406
+            ],
+            [
+              138.59629,
+              -18.59476
+            ],
+            [
+              138.59627,
+              -18.59527
+            ],
+            [
+              138.59622,
+              -18.59563
+            ],
+            [
+              138.5961,
+              -18.59606
+            ],
+            [
+              138.59566,
+              -18.59741
+            ],
+            [
+              138.59559,
+              -18.59768
+            ],
+            [
+              138.59548,
+              -18.59797
+            ],
+            [
+              138.59526,
+              -18.59836
+            ],
+            [
+              138.5949,
+              -18.59893
+            ],
+            [
+              138.59362,
+              -18.60078
+            ],
+            [
+              138.59181,
+              -18.60355
+            ],
+            [
+              138.59037,
+              -18.60578
+            ],
+            [
+              138.58942,
+              -18.60727
+            ],
+            [
+              138.58815,
+              -18.60905
+            ],
+            [
+              138.58733,
+              -18.61012
+            ],
+            [
+              138.58695,
+              -18.61057
+            ],
+            [
+              138.5863,
+              -18.61123
+            ],
+            [
+              138.58551,
+              -18.61213
+            ],
+            [
+              138.58468,
+              -18.61305
+            ],
+            [
+              138.58365,
+              -18.61457
+            ],
+            [
+              138.58347,
+              -18.61486
+            ],
+            [
+              138.58332,
+              -18.61504
+            ],
+            [
+              138.58307,
+              -18.61521
+            ],
+            [
+              138.58283,
+              -18.61535
+            ],
+            [
+              138.58209,
+              -18.61569
+            ],
+            [
+              138.58171,
+              -18.61588
+            ],
+            [
+              138.58136,
+              -18.61609
+            ],
+            [
+              138.58106,
+              -18.61631
+            ],
+            [
+              138.580857,
+              -18.616531
+            ]
+          ],
+          [
+            [
               138.580857,
               -18.616531
             ],
@@ -41565,7 +41565,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Lawn Hill National Park to Riversleigh | Restricted to four wheel drive vehicles only",
         "road_name": "Riversleigh Doomadgee Road / Riversleigh Road",
@@ -41595,138 +41595,178 @@
         "coordinates": [
           [
             [
-              141.251400594,
-              -28.808995551
+              141.436029872,
+              -28.651089113
             ],
             [
-              141.2529799,
-              -28.807508
+              141.4361492,
+              -28.6510469
             ],
             [
-              141.2533759,
-              -28.8071671
+              141.4371342,
+              -28.6505443
             ],
             [
-              141.253651103,
-              -28.806959073
+              141.4391425,
+              -28.6493396
             ],
             [
-              141.2537864,
-              -28.8068568
+              141.4397847,
+              -28.648985
             ],
             [
-              141.2541033,
-              -28.8066525
+              141.440196,
+              -28.6488266
             ],
             [
-              141.2556599,
-              -28.8056589
+              141.4406362,
+              -28.648719
             ],
             [
-              141.2561203,
-              -28.8053267
+              141.440670496,
+              -28.648715157
             ],
             [
-              141.256259262,
-              -28.805200988
+              141.4409753,
+              -28.648681
             ],
             [
-              141.2564706,
-              -28.8050098
+              141.4414803,
+              -28.6486597
             ],
             [
-              141.2567653,
-              -28.804711
+              141.4414803,
+              -28.6486597
             ],
             [
-              141.2577136,
-              -28.8036143
+              141.4421543,
+              -28.6487008
             ],
             [
-              141.2585027,
-              -28.8026199
+              141.4427225,
+              -28.6487487
             ],
             [
-              141.259060157,
-              -28.801927988
+              141.44273356,
+              -28.64875042
             ],
             [
-              141.2597079,
-              -28.801124
+              141.4441589,
+              -28.6489721
             ],
             [
-              141.260204,
-              -28.8004675
+              141.445604632,
+              -28.649158184
             ],
             [
-              141.2614892,
-              -28.7988478
+              141.4460181,
+              -28.6492114
             ],
             [
-              141.262358055,
-              -28.79777585
+              141.4475636,
+              -28.6494029
+            ],
+            [
+              141.448815601,
+              -28.649615659
+            ],
+            [
+              141.4495591,
+              -28.649742
+            ],
+            [
+              141.4517729,
+              -28.6500691
+            ],
+            [
+              141.453476582,
+              -28.650274709
+            ],
+            [
+              141.4544502,
+              -28.6503922
+            ],
+            [
+              141.4577413,
+              -28.6508509
+            ],
+            [
+              141.459167725,
+              -28.651013057
+            ],
+            [
+              141.4605141,
+              -28.6511661
+            ],
+            [
+              141.4615596,
+              -28.6512977
+            ],
+            [
+              141.4621551,
+              -28.6513895
+            ],
+            [
+              141.4626506,
+              -28.6514812
+            ],
+            [
+              141.4631733,
+              -28.6515809
+            ],
+            [
+              141.464252018,
+              -28.651873387
             ]
           ],
           [
             [
-              141.036198823,
-              -28.956997857
+              141.100259818,
+              -28.913527116
             ],
             [
-              141.0364376,
-              -28.9566329
+              141.1008701,
+              -28.9131394
             ],
             [
-              141.0374025,
-              -28.9554859
+              141.1020001,
+              -28.9123992
             ],
             [
-              141.037905843,
-              -28.954847941
+              141.1036589,
+              -28.911293
             ],
             [
-              141.0382636,
-              -28.9543945
+              141.1049705,
+              -28.910455
             ],
             [
-              141.039134,
-              -28.9533866
+              141.1064558,
+              -28.9094907
             ],
             [
-              141.0397034,
-              -28.9527031
+              141.1076216,
+              -28.9087263
             ],
             [
-              141.0406465,
-              -28.951704
+              141.1086582,
+              -28.9080596
             ],
             [
-              141.041886017,
-              -28.950321239
+              141.1093638,
+              -28.9075883
             ],
             [
-              141.0419237,
-              -28.9502792
+              141.1107815,
+              -28.9066893
             ],
             [
-              141.0429885,
-              -28.9491267
+              141.1118059,
+              -28.9060167
             ],
             [
-              141.0435959,
-              -28.9484774
-            ],
-            [
-              141.0438433,
-              -28.9482636
-            ],
-            [
-              141.0441892,
-              -28.9479894
-            ],
-            [
-              141.044392668,
-              -28.947870492
+              141.112045172,
+              -28.905854298
             ]
           ],
           [
@@ -41815,6 +41855,28 @@
             [
               141.804174833,
               -28.621590308
+            ]
+          ],
+          [
+            [
+              141.339834702,
+              -28.719984302
+            ],
+            [
+              141.3423904,
+              -28.71811
+            ],
+            [
+              141.3459551,
+              -28.7155446
+            ],
+            [
+              141.3467703,
+              -28.7149863
+            ],
+            [
+              141.354540122,
+              -28.711229317
             ]
           ],
           [
@@ -41977,6 +42039,100 @@
             [
               141.586689903,
               -28.67157297
+            ]
+          ],
+          [
+            [
+              141.111866448,
+              -28.905975604
+            ],
+            [
+              141.1126728,
+              -28.9054283
+            ],
+            [
+              141.1142377,
+              -28.9043572
+            ],
+            [
+              141.1147289,
+              -28.9040524
+            ],
+            [
+              141.1158247,
+              -28.9033382
+            ],
+            [
+              141.1170083,
+              -28.9025748
+            ],
+            [
+              141.118164,
+              -28.9018103
+            ],
+            [
+              141.12028069,
+              -28.900439439
+            ],
+            [
+              141.1207824,
+              -28.9001145
+            ],
+            [
+              141.1212707,
+              -28.8997725
+            ],
+            [
+              141.1217091,
+              -28.8994275
+            ],
+            [
+              141.1221052,
+              -28.8990799
+            ],
+            [
+              141.1224185,
+              -28.8987787
+            ],
+            [
+              141.1227229,
+              -28.8984204
+            ],
+            [
+              141.122724364,
+              -28.89841854
+            ],
+            [
+              141.1233459,
+              -28.8976286
+            ],
+            [
+              141.1240211,
+              -28.8966623
+            ],
+            [
+              141.124300711,
+              -28.896266065
+            ],
+            [
+              141.1248511,
+              -28.8954861
+            ],
+            [
+              141.1252021,
+              -28.8950305
+            ],
+            [
+              141.1253975,
+              -28.8947937
+            ],
+            [
+              141.125687,
+              -28.8945235
+            ],
+            [
+              141.125846656,
+              -28.89439987
             ]
           ],
           [
@@ -42253,6 +42409,108 @@
           ],
           [
             [
+              141.262346488,
+              -28.79779012
+            ],
+            [
+              141.2624047,
+              -28.7977183
+            ],
+            [
+              141.263955,
+              -28.7958551
+            ],
+            [
+              141.2654473,
+              -28.7941445
+            ],
+            [
+              141.2666608,
+              -28.792785
+            ],
+            [
+              141.2671961,
+              -28.7921775
+            ],
+            [
+              141.268027151,
+              -28.791226266
+            ],
+            [
+              141.2680487,
+              -28.7912016
+            ],
+            [
+              141.2682217,
+              -28.7909716
+            ],
+            [
+              141.2683723,
+              -28.7907456
+            ],
+            [
+              141.2687809,
+              -28.7900189
+            ],
+            [
+              141.2690717,
+              -28.7895197
+            ],
+            [
+              141.2691507,
+              -28.7894021
+            ],
+            [
+              141.2692365,
+              -28.7892845
+            ],
+            [
+              141.2692365,
+              -28.7892845
+            ],
+            [
+              141.26943676,
+              -28.789048144
+            ],
+            [
+              141.269439,
+              -28.7890455
+            ],
+            [
+              141.269439,
+              -28.7890455
+            ],
+            [
+              141.2697058,
+              -28.7887812
+            ],
+            [
+              141.2697058,
+              -28.7887812
+            ],
+            [
+              141.2716923,
+              -28.7871091
+            ],
+            [
+              141.2716923,
+              -28.7871091
+            ],
+            [
+              141.2720987,
+              -28.7867706
+            ],
+            [
+              141.2720987,
+              -28.7867706
+            ],
+            [
+              141.272332657,
+              -28.786552232
+            ]
+          ],
+          [
+            [
               141.643615748,
               -28.673444331
             ],
@@ -42367,24 +42625,24 @@
           ],
           [
             [
-              141.339834702,
-              -28.719984302
+              141.296767112,
+              -28.763051777
             ],
             [
-              141.3423904,
-              -28.71811
+              141.298846,
+              -28.761072
             ],
             [
-              141.3459551,
-              -28.7155446
+              141.3027758,
+              -28.7571816
             ],
             [
-              141.3467703,
-              -28.7149863
+              141.306639,
+              -28.753372
             ],
             [
-              141.354540122,
-              -28.711229317
+              141.308423883,
+              -28.751514206
             ]
           ],
           [
@@ -42509,868 +42767,6 @@
           ],
           [
             [
-              141.756251829,
-              -28.659815469
-            ],
-            [
-              141.7587589,
-              -28.6598963
-            ],
-            [
-              141.7602092,
-              -28.6598944
-            ],
-            [
-              141.7617708,
-              -28.659826
-            ],
-            [
-              141.761791429,
-              -28.659823688
-            ],
-            [
-              141.7624453,
-              -28.6597504
-            ],
-            [
-              141.7629701,
-              -28.6596235
-            ],
-            [
-              141.7633883,
-              -28.6594942
-            ],
-            [
-              141.7636325,
-              -28.6594142
-            ],
-            [
-              141.7640118,
-              -28.6592493
-            ],
-            [
-              141.764324221,
-              -28.659095474
-            ],
-            [
-              141.775233428,
-              -28.648771197
-            ]
-          ],
-          [
-            [
-              141.111866448,
-              -28.905975604
-            ],
-            [
-              141.1126728,
-              -28.9054283
-            ],
-            [
-              141.1142377,
-              -28.9043572
-            ],
-            [
-              141.1147289,
-              -28.9040524
-            ],
-            [
-              141.1158247,
-              -28.9033382
-            ],
-            [
-              141.1170083,
-              -28.9025748
-            ],
-            [
-              141.118164,
-              -28.9018103
-            ],
-            [
-              141.12028069,
-              -28.900439439
-            ],
-            [
-              141.1207824,
-              -28.9001145
-            ],
-            [
-              141.1212707,
-              -28.8997725
-            ],
-            [
-              141.1217091,
-              -28.8994275
-            ],
-            [
-              141.1221052,
-              -28.8990799
-            ],
-            [
-              141.1224185,
-              -28.8987787
-            ],
-            [
-              141.1227229,
-              -28.8984204
-            ],
-            [
-              141.122724364,
-              -28.89841854
-            ],
-            [
-              141.1233459,
-              -28.8976286
-            ],
-            [
-              141.1240211,
-              -28.8966623
-            ],
-            [
-              141.124300711,
-              -28.896266065
-            ],
-            [
-              141.1248511,
-              -28.8954861
-            ],
-            [
-              141.1252021,
-              -28.8950305
-            ],
-            [
-              141.1253975,
-              -28.8947937
-            ],
-            [
-              141.125687,
-              -28.8945235
-            ],
-            [
-              141.125846656,
-              -28.89439987
-            ]
-          ],
-          [
-            [
-              141.262346488,
-              -28.79779012
-            ],
-            [
-              141.2624047,
-              -28.7977183
-            ],
-            [
-              141.263955,
-              -28.7958551
-            ],
-            [
-              141.2654473,
-              -28.7941445
-            ],
-            [
-              141.2666608,
-              -28.792785
-            ],
-            [
-              141.2671961,
-              -28.7921775
-            ],
-            [
-              141.268027151,
-              -28.791226266
-            ],
-            [
-              141.2680487,
-              -28.7912016
-            ],
-            [
-              141.2682217,
-              -28.7909716
-            ],
-            [
-              141.2683723,
-              -28.7907456
-            ],
-            [
-              141.2687809,
-              -28.7900189
-            ],
-            [
-              141.2690717,
-              -28.7895197
-            ],
-            [
-              141.2691507,
-              -28.7894021
-            ],
-            [
-              141.2692365,
-              -28.7892845
-            ],
-            [
-              141.2692365,
-              -28.7892845
-            ],
-            [
-              141.26943676,
-              -28.789048144
-            ],
-            [
-              141.269439,
-              -28.7890455
-            ],
-            [
-              141.269439,
-              -28.7890455
-            ],
-            [
-              141.2697058,
-              -28.7887812
-            ],
-            [
-              141.2697058,
-              -28.7887812
-            ],
-            [
-              141.2716923,
-              -28.7871091
-            ],
-            [
-              141.2716923,
-              -28.7871091
-            ],
-            [
-              141.2720987,
-              -28.7867706
-            ],
-            [
-              141.2720987,
-              -28.7867706
-            ],
-            [
-              141.272332657,
-              -28.786552232
-            ]
-          ],
-          [
-            [
-              141.090608216,
-              -28.919908379
-            ],
-            [
-              141.0906141,
-              -28.9199015
-            ],
-            [
-              141.0908095,
-              -28.9196968
-            ],
-            [
-              141.0909844,
-              -28.9195399
-            ],
-            [
-              141.0911756,
-              -28.919394
-            ],
-            [
-              141.091469518,
-              -28.919199367
-            ],
-            [
-              141.0914965,
-              -28.9191815
-            ],
-            [
-              141.0924871,
-              -28.9185478
-            ],
-            [
-              141.0935593,
-              -28.9178697
-            ],
-            [
-              141.0947553,
-              -28.917085
-            ],
-            [
-              141.0958983,
-              -28.9163534
-            ],
-            [
-              141.095995744,
-              -28.91629074
-            ],
-            [
-              141.0973887,
-              -28.915395
-            ],
-            [
-              141.0985662,
-              -28.9146281
-            ],
-            [
-              141.0996341,
-              -28.9139364
-            ],
-            [
-              141.1000379,
-              -28.9136681
-            ],
-            [
-              141.100308619,
-              -28.913496112
-            ]
-          ],
-          [
-            [
-              141.239599991,
-              -28.820973111
-            ],
-            [
-              141.2408322,
-              -28.8194555
-            ],
-            [
-              141.242042,
-              -28.818068
-            ],
-            [
-              141.242967166,
-              -28.817060228
-            ],
-            [
-              141.2432448,
-              -28.8167578
-            ],
-            [
-              141.244292,
-              -28.8157425
-            ],
-            [
-              141.247313,
-              -28.812875
-            ],
-            [
-              141.248077786,
-              -28.812145566
-            ],
-            [
-              141.2497847,
-              -28.8105175
-            ],
-            [
-              141.251453769,
-              -28.808945466
-            ]
-          ],
-          [
-            [
-              141.436029872,
-              -28.651089113
-            ],
-            [
-              141.4361492,
-              -28.6510469
-            ],
-            [
-              141.4371342,
-              -28.6505443
-            ],
-            [
-              141.4391425,
-              -28.6493396
-            ],
-            [
-              141.4397847,
-              -28.648985
-            ],
-            [
-              141.440196,
-              -28.6488266
-            ],
-            [
-              141.4406362,
-              -28.648719
-            ],
-            [
-              141.440670496,
-              -28.648715157
-            ],
-            [
-              141.4409753,
-              -28.648681
-            ],
-            [
-              141.4414803,
-              -28.6486597
-            ],
-            [
-              141.4414803,
-              -28.6486597
-            ],
-            [
-              141.4421543,
-              -28.6487008
-            ],
-            [
-              141.4427225,
-              -28.6487487
-            ],
-            [
-              141.44273356,
-              -28.64875042
-            ],
-            [
-              141.4441589,
-              -28.6489721
-            ],
-            [
-              141.445604632,
-              -28.649158184
-            ],
-            [
-              141.4460181,
-              -28.6492114
-            ],
-            [
-              141.4475636,
-              -28.6494029
-            ],
-            [
-              141.448815601,
-              -28.649615659
-            ],
-            [
-              141.4495591,
-              -28.649742
-            ],
-            [
-              141.4517729,
-              -28.6500691
-            ],
-            [
-              141.453476582,
-              -28.650274709
-            ],
-            [
-              141.4544502,
-              -28.6503922
-            ],
-            [
-              141.4577413,
-              -28.6508509
-            ],
-            [
-              141.459167725,
-              -28.651013057
-            ],
-            [
-              141.4605141,
-              -28.6511661
-            ],
-            [
-              141.4615596,
-              -28.6512977
-            ],
-            [
-              141.4621551,
-              -28.6513895
-            ],
-            [
-              141.4626506,
-              -28.6514812
-            ],
-            [
-              141.4631733,
-              -28.6515809
-            ],
-            [
-              141.464252018,
-              -28.651873387
-            ]
-          ],
-          [
-            [
-              141.727738148,
-              -28.659021281
-            ],
-            [
-              141.7310429,
-              -28.6590956
-            ],
-            [
-              141.7372181,
-              -28.6593731
-            ],
-            [
-              141.7420956,
-              -28.6594455
-            ],
-            [
-              141.7453855,
-              -28.6595434
-            ],
-            [
-              141.7513719,
-              -28.6596813
-            ],
-            [
-              141.7547988,
-              -28.6597686
-            ],
-            [
-              141.756251829,
-              -28.659815469
-            ]
-          ],
-          [
-            [
-              141.005951772,
-              -28.989839616
-            ],
-            [
-              141.0061428,
-              -28.9896168
-            ],
-            [
-              141.0072784,
-              -28.9883918
-            ],
-            [
-              141.0080478,
-              -28.9875792
-            ],
-            [
-              141.0096763,
-              -28.9856902
-            ],
-            [
-              141.0105531,
-              -28.9846503
-            ],
-            [
-              141.0110957,
-              -28.9840312
-            ],
-            [
-              141.0115634,
-              -28.9835001
-            ],
-            [
-              141.011814735,
-              -28.983210253
-            ],
-            [
-              141.016247904,
-              -28.979067934
-            ]
-          ],
-          [
-            [
-              141.317399615,
-              -28.741544937
-            ],
-            [
-              141.3181837,
-              -28.7397039
-            ],
-            [
-              141.3185046,
-              -28.73883
-            ],
-            [
-              141.318679,
-              -28.7384704
-            ],
-            [
-              141.3187885,
-              -28.7383053
-            ],
-            [
-              141.318923434,
-              -28.738154013
-            ],
-            [
-              141.3189362,
-              -28.7381397
-            ],
-            [
-              141.3205259,
-              -28.736541
-            ],
-            [
-              141.322051402,
-              -28.735154969
-            ],
-            [
-              141.3224401,
-              -28.7348018
-            ],
-            [
-              141.3233517,
-              -28.7340471
-            ],
-            [
-              141.3240149,
-              -28.7335706
-            ],
-            [
-              141.327384818,
-              -28.731355026
-            ]
-          ],
-          [
-            [
-              141.272209361,
-              -28.786667313
-            ],
-            [
-              141.2765096,
-              -28.7826534
-            ],
-            [
-              141.2774613,
-              -28.7817212
-            ],
-            [
-              141.2802787,
-              -28.7789172
-            ],
-            [
-              141.2825466,
-              -28.7767905
-            ]
-          ],
-          [
-            [
-              140.999327932,
-              -28.997985392
-            ],
-            [
-              140.9994265,
-              -28.9979545
-            ],
-            [
-              140.9994265,
-              -28.9979545
-            ],
-            [
-              140.9996914,
-              -28.9978715
-            ],
-            [
-              140.9999709,
-              -28.9977726
-            ],
-            [
-              141.0002553,
-              -28.997643
-            ],
-            [
-              141.0005036,
-              -28.9974999
-            ],
-            [
-              141.0007172,
-              -28.9973384
-            ],
-            [
-              141.000796935,
-              -28.997254943
-            ],
-            [
-              141.0008736,
-              -28.9971747
-            ],
-            [
-              141.0010221,
-              -28.996979
-            ],
-            [
-              141.0014493,
-              -28.9963263
-            ],
-            [
-              141.0019219,
-              -28.9955393
-            ],
-            [
-              141.002521,
-              -28.994566
-            ],
-            [
-              141.0031342,
-              -28.9936015
-            ],
-            [
-              141.003581458,
-              -28.992908965
-            ],
-            [
-              141.0036641,
-              -28.992781
-            ],
-            [
-              141.0042989,
-              -28.9918748
-            ],
-            [
-              141.0048299,
-              -28.9911729
-            ],
-            [
-              141.0055232,
-              -28.9903395
-            ],
-            [
-              141.005957146,
-              -28.989833348
-            ]
-          ],
-          [
-            [
-              141.296767112,
-              -28.763051777
-            ],
-            [
-              141.298846,
-              -28.761072
-            ],
-            [
-              141.3027758,
-              -28.7571816
-            ],
-            [
-              141.306639,
-              -28.753372
-            ],
-            [
-              141.308423883,
-              -28.751514206
-            ]
-          ],
-          [
-            [
-              141.327254391,
-              -28.731440779
-            ],
-            [
-              141.3275622,
-              -28.7312384
-            ],
-            [
-              141.3298347,
-              -28.7299
-            ],
-            [
-              141.330282443,
-              -28.729583032
-            ],
-            [
-              141.330603,
-              -28.7293561
-            ],
-            [
-              141.3312482,
-              -28.7288027
-            ],
-            [
-              141.333631967,
-              -28.726297338
-            ],
-            [
-              141.3352887,
-              -28.724556
-            ],
-            [
-              141.3357162,
-              -28.7239697
-            ],
-            [
-              141.3364362,
-              -28.7228281
-            ],
-            [
-              141.336576647,
-              -28.722608547
-            ],
-            [
-              141.3367208,
-              -28.7223832
-            ],
-            [
-              141.3369476,
-              -28.7221382
-            ],
-            [
-              141.3372887,
-              -28.721834
-            ],
-            [
-              141.338881,
-              -28.7206837
-            ],
-            [
-              141.339872833,
-              -28.719956338
-            ]
-          ],
-          [
-            [
-              141.791296088,
-              -28.636771097
-            ],
-            [
-              141.7916155,
-              -28.6363581
-            ],
-            [
-              141.7924842,
-              -28.6353333
-            ],
-            [
-              141.794905,
-              -28.6323575
-            ],
-            [
-              141.7962718,
-              -28.6306564
-            ],
-            [
-              141.7974858,
-              -28.6291937
-            ],
-            [
-              141.7988526,
-              -28.6276309
-            ],
-            [
-              141.800861135,
-              -28.625299634
-            ]
-          ],
-          [
-            [
-              141.064150502,
-              -28.941653941
-            ],
-            [
-              141.0648427,
-              -28.9410835
-            ],
-            [
-              141.0697884,
-              -28.9369366
-            ],
-            [
-              141.0732139,
-              -28.9340263
-            ]
-          ],
-          [
-            [
               141.354590439,
               -28.711203131
             ],
@@ -43471,44 +42867,6 @@
           ],
           [
             [
-              141.382072677,
-              -28.689692519
-            ],
-            [
-              141.3836752,
-              -28.6880309
-            ],
-            [
-              141.3848378,
-              -28.6868151
-            ],
-            [
-              141.3852902,
-              -28.6864282
-            ],
-            [
-              141.385490572,
-              -28.686275249
-            ],
-            [
-              141.3855995,
-              -28.6861921
-            ],
-            [
-              141.3897574,
-              -28.6838508
-            ],
-            [
-              141.3969526,
-              -28.6798413
-            ],
-            [
-              141.397013118,
-              -28.679806524
-            ]
-          ],
-          [
-            [
               141.284325144,
               -28.775063012
             ],
@@ -43535,210 +42893,52 @@
           ],
           [
             [
-              141.153326562,
-              -28.890661616
+              141.756251829,
+              -28.659815469
             ],
             [
-              141.1537671,
-              -28.8899759
+              141.7587589,
+              -28.6598963
             ],
             [
-              141.154432,
-              -28.8889715
+              141.7602092,
+              -28.6598944
             ],
             [
-              141.1550445,
-              -28.8880811
+              141.7617708,
+              -28.659826
             ],
             [
-              141.1554062,
-              -28.8876027
+              141.761791429,
+              -28.659823688
             ],
             [
-              141.1557963,
-              -28.8871213
+              141.7624453,
+              -28.6597504
             ],
             [
-              141.1569889,
-              -28.8857658
+              141.7629701,
+              -28.6596235
             ],
             [
-              141.1576266,
-              -28.8850561
+              141.7633883,
+              -28.6594942
             ],
             [
-              141.1579383,
-              -28.8847291
+              141.7636325,
+              -28.6594142
             ],
             [
-              141.1581374,
-              -28.8845426
+              141.7640118,
+              -28.6592493
             ],
             [
-              141.158421203,
-              -28.884293403
+              141.764324221,
+              -28.659095474
             ],
             [
-              141.162548975,
-              -28.881400585
-            ],
-            [
-              141.1635389,
-              -28.8808122
-            ],
-            [
-              141.1646423,
-              -28.8801803
-            ],
-            [
-              141.165168997,
-              -28.879882876
-            ]
-          ],
-          [
-            [
-              141.421269743,
-              -28.660839266
-            ],
-            [
-              141.4229538,
-              -28.6598418
-            ],
-            [
-              141.4270774,
-              -28.6574396
-            ],
-            [
-              141.427225198,
-              -28.657343785
-            ],
-            [
-              141.4286122,
-              -28.6564446
-            ],
-            [
-              141.4298951,
-              -28.6553088
-            ],
-            [
-              141.4327014,
-              -28.6527657
-            ],
-            [
-              141.4335032,
-              -28.6521827
-            ],
-            [
-              141.4339728,
-              -28.6519013
-            ],
-            [
-              141.434024842,
-              -28.651876597
-            ],
-            [
-              141.4346716,
-              -28.6515696
-            ],
-            [
-              141.436037535,
-              -28.651086402
-            ]
-          ],
-          [
-            [
-              141.492623117,
-              -28.656454319
-            ],
-            [
-              141.4962656,
-              -28.6570179
-            ],
-            [
-              141.499739797,
-              -28.657567569
-            ],
-            [
-              141.5038295,
-              -28.6582145
-            ],
-            [
-              141.504275938,
-              -28.658287467
-            ],
-            [
-              141.513395688,
-              -28.659840083
-            ],
-            [
-              141.5148482,
-              -28.6600932
-            ],
-            [
-              141.5189457,
-              -28.6608387
-            ]
-          ],
-          [
-            [
-              141.227305819,
-              -28.833480956
-            ],
-            [
-              141.2281172,
-              -28.8327322
-            ],
-            [
-              141.2302134,
-              -28.830789
-            ],
-            [
-              141.2319129,
-              -28.8292976
-            ],
-            [
-              141.234893698,
-              -28.826745643
-            ],
-            [
-              141.2349831,
-              -28.8266691
-            ],
-            [
-              141.2356828,
-              -28.8259672
-            ],
-            [
-              141.23581,
-              -28.8258292
-            ],
-            [
-              141.2358323,
-              -28.8257954
-            ],
-            [
-              141.2358941,
-              -28.8257272
-            ],
-            [
-              141.2364055,
-              -28.8251301
-            ],
-            [
-              141.2374426,
-              -28.823787
-            ],
-            [
-              141.2385101,
-              -28.8223789
-            ],
-            [
-              141.239562,
-              -28.8210199
-            ],
-            [
-              141.239565055,
-              -28.821016137
+              141.775233428,
+              -28.648771197
             ]
           ],
           [
@@ -44101,56 +43301,604 @@
           ],
           [
             [
-              141.612936146,
-              -28.675561088
+              141.090608216,
+              -28.919908379
             ],
             [
-              141.6139519,
-              -28.675723
+              141.0906141,
+              -28.9199015
             ],
             [
-              141.615800249,
-              -28.675993911
+              141.0908095,
+              -28.9196968
             ],
             [
-              141.6180717,
-              -28.6763268
+              141.0909844,
+              -28.9195399
             ],
             [
-              141.619115721,
-              -28.676410072
+              141.0911756,
+              -28.919394
             ],
             [
-              141.61958,
-              -28.6764471
+              141.091469518,
+              -28.919199367
             ],
             [
-              141.6208239,
-              -28.6764041
+              141.0914965,
+              -28.9191815
             ],
             [
-              141.6223126,
-              -28.6762752
+              141.0924871,
+              -28.9185478
             ],
             [
-              141.6258189,
-              -28.6758112
+              141.0935593,
+              -28.9178697
             ],
             [
-              141.626331976,
-              -28.675745566
+              141.0947553,
+              -28.917085
             ],
             [
-              141.6324006,
-              -28.6749691
+              141.0958983,
+              -28.9163534
             ],
             [
-              141.641341,
-              -28.6737572
+              141.095995744,
+              -28.91629074
             ],
             [
-              141.643748106,
-              -28.673426126
+              141.0973887,
+              -28.915395
+            ],
+            [
+              141.0985662,
+              -28.9146281
+            ],
+            [
+              141.0996341,
+              -28.9139364
+            ],
+            [
+              141.1000379,
+              -28.9136681
+            ],
+            [
+              141.100308619,
+              -28.913496112
+            ]
+          ],
+          [
+            [
+              141.036198823,
+              -28.956997857
+            ],
+            [
+              141.0364376,
+              -28.9566329
+            ],
+            [
+              141.0374025,
+              -28.9554859
+            ],
+            [
+              141.037905843,
+              -28.954847941
+            ],
+            [
+              141.0382636,
+              -28.9543945
+            ],
+            [
+              141.039134,
+              -28.9533866
+            ],
+            [
+              141.0397034,
+              -28.9527031
+            ],
+            [
+              141.0406465,
+              -28.951704
+            ],
+            [
+              141.041886017,
+              -28.950321239
+            ],
+            [
+              141.0419237,
+              -28.9502792
+            ],
+            [
+              141.0429885,
+              -28.9491267
+            ],
+            [
+              141.0435959,
+              -28.9484774
+            ],
+            [
+              141.0438433,
+              -28.9482636
+            ],
+            [
+              141.0441892,
+              -28.9479894
+            ],
+            [
+              141.044392668,
+              -28.947870492
+            ]
+          ],
+          [
+            [
+              141.239599991,
+              -28.820973111
+            ],
+            [
+              141.2408322,
+              -28.8194555
+            ],
+            [
+              141.242042,
+              -28.818068
+            ],
+            [
+              141.242967166,
+              -28.817060228
+            ],
+            [
+              141.2432448,
+              -28.8167578
+            ],
+            [
+              141.244292,
+              -28.8157425
+            ],
+            [
+              141.247313,
+              -28.812875
+            ],
+            [
+              141.248077786,
+              -28.812145566
+            ],
+            [
+              141.2497847,
+              -28.8105175
+            ],
+            [
+              141.251453769,
+              -28.808945466
+            ]
+          ],
+          [
+            [
+              141.251400594,
+              -28.808995551
+            ],
+            [
+              141.2529799,
+              -28.807508
+            ],
+            [
+              141.2533759,
+              -28.8071671
+            ],
+            [
+              141.253651103,
+              -28.806959073
+            ],
+            [
+              141.2537864,
+              -28.8068568
+            ],
+            [
+              141.2541033,
+              -28.8066525
+            ],
+            [
+              141.2556599,
+              -28.8056589
+            ],
+            [
+              141.2561203,
+              -28.8053267
+            ],
+            [
+              141.256259262,
+              -28.805200988
+            ],
+            [
+              141.2564706,
+              -28.8050098
+            ],
+            [
+              141.2567653,
+              -28.804711
+            ],
+            [
+              141.2577136,
+              -28.8036143
+            ],
+            [
+              141.2585027,
+              -28.8026199
+            ],
+            [
+              141.259060157,
+              -28.801927988
+            ],
+            [
+              141.2597079,
+              -28.801124
+            ],
+            [
+              141.260204,
+              -28.8004675
+            ],
+            [
+              141.2614892,
+              -28.7988478
+            ],
+            [
+              141.262358055,
+              -28.79777585
+            ]
+          ],
+          [
+            [
+              141.005951772,
+              -28.989839616
+            ],
+            [
+              141.0061428,
+              -28.9896168
+            ],
+            [
+              141.0072784,
+              -28.9883918
+            ],
+            [
+              141.0080478,
+              -28.9875792
+            ],
+            [
+              141.0096763,
+              -28.9856902
+            ],
+            [
+              141.0105531,
+              -28.9846503
+            ],
+            [
+              141.0110957,
+              -28.9840312
+            ],
+            [
+              141.0115634,
+              -28.9835001
+            ],
+            [
+              141.011814735,
+              -28.983210253
+            ],
+            [
+              141.016247904,
+              -28.979067934
+            ]
+          ],
+          [
+            [
+              141.727738148,
+              -28.659021281
+            ],
+            [
+              141.7310429,
+              -28.6590956
+            ],
+            [
+              141.7372181,
+              -28.6593731
+            ],
+            [
+              141.7420956,
+              -28.6594455
+            ],
+            [
+              141.7453855,
+              -28.6595434
+            ],
+            [
+              141.7513719,
+              -28.6596813
+            ],
+            [
+              141.7547988,
+              -28.6597686
+            ],
+            [
+              141.756251829,
+              -28.659815469
+            ]
+          ],
+          [
+            [
+              141.272209361,
+              -28.786667313
+            ],
+            [
+              141.2765096,
+              -28.7826534
+            ],
+            [
+              141.2774613,
+              -28.7817212
+            ],
+            [
+              141.2802787,
+              -28.7789172
+            ],
+            [
+              141.2825466,
+              -28.7767905
+            ]
+          ],
+          [
+            [
+              141.317399615,
+              -28.741544937
+            ],
+            [
+              141.3181837,
+              -28.7397039
+            ],
+            [
+              141.3185046,
+              -28.73883
+            ],
+            [
+              141.318679,
+              -28.7384704
+            ],
+            [
+              141.3187885,
+              -28.7383053
+            ],
+            [
+              141.318923434,
+              -28.738154013
+            ],
+            [
+              141.3189362,
+              -28.7381397
+            ],
+            [
+              141.3205259,
+              -28.736541
+            ],
+            [
+              141.322051402,
+              -28.735154969
+            ],
+            [
+              141.3224401,
+              -28.7348018
+            ],
+            [
+              141.3233517,
+              -28.7340471
+            ],
+            [
+              141.3240149,
+              -28.7335706
+            ],
+            [
+              141.327384818,
+              -28.731355026
+            ]
+          ],
+          [
+            [
+              141.464276123,
+              -28.651879923
+            ],
+            [
+              141.4646006,
+              -28.6519679
+            ],
+            [
+              141.4660954,
+              -28.6523452
+            ],
+            [
+              141.4666325,
+              -28.6524426
+            ],
+            [
+              141.4682599,
+              -28.6527019
+            ],
+            [
+              141.468298119,
+              -28.652707812
+            ],
+            [
+              141.4732374,
+              -28.6534717
+            ],
+            [
+              141.47742863,
+              -28.654107652
+            ],
+            [
+              141.477599,
+              -28.6541335
+            ],
+            [
+              141.4849242,
+              -28.6552747
+            ],
+            [
+              141.4908517,
+              -28.6561802
+            ],
+            [
+              141.492510282,
+              -28.656436859
+            ]
+          ],
+          [
+            [
+              140.999327932,
+              -28.997985392
+            ],
+            [
+              140.9994265,
+              -28.9979545
+            ],
+            [
+              140.9994265,
+              -28.9979545
+            ],
+            [
+              140.9996914,
+              -28.9978715
+            ],
+            [
+              140.9999709,
+              -28.9977726
+            ],
+            [
+              141.0002553,
+              -28.997643
+            ],
+            [
+              141.0005036,
+              -28.9974999
+            ],
+            [
+              141.0007172,
+              -28.9973384
+            ],
+            [
+              141.000796935,
+              -28.997254943
+            ],
+            [
+              141.0008736,
+              -28.9971747
+            ],
+            [
+              141.0010221,
+              -28.996979
+            ],
+            [
+              141.0014493,
+              -28.9963263
+            ],
+            [
+              141.0019219,
+              -28.9955393
+            ],
+            [
+              141.002521,
+              -28.994566
+            ],
+            [
+              141.0031342,
+              -28.9936015
+            ],
+            [
+              141.003581458,
+              -28.992908965
+            ],
+            [
+              141.0036641,
+              -28.992781
+            ],
+            [
+              141.0042989,
+              -28.9918748
+            ],
+            [
+              141.0048299,
+              -28.9911729
+            ],
+            [
+              141.0055232,
+              -28.9903395
+            ],
+            [
+              141.005957146,
+              -28.989833348
+            ]
+          ],
+          [
+            [
+              141.327254391,
+              -28.731440779
+            ],
+            [
+              141.3275622,
+              -28.7312384
+            ],
+            [
+              141.3298347,
+              -28.7299
+            ],
+            [
+              141.330282443,
+              -28.729583032
+            ],
+            [
+              141.330603,
+              -28.7293561
+            ],
+            [
+              141.3312482,
+              -28.7288027
+            ],
+            [
+              141.333631967,
+              -28.726297338
+            ],
+            [
+              141.3352887,
+              -28.724556
+            ],
+            [
+              141.3357162,
+              -28.7239697
+            ],
+            [
+              141.3364362,
+              -28.7228281
+            ],
+            [
+              141.336576647,
+              -28.722608547
+            ],
+            [
+              141.3367208,
+              -28.7223832
+            ],
+            [
+              141.3369476,
+              -28.7221382
+            ],
+            [
+              141.3372887,
+              -28.721834
+            ],
+            [
+              141.338881,
+              -28.7206837
+            ],
+            [
+              141.339872833,
+              -28.719956338
             ]
           ],
           [
@@ -44373,102 +44121,354 @@
           ],
           [
             [
-              141.100259818,
-              -28.913527116
+              141.791296088,
+              -28.636771097
             ],
             [
-              141.1008701,
-              -28.9131394
+              141.7916155,
+              -28.6363581
             ],
             [
-              141.1020001,
-              -28.9123992
+              141.7924842,
+              -28.6353333
             ],
             [
-              141.1036589,
-              -28.911293
+              141.794905,
+              -28.6323575
             ],
             [
-              141.1049705,
-              -28.910455
+              141.7962718,
+              -28.6306564
             ],
             [
-              141.1064558,
-              -28.9094907
+              141.7974858,
+              -28.6291937
             ],
             [
-              141.1076216,
-              -28.9087263
+              141.7988526,
+              -28.6276309
             ],
             [
-              141.1086582,
-              -28.9080596
-            ],
-            [
-              141.1093638,
-              -28.9075883
-            ],
-            [
-              141.1107815,
-              -28.9066893
-            ],
-            [
-              141.1118059,
-              -28.9060167
-            ],
-            [
-              141.112045172,
-              -28.905854298
+              141.800861135,
+              -28.625299634
             ]
           ],
           [
             [
-              141.464276123,
-              -28.651879923
+              141.064150502,
+              -28.941653941
             ],
             [
-              141.4646006,
-              -28.6519679
+              141.0648427,
+              -28.9410835
             ],
             [
-              141.4660954,
-              -28.6523452
+              141.0697884,
+              -28.9369366
             ],
             [
-              141.4666325,
-              -28.6524426
+              141.0732139,
+              -28.9340263
+            ]
+          ],
+          [
+            [
+              141.612936146,
+              -28.675561088
             ],
             [
-              141.4682599,
-              -28.6527019
+              141.6139519,
+              -28.675723
             ],
             [
-              141.468298119,
-              -28.652707812
+              141.615800249,
+              -28.675993911
             ],
             [
-              141.4732374,
-              -28.6534717
+              141.6180717,
+              -28.6763268
             ],
             [
-              141.47742863,
-              -28.654107652
+              141.619115721,
+              -28.676410072
             ],
             [
-              141.477599,
-              -28.6541335
+              141.61958,
+              -28.6764471
             ],
             [
-              141.4849242,
-              -28.6552747
+              141.6208239,
+              -28.6764041
             ],
             [
-              141.4908517,
-              -28.6561802
+              141.6223126,
+              -28.6762752
             ],
             [
-              141.492510282,
-              -28.656436859
+              141.6258189,
+              -28.6758112
+            ],
+            [
+              141.626331976,
+              -28.675745566
+            ],
+            [
+              141.6324006,
+              -28.6749691
+            ],
+            [
+              141.641341,
+              -28.6737572
+            ],
+            [
+              141.643748106,
+              -28.673426126
+            ]
+          ],
+          [
+            [
+              141.382072677,
+              -28.689692519
+            ],
+            [
+              141.3836752,
+              -28.6880309
+            ],
+            [
+              141.3848378,
+              -28.6868151
+            ],
+            [
+              141.3852902,
+              -28.6864282
+            ],
+            [
+              141.385490572,
+              -28.686275249
+            ],
+            [
+              141.3855995,
+              -28.6861921
+            ],
+            [
+              141.3897574,
+              -28.6838508
+            ],
+            [
+              141.3969526,
+              -28.6798413
+            ],
+            [
+              141.397013118,
+              -28.679806524
+            ]
+          ],
+          [
+            [
+              141.227305819,
+              -28.833480956
+            ],
+            [
+              141.2281172,
+              -28.8327322
+            ],
+            [
+              141.2302134,
+              -28.830789
+            ],
+            [
+              141.2319129,
+              -28.8292976
+            ],
+            [
+              141.234893698,
+              -28.826745643
+            ],
+            [
+              141.2349831,
+              -28.8266691
+            ],
+            [
+              141.2356828,
+              -28.8259672
+            ],
+            [
+              141.23581,
+              -28.8258292
+            ],
+            [
+              141.2358323,
+              -28.8257954
+            ],
+            [
+              141.2358941,
+              -28.8257272
+            ],
+            [
+              141.2364055,
+              -28.8251301
+            ],
+            [
+              141.2374426,
+              -28.823787
+            ],
+            [
+              141.2385101,
+              -28.8223789
+            ],
+            [
+              141.239562,
+              -28.8210199
+            ],
+            [
+              141.239565055,
+              -28.821016137
+            ]
+          ],
+          [
+            [
+              141.421269743,
+              -28.660839266
+            ],
+            [
+              141.4229538,
+              -28.6598418
+            ],
+            [
+              141.4270774,
+              -28.6574396
+            ],
+            [
+              141.427225198,
+              -28.657343785
+            ],
+            [
+              141.4286122,
+              -28.6564446
+            ],
+            [
+              141.4298951,
+              -28.6553088
+            ],
+            [
+              141.4327014,
+              -28.6527657
+            ],
+            [
+              141.4335032,
+              -28.6521827
+            ],
+            [
+              141.4339728,
+              -28.6519013
+            ],
+            [
+              141.434024842,
+              -28.651876597
+            ],
+            [
+              141.4346716,
+              -28.6515696
+            ],
+            [
+              141.436037535,
+              -28.651086402
+            ]
+          ],
+          [
+            [
+              141.492623117,
+              -28.656454319
+            ],
+            [
+              141.4962656,
+              -28.6570179
+            ],
+            [
+              141.499739797,
+              -28.657567569
+            ],
+            [
+              141.5038295,
+              -28.6582145
+            ],
+            [
+              141.504275938,
+              -28.658287467
+            ],
+            [
+              141.513395688,
+              -28.659840083
+            ],
+            [
+              141.5148482,
+              -28.6600932
+            ],
+            [
+              141.5189457,
+              -28.6608387
+            ]
+          ],
+          [
+            [
+              141.153326562,
+              -28.890661616
+            ],
+            [
+              141.1537671,
+              -28.8899759
+            ],
+            [
+              141.154432,
+              -28.8889715
+            ],
+            [
+              141.1550445,
+              -28.8880811
+            ],
+            [
+              141.1554062,
+              -28.8876027
+            ],
+            [
+              141.1557963,
+              -28.8871213
+            ],
+            [
+              141.1569889,
+              -28.8857658
+            ],
+            [
+              141.1576266,
+              -28.8850561
+            ],
+            [
+              141.1579383,
+              -28.8847291
+            ],
+            [
+              141.1581374,
+              -28.8845426
+            ],
+            [
+              141.158421203,
+              -28.884293403
+            ],
+            [
+              141.162548975,
+              -28.881400585
+            ],
+            [
+              141.1635389,
+              -28.8808122
+            ],
+            [
+              141.1646423,
+              -28.8801803
+            ],
+            [
+              141.165168997,
+              -28.879882876
             ]
           ]
         ]
@@ -44485,7 +44485,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Camerons Corner Road",
@@ -44531,7 +44531,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Road Opened with give way signage in place | Lane or lanes reduced",
         "road_name": "Olsens Road",
@@ -50643,7 +50643,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Gregory Downs - Camooweal Road to Old Herbert Vale Road (Mount Isa LGA Only) | Road closed to all traffic",
         "road_name": "Riversleigh Road",
@@ -50689,7 +50689,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "EMERGENCY ROADWORK Road damage MOUNT VICTORIA Great Western Highway at Victoria Pass",
         "road_name": "Great Western Highway",
@@ -50735,7 +50735,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Glenorina Road is OPEN with CAUTION | Lane or lanes reduced",
         "road_name": "Glenorina Road",
@@ -50781,7 +50781,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Flood event - lane closures | All lanes affected",
         "road_name": "Three Chain Road",
@@ -50827,7 +50827,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Elizabeth Drive",
@@ -50873,7 +50873,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Proceed with caution | Single lane in operation",
         "road_name": "C D Jenkinsons Road",
@@ -50919,7 +50919,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Bon Accord Bridge | Road closed to all traffic",
         "road_name": "Wetheron Road",
@@ -50965,7 +50965,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Clermont Rubyvale Road is OPEN at Theresa Creek with CAUTION | Lane or lanes reduced",
         "road_name": "Clermont Rubyvale Road",
@@ -51011,7 +51011,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Clermont Rubyvale Road is OPEN at Thomahawk Creek with Caution | Lane or lanes reduced",
         "road_name": "Clermont Rubyvale Road",
@@ -51057,7 +51057,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Near McKell Road | Lane or lanes reduced",
         "road_name": "Kennedy Highway",
@@ -51109,7 +51109,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Banana Mungi Road",
@@ -51155,7 +51155,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Proceed with caution | Lane or lanes reduced",
         "road_name": "Sandarrah Road",
@@ -51201,7 +51201,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "REDUCED LOAD LIMIT Max. 15T - St Agnes Bridge - Walla Road | Subject to a 15 tonne GVM limit",
         "road_name": "Walla Road",
@@ -51247,7 +51247,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Dogwood Creek - Between Dulacca S Road and Yullabilla Road | All lanes affected",
         "road_name": "Roma Condamine Road ( Condamine Road)",
@@ -51293,7 +51293,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Mount Sunlight Road is closed to through traffic due to road damage | Road closed to through traffic",
         "road_name": "Mount Sunlight Road",
@@ -51557,7 +51557,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Fishermans Pocket Road closed between Dobbos Road and Fishermans Pocket Road No 1 due to culvert damage. | Road closed to all traffic",
         "road_name": "Fishermans Pocket Road",
@@ -51603,7 +51603,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Cape Tribulation, Bloomfield Road from Cape Tribulation through to Wujal Wujal is OPEN to traffic 4WD advised and drive to weather conditions. | Restricted to four wheel drive vehicles only",
         "road_name": "Rykers Road",
@@ -51631,24 +51631,6 @@
       "geometry": {
         "type": "MultiLineString",
         "coordinates": [
-          [
-            [
-              139.5436004,
-              -17.7408629
-            ],
-            [
-              139.54575,
-              -17.7409
-            ],
-            [
-              139.54782,
-              -17.74093
-            ],
-            [
-              139.547917,
-              -17.7409324
-            ]
-          ],
           [
             [
               139.2519926,
@@ -54798,6 +54780,24 @@
               139.5436004,
               -17.7408629
             ]
+          ],
+          [
+            [
+              139.5436004,
+              -17.7408629
+            ],
+            [
+              139.54575,
+              -17.7409
+            ],
+            [
+              139.54782,
+              -17.74093
+            ],
+            [
+              139.547917,
+              -17.7409324
+            ]
           ]
         ]
       },
@@ -54813,7 +54813,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Gregory to Burketown | All lanes affected",
         "road_name": "Wills Developmental Road",
@@ -54913,7 +54913,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Proceed with caution | All lanes affected",
         "road_name": "New Cadarga Road",
@@ -54965,7 +54965,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Damage to bitumen road, proceed with caution | All lanes affected",
         "road_name": "Pioneer Clydevale Road / Albro Pioneer Road",
@@ -58601,7 +58601,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Burketown to Leichhart River Crossing | All lanes affected",
         "road_name": "Nardoo Burketown Road",
@@ -58647,7 +58647,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Belyando Bridge is closed with detours in place., nil restrictions",
         "road_name": "Clermont - Alpha Road",
@@ -59395,7 +59395,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Gregory to Camooweal | All lanes affected",
         "road_name": "Gregory Downs Camooweal Road",
@@ -61463,7 +61463,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Aramac to Torrens Creek (from Muttaburra Aramac Rd turn off to Flinders Shire Council Boundary) | All lanes affected",
         "road_name": "Aramac Torrens Creek Road",
@@ -61509,7 +61509,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Moss Vale Road",
@@ -63345,7 +63345,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Burketown to Doomadgee | Restricted to high clearance vehicles only",
         "road_name": "Doomadgee Road",
@@ -63397,7 +63397,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Part Shoulder Closed - Road Damage - Observe Signage | Lane or lanes reduced",
         "road_name": "Mountain View Drive",
@@ -63443,7 +63443,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Hazardous conditions | All lanes affected",
         "road_name": "Dawson Developmental Road",
@@ -63489,7 +63489,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Castlereagh Highway",
@@ -70813,7 +70813,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Windeyer to Springsure | All lanes affected",
         "road_name": "Dawson Developmental Road",
@@ -70859,7 +70859,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Olympic Highway",
@@ -70905,7 +70905,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "North of Rockwood Road | All lanes affected",
         "road_name": "Leichhardt Highway",
@@ -71553,7 +71553,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Between Porcupine and Lyndhurst",
         "road_name": "Kennedy Developmental Road",
@@ -71573,7 +71573,7 @@
         "raw_road": "Kennedy Developmental Road",
         "raw_locality": "Lyndhurst",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 801042, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/801042\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-05-12T16:23:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Between Porcupine and Lyndhurst\", \"advice\": \"Changed traffic conditions\", \"information\": null, \"road_summary\": {\"road_name\": \"Kennedy Developmental Road\", \"locality\": \"Lyndhurst\", \"postcode\": \"4871\", \"local_government_area\": \"Etheridge Shire\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-13T23:16:58.406258+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 801042, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/801042\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-05-12T16:23:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Between Porcupine and Lyndhurst\", \"advice\": \"Changed traffic conditions\", \"information\": null, \"road_summary\": {\"road_name\": \"Kennedy Developmental Road\", \"locality\": \"Lyndhurst\", \"postcode\": \"4871\", \"local_government_area\": \"Etheridge Shire\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-14T03:16:57.807576+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -71599,7 +71599,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "East Camp Drive",
@@ -72683,7 +72683,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Just north of Wyandra | All lanes affected",
         "road_name": "Mitchell Highway",
@@ -74811,7 +74811,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Walkers Creek to Gilbert River | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -80651,7 +80651,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Gilbert River to Dunbar Station | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -81719,7 +81719,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Dunbar Station to Mareeba Shire Council boundary | All lanes affected",
         "road_name": "Burke Developmental Road",
@@ -81765,7 +81765,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Observe signage | Lane or lanes reduced",
         "road_name": "Lefthand Branch Road",
@@ -81811,7 +81811,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "500m south east of Nathan Road",
         "road_name": "Leichhardt Highway",
@@ -81857,7 +81857,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "30m east of Macarthur Street",
         "road_name": "James Street",
@@ -81917,7 +81917,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Near Munbilla Road | All lanes affected",
         "road_name": "Warrill View Peak Crossing Road",
@@ -82009,7 +82009,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Railway Crossing between Kennedy Road and Schriek Road | All lanes affected",
         "road_name": "Allora Road",
@@ -82055,7 +82055,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Swan Creek Bridge | All lanes affected",
         "road_name": "Yangan   Killarney Road (Top Swanfels Road)",
@@ -82101,7 +82101,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Hazard - Road Damage - Caution Drive Carefully - 4WD Access only | Lane or lanes reduced",
         "road_name": "Mulga Downs Road",
@@ -82147,7 +82147,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Sandy Creek Bridge | All lanes affected",
         "road_name": "Cunningham Highway",
@@ -82683,7 +82683,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Road damaged after flooding, proceed with caution | All lanes affected",
         "road_name": "Donald Street / Kyabra Road / Raymore Road",
@@ -82755,7 +82755,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Between McKinlay and Kynuna | All lanes affected",
         "road_name": "Landsborough Highway",
@@ -82801,7 +82801,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Arthurville Road",
@@ -82937,7 +82937,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Rough Surface in sections, 4WD only | Restricted to four wheel drive vehicles only",
         "road_name": "Old Thargomindah Road / Soonah Crossing Road",
@@ -82983,7 +82983,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "At the Julia Creek Bridge | All lanes affected",
         "road_name": "Flinders Highway",
@@ -83067,7 +83067,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Ilkley Road bridge over the Bruce Highway | Subject to a 5 tonne GVM limit",
         "road_name": "Ilkley Road",
@@ -83113,7 +83113,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "1km east of Tara (approx.) | All lanes affected",
         "road_name": "Tara Kogan Road ( Kogan Road)",
@@ -83142,52 +83142,6 @@
         "type": "MultiPoint",
         "coordinates": [
           [
-            151.180355183,
-            -33.796315002
-          ]
-        ]
-      },
-      "properties": {
-        "event_id": "qld.qldtraffic.dd292886799d0e685a7a",
-        "source": "qldtraffic",
-        "jurisdiction": "qld",
-        "category_raw": "Hazard",
-        "category_norm": "other",
-        "passability_norm": "unknown",
-        "status_norm": "active",
-        "reason_norm": "unknown",
-        "start_time": "",
-        "end_time": "",
-        "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
-        "title": "",
-        "description": "",
-        "road_name": "Railway Street",
-        "locality": "Chatswood",
-        "direction": "",
-        "lanes_affected": "",
-        "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/818495",
-        "source_event_id": "818495",
-        "raw_title": "",
-        "raw_description": "",
-        "raw_advice": "",
-        "raw_event_type": "Hazard",
-        "raw_event_subtype": "Adverse driving conditions",
-        "raw_impact_type": "N/A",
-        "raw_impact_subtype": "",
-        "raw_road": "Railway Street",
-        "raw_locality": "Chatswood",
-        "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 818495, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"283052\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/818495\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-07-30T19:39:32+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Railway Street\", \"locality\": \"Chatswood\", \"postcode\": \"2067\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-10T15:18:43.204642+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
             149.64987298,
             -33.073776999
           ]
@@ -83205,7 +83159,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Hill End Road",
@@ -83251,7 +83205,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Goolma Road",
@@ -83297,7 +83251,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Wilangee Road",
@@ -85197,7 +85151,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Leichardt River to Gregory | All lanes affected",
         "road_name": "Wills Developmental Road",
@@ -85243,7 +85197,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "8km from Cunnamulla | One lane blocked",
         "road_name": "Balonne Highway",
@@ -86747,7 +86701,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "from Aramac Rd to Eastmere Rd (Upland) | All lanes affected",
         "road_name": "Ballyneety Road",
@@ -87811,7 +87765,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Barcaldine Aramac Rd to Coreena Rd | All lanes affected",
         "road_name": "Politic Road",
@@ -87857,7 +87811,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "After Whites Road",
         "road_name": "Rockhampton   Yeppoon Road",
@@ -87877,7 +87831,7 @@
         "raw_road": "Rockhampton   Yeppoon Road",
         "raw_locality": "Bondoola",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 821872, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821872\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Southbound\", \"towards\": \"Rockhampton\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-08-17T09:50:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"After Whites Road\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Rockhampton   Yeppoon Road\", \"locality\": \"Bondoola\", \"postcode\": \"4703\", \"local_government_area\": \"Livingstone Shire\", \"district\": \"Fitzroy\"}, \"last_updated\": \"2026-09-13T23:16:54.757567+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 821872, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/821872\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Southbound\", \"towards\": \"Rockhampton\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-08-17T09:50:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"After Whites Road\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Rockhampton   Yeppoon Road\", \"locality\": \"Bondoola\", \"postcode\": \"4703\", \"local_government_area\": \"Livingstone Shire\", \"district\": \"Fitzroy\"}, \"last_updated\": \"2026-09-14T03:16:53.157708+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -89117,7 +89071,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Tickalara Road / Wompah Gate Road",
@@ -89163,7 +89117,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Unnamed Road",
@@ -89209,7 +89163,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Garden Vale Road",
@@ -89255,7 +89209,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -89301,7 +89255,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Joulnie Road",
@@ -89347,7 +89301,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Hawker Gate Road",
@@ -89393,7 +89347,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Border Downs Road",
@@ -89439,7 +89393,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Waka Road",
@@ -89887,7 +89841,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Birdsville to SA Border | All lanes affected",
         "road_name": "Inside Track Road (Birdsville Inside Track)",
@@ -93503,7 +93457,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Bulloo Downs Road / Bulloo Developmental Road / Tickalara Road",
@@ -93549,7 +93503,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "The Cut Line",
@@ -93595,7 +93549,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mutawintji Road",
@@ -93641,7 +93595,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Yancannia Road",
@@ -93687,7 +93641,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Tandou Road",
@@ -93733,7 +93687,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Waterbag Road",
@@ -95801,7 +95755,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "ROAD OPEN for access between Bedourie to Birdsville. Drive to Prevailing Conditions",
         "road_name": "Lake Machattie Detour Road",
@@ -95821,7 +95775,7 @@
         "raw_road": "Lake Machattie Detour Road",
         "raw_locality": "Bedourie",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 824011, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/824011\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-08-26T22:18:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"ROAD OPEN for access between Bedourie to Birdsville. Drive to Prevailing Conditions\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Lake Machattie Detour Road\", \"locality\": \"Bedourie\", \"postcode\": \"4829\", \"local_government_area\": \"Diamantina Shire\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-13T23:16:55.170167+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 824011, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/824011\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-08-26T22:18:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"ROAD OPEN for access between Bedourie to Birdsville. Drive to Prevailing Conditions\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Lake Machattie Detour Road\", \"locality\": \"Bedourie\", \"postcode\": \"4829\", \"local_government_area\": \"Diamantina Shire\", \"district\": \"Central West\"}, \"last_updated\": \"2026-09-14T03:16:54.751482+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -95847,7 +95801,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Hawker Gate Road",
@@ -95893,7 +95847,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Kayrunnera Road",
@@ -95939,7 +95893,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Hewart Downs Road",
@@ -95985,7 +95939,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "The Cut Line",
@@ -96031,7 +95985,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Narriearra Road",
@@ -96077,7 +96031,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Netley Road",
@@ -96123,7 +96077,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Westwood Road",
@@ -96169,7 +96123,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Woowoolahra Road",
@@ -101737,7 +101691,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Avoid the area | Road closed to all traffic",
         "road_name": "Orientos Road",
@@ -101783,7 +101737,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mutawintji Road",
@@ -101829,7 +101783,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -101875,7 +101829,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Mount Arrowsmith Road",
@@ -101921,7 +101875,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Old Pooncarie Road",
@@ -101967,7 +101921,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Sanpah Road",
@@ -102013,7 +101967,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Toona Gate Road",
@@ -102059,7 +102013,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Border Downs Road",
@@ -102105,7 +102059,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Hamilton Gate Road",
@@ -102151,7 +102105,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Old Pooncarie Road",
@@ -102197,7 +102151,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Bridge over Jimbour Creek | All lanes affected",
         "road_name": "Warrego Highway",
@@ -102243,7 +102197,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Sturt Highway",
@@ -102289,7 +102243,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Approximately 7km north of Belyando Crossing | All lanes affected",
         "road_name": "Gregory Developmental Road",
@@ -102335,7 +102289,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Chalmers Street",
@@ -102403,7 +102357,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Roughly 100km north of Gregory | Lane or lanes reduced",
         "road_name": "Wills Developmental Road",
@@ -102449,7 +102403,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Reola Road",
@@ -102829,7 +102783,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Rough Surface - Observe Signage | All lanes affected",
         "road_name": "Sandy Creek Road",
@@ -102875,7 +102829,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "New England Highway",
@@ -102896,52 +102850,6 @@
         "raw_locality": "Tarro",
         "raw_status": "Published",
         "raw_properties_json": "{\"id\": 827029, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287665\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827029\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-09T17:47:42+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"New England Highway\", \"locality\": \"Tarro\", \"postcode\": \"2322\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-11T12:06:36.344163+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            151.081293792,
-            -33.771263422
-          ]
-        ]
-      },
-      "properties": {
-        "event_id": "qld.qldtraffic.1692c3dbcf3feff51252",
-        "source": "qldtraffic",
-        "jurisdiction": "qld",
-        "category_raw": "Hazard",
-        "category_norm": "other",
-        "passability_norm": "unknown",
-        "status_norm": "active",
-        "reason_norm": "unknown",
-        "start_time": "",
-        "end_time": "",
-        "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
-        "title": "",
-        "description": "",
-        "road_name": "Rawson Street",
-        "locality": "Epping",
-        "direction": "",
-        "lanes_affected": "",
-        "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827236",
-        "source_event_id": "827236",
-        "raw_title": "",
-        "raw_description": "",
-        "raw_advice": "",
-        "raw_event_type": "Hazard",
-        "raw_event_subtype": "Adverse driving conditions",
-        "raw_impact_type": "N/A",
-        "raw_impact_subtype": "",
-        "raw_road": "Rawson Street",
-        "raw_locality": "Epping",
-        "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 827236, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287733\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827236\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-10T15:17:38+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Rawson Street\", \"locality\": \"Epping\", \"postcode\": \"2121\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-10T15:18:42.953226+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -103157,7 +103065,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Between Sylbia Access and Yelarbon Tower Road",
         "road_name": "Inglewood Texas Road",
@@ -103405,7 +103313,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Near Desert Creek Road",
         "road_name": "Yelarbon Keetah Road",
@@ -103633,7 +103541,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "North of Tully | All lanes affected",
         "road_name": "Bruce Highway",
@@ -103653,7 +103561,7 @@
         "raw_road": "Bruce Highway",
         "raw_locality": "Birkalla / Tully",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 827401, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827401\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-09-11T09:59:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"North of Tully \", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Bruce Highway\", \"locality\": \"Birkalla / Tully\", \"postcode\": \"4854\", \"local_government_area\": \"Cassowary Coast Regional\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-13T23:16:54.128525+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 827401, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827401\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Both directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"All lanes affected\", \"delay\": null}, \"duration\": {\"start\": \"2026-09-11T09:59:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"High\", \"description\": \"North of Tully \", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Bruce Highway\", \"locality\": \"Birkalla / Tully\", \"postcode\": \"4854\", \"local_government_area\": \"Cassowary Coast Regional\", \"district\": \"Far North\"}, \"last_updated\": \"2026-09-14T03:16:53.563251+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -103679,7 +103587,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
         "road_name": "Wonnaminta Road",
@@ -103725,7 +103633,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Left shoulder before Fig Tree Pocket Road exit.",
         "road_name": "Centenary Motorway",
@@ -103745,7 +103653,7 @@
         "raw_road": "Centenary Motorway",
         "raw_locality": "Fig Tree Pocket",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 827793, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827793\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"Toowong\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-13T19:18:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Left shoulder before Fig Tree Pocket Road exit.\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Centenary Motorway\", \"locality\": \"Fig Tree Pocket\", \"postcode\": \"4069\", \"local_government_area\": \"Brisbane City\", \"district\": \"Metropolitan\"}, \"last_updated\": \"2026-09-13T23:17:59.305401+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 827793, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827793\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Stationary vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Northbound\", \"towards\": \"Toowong\", \"impact_type\": \"No blockage\", \"impact_subtype\": null, \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-13T19:18:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"Left shoulder before Fig Tree Pocket Road exit.\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Centenary Motorway\", \"locality\": \"Fig Tree Pocket\", \"postcode\": \"4069\", \"local_government_area\": \"Brisbane City\", \"district\": \"Metropolitan\"}, \"last_updated\": \"2026-09-14T02:19:54.981419+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     },
     {
@@ -103771,7 +103679,7 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "Near Struck Oil Road | Lane or lanes blocked",
         "road_name": "Burnett Highway",
@@ -103800,13 +103708,59 @@
         "type": "MultiPoint",
         "coordinates": [
           [
-            151.591607169,
-            -32.884274471
+            150.5931392,
+            -23.2712489
           ]
         ]
       },
       "properties": {
-        "event_id": "qld.qldtraffic.e3bdef6666c7a58bf1c8",
+        "event_id": "qld.qldtraffic.86d9406f07bf48c23a02",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
+        "title": "",
+        "description": "Near Iron Pot Road | Lane or lanes reduced",
+        "road_name": "Rockhampton   Yeppoon Road",
+        "locality": "Ironpot",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827815",
+        "source_event_id": "827815",
+        "raw_title": "",
+        "raw_description": "Near Iron Pot Road",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Single vehicle",
+        "raw_impact_type": "Lanes affected",
+        "raw_impact_subtype": "Lane or lanes reduced",
+        "raw_road": "Rockhampton   Yeppoon Road",
+        "raw_locality": "Ironpot",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 827815, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Department of Transport and Main Roads\", \"provided_by_url\": \"https://qldtraffic.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827815\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Single vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": null, \"impact_type\": \"Lanes affected\", \"impact_subtype\": \"Lane or lanes reduced\", \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-14T03:38:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Near Iron Pot Road\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Rockhampton   Yeppoon Road\", \"locality\": \"Ironpot\", \"postcode\": \"4701\", \"local_government_area\": \"Livingstone Shire\", \"district\": \"Fitzroy\"}, \"last_updated\": \"2026-09-14T03:39:45.605651+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            151.326777787,
+            -33.448388887
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.549b0c59d8fa792cf92d",
         "source": "qldtraffic",
         "jurisdiction": "qld",
         "category_raw": "Hazard",
@@ -103817,16 +103771,16 @@
         "start_time": "",
         "end_time": "",
         "last_updated": "",
-        "fetched_at": "2026-09-13T15:56:35.728450+00:00",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
         "title": "",
         "description": "",
-        "road_name": "Hunter Expressway",
-        "locality": "Seahampton",
+        "road_name": "Glenrock Parade",
+        "locality": "Tascott",
         "direction": "",
         "lanes_affected": "",
         "restrictions_text": "",
-        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827813",
-        "source_event_id": "827813",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827818",
+        "source_event_id": "827818",
         "raw_title": "",
         "raw_description": "",
         "raw_advice": "",
@@ -103834,10 +103788,102 @@
         "raw_event_subtype": "Adverse driving conditions",
         "raw_impact_type": "N/A",
         "raw_impact_subtype": "",
-        "raw_road": "Hunter Expressway",
-        "raw_locality": "Seahampton",
+        "raw_road": "Glenrock Parade",
+        "raw_locality": "Tascott",
         "raw_status": "Published",
-        "raw_properties_json": "{\"id\": 827813, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287987\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827813\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Eastbound\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-14T01:33:32+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Hunter Expressway\", \"locality\": \"Seahampton\", \"postcode\": \"2286\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-14T01:36:45.595434+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+        "raw_properties_json": "{\"id\": 827818, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287988\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827818\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"Southbound\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-14T04:06:10+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"Glenrock Parade\", \"locality\": \"Tascott\", \"postcode\": \"2250\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-14T04:36:35.781043+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            150.72498204,
+            -33.714983968
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.ffb53d025101fbdcfccb",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Hazard",
+        "category_norm": "other",
+        "passability_norm": "unknown",
+        "status_norm": "active",
+        "reason_norm": "unknown",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
+        "title": "",
+        "description": "",
+        "road_name": "The Northern Road",
+        "locality": "Llandilo",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827821",
+        "source_event_id": "827821",
+        "raw_title": "",
+        "raw_description": "",
+        "raw_advice": "",
+        "raw_event_type": "Hazard",
+        "raw_event_subtype": "Adverse driving conditions",
+        "raw_impact_type": "N/A",
+        "raw_impact_subtype": "",
+        "raw_road": "The Northern Road",
+        "raw_locality": "Llandilo",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 827821, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"TfNSW\", \"source_id\": \"287990.0\", \"account\": null, \"provided_by\": \"Transport for NSW\", \"provided_by_url\": \"http://www.livetraffic.com\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827821\", \"image\": null, \"event_type\": \"Hazard\", \"event_subtype\": \"Adverse driving conditions\", \"event_due_to\": null, \"impact\": {\"direction\": \"All directions\", \"towards\": \"\", \"impact_type\": \"N/A\", \"impact_subtype\": null, \"delay\": null}, \"duration\": {\"start\": \"2026-09-14T04:24:57+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Low\", \"description\": \"\", \"advice\": null, \"information\": null, \"road_summary\": {\"road_name\": \"The Northern Road\", \"locality\": \"Llandilo\", \"postcode\": \"2747\", \"local_government_area\": \"Nsw\", \"district\": \"NSW\"}, \"last_updated\": \"2026-09-14T04:27:46.149429+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            153.0338485,
+            -27.4225188
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "qld.qldtraffic.9efce094506ca5503208",
+        "source": "qldtraffic",
+        "jurisdiction": "qld",
+        "category_raw": "Crash",
+        "category_norm": "open_with_caution",
+        "passability_norm": "passable_with_conditions",
+        "status_norm": "active",
+        "reason_norm": "crash",
+        "start_time": "",
+        "end_time": "",
+        "last_updated": "",
+        "fetched_at": "2026-09-13T18:42:37.004279+00:00",
+        "title": "",
+        "description": "Left lane prior to Lowerson Street | One lane blocked",
+        "road_name": "Lutwyche Road",
+        "locality": "Lutwyche",
+        "direction": "",
+        "lanes_affected": "",
+        "restrictions_text": "Proceed with caution",
+        "url": "https://api.qldtraffic.qld.gov.au/v2/events/827822",
+        "source_event_id": "827822",
+        "raw_title": "",
+        "raw_description": "Left lane prior to Lowerson Street",
+        "raw_advice": "Proceed with caution",
+        "raw_event_type": "Crash",
+        "raw_event_subtype": "Multi-vehicle",
+        "raw_impact_type": "Lanes blocked",
+        "raw_impact_subtype": "One lane blocked",
+        "raw_road": "Lutwyche Road",
+        "raw_locality": "Lutwyche",
+        "raw_status": "Published",
+        "raw_properties_json": "{\"id\": 827822, \"area_alert\": false, \"status\": \"Published\", \"published\": null, \"source\": {\"source_name\": \"EPS\", \"source_id\": null, \"account\": null, \"provided_by\": \"Brisbane City Council\", \"provided_by_url\": \"https://www.brisbane.qld.gov.au\"}, \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/827822\", \"image\": null, \"event_type\": \"Crash\", \"event_subtype\": \"Multi-vehicle\", \"event_due_to\": null, \"impact\": {\"direction\": \"Southbound\", \"towards\": \"Windsor\", \"impact_type\": \"Lanes blocked\", \"impact_subtype\": \"One lane blocked\", \"delay\": \"No delays expected\"}, \"duration\": {\"start\": \"2026-09-14T04:38:00+10:00\", \"end\": null, \"active_days\": null, \"recurrences\": null}, \"event_priority\": \"Medium\", \"description\": \"Left lane prior to Lowerson Street\", \"advice\": \"Proceed with caution\", \"information\": null, \"road_summary\": {\"road_name\": \"Lutwyche Road\", \"locality\": \"Lutwyche\", \"postcode\": \"4030\", \"local_government_area\": \"Brisbane City\", \"district\": \"Metropolitan\"}, \"last_updated\": \"2026-09-14T04:40:10.114568+10:00\", \"next_inspection\": null, \"web_link\": null, \"alert_message\": null}"
       }
     }
   ]
