@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-18T17:06:00.657148+00:00",
+  "created_at": "2026-09-18T19:38:37.409420+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -25,15 +25,15 @@
   "closure_source": {
     "source_mode": "geojson_file",
     "source_path": "runtime/closures_qld_current_for_analysis.geojson",
-    "raw_count": 405,
-    "normalised_count": 151,
+    "raw_count": 444,
+    "normalised_count": 192,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 151,
-    "closures_active": 151,
-    "closures_impassable_blocking": 15,
-    "closures_all_blocking": 17,
+    "closures_normalised": 192,
+    "closures_active": 192,
+    "closures_impassable_blocking": 52,
+    "closures_all_blocking": 54,
     "places": 2058,
     "hubs": 9,
     "snapped_hubs": 9,
@@ -41,13 +41,13 @@
     "graph_edges": 1324736,
     "qld_traversal_nodes": "",
     "qld_traversal_edges": "",
-    "blocked_edges_impassable_only": 74,
-    "blocked_edges_all_blocking": 78,
+    "blocked_edges_impassable_only": 344,
+    "blocked_edges_all_blocking": 348,
     "reachable_nodes_before": 518840,
     "state_border_nodes": 11494,
     "state_border_reachable_nodes_before": 518932,
-    "reachable_nodes_impassable_only": 518813,
-    "reachable_nodes_all_blocking": 518813,
+    "reachable_nodes_impassable_only": 518724,
+    "reachable_nodes_all_blocking": 518724,
     "hub_components_before": {
       "components_with_hubs": 1,
       "largest_hub_component_size": 9,
