@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-20T00:52:09.404980+00:00",
+  "checked_at": "2026-09-20T05:55:48.148731+00:00",
   "policy": {
     "temporal_filter": "Exclude features before duration.start and after duration.end. Missing/unparseable timestamps are retained.",
     "area_alert": "For area_alert=true, only explicit line geometry can block the road graph. Polygon/point geometry is retained as non-blocking context.",
     "recurrences": "When recurrence metadata is present, duration start/end are used as the outer activity envelope; recurrence-specific subwindows are not interpreted by this preprocessor."
   },
   "input_features": 503,
-  "output_features": 417,
-  "ordinary_features_kept": 417,
-  "future_excluded": 81,
+  "output_features": 418,
+  "ordinary_features_kept": 418,
+  "future_excluded": 80,
   "expired_excluded": 5,
   "invalid_time_kept": 0,
   "recurrence_envelope_events": 95,
@@ -58,7 +58,6 @@
     "828116",
     "828119",
     "828137",
-    "828140",
     "828144",
     "828146",
     "828175",
