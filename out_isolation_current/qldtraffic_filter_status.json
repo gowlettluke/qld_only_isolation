@@ -1,21 +1,21 @@
 {
-  "checked_at": "2026-10-01T02:00:14.471814+00:00",
+  "checked_at": "2026-10-01T08:46:38.554782+00:00",
   "policy": {
     "temporal_filter": "Exclude features before duration.start and after duration.end. Missing/unparseable timestamps are retained.",
     "area_alert": "For area_alert=true, only explicit line geometry can block the road graph. Polygon/point geometry is retained as non-blocking context.",
     "recurrences": "When recurrence metadata is present, duration start/end are used as the outer activity envelope; recurrence-specific subwindows are not interpreted by this preprocessor."
   },
-  "input_features": 484,
-  "output_features": 417,
-  "ordinary_features_kept": 417,
-  "future_excluded": 65,
+  "input_features": 476,
+  "output_features": 402,
+  "ordinary_features_kept": 401,
+  "future_excluded": 72,
   "expired_excluded": 2,
-  "invalid_time_kept": 1,
-  "recurrence_envelope_events": 92,
-  "area_alert_events": 0,
+  "invalid_time_kept": 0,
+  "recurrence_envelope_events": 94,
+  "area_alert_events": 1,
   "area_alert_line_features": 0,
-  "area_alert_context_features": 0,
-  "area_alert_no_line_events": 0,
+  "area_alert_context_features": 1,
+  "area_alert_no_line_events": 1,
   "malformed_area_alert_kept": 0,
   "future_event_ids": [
     "812663",
@@ -36,6 +36,7 @@
     "821981",
     "821984",
     "822789",
+    "827019",
     "827476",
     "827479",
     "827523",
@@ -59,7 +60,6 @@
     "828239",
     "828240",
     "828241",
-    "828389",
     "828557",
     "828610",
     "829440",
@@ -70,6 +70,7 @@
     "829892",
     "829895",
     "829899",
+    "829903",
     "829904",
     "830077",
     "830080",
@@ -82,14 +83,20 @@
     "831084",
     "831428",
     "831470",
-    "831484"
+    "831484",
+    "831491",
+    "831496",
+    "831525",
+    "831550",
+    "831569",
+    "831573"
   ],
   "expired_event_ids": [
     "783676",
     "792601"
   ],
-  "invalid_time_event_ids": [
-    "831475"
-  ],
-  "area_alert_no_line_event_ids": []
+  "invalid_time_event_ids": [],
+  "area_alert_no_line_event_ids": [
+    "831534"
+  ]
 }
