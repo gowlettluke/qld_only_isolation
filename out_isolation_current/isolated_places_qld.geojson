@@ -1,43 +1,4 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.4083811,
-          -28.9966179
-        ]
-      },
-      "properties": {
-        "place_id": "qld_locality_3880",
-        "name": "Hungerford",
-        "place_type": "locality_road_representative_point",
-        "state": "QLD",
-        "lga": "Bulloo Shire",
-        "is_hub": false,
-        "nearest_node": "717185",
-        "snap_distance_m": 0.0,
-        "snap_strategy": "nearest",
-        "snap_note": "Nearest graph node is already in a pre-closure hub-connected component.",
-        "hub_access_before": true,
-        "hub_access_impassable_only": false,
-        "hub_access_all_blocking": false,
-        "reachable_hubs_before": 9,
-        "reachable_hubs_impassable_only": 0,
-        "reachable_hubs_all_blocking": 0,
-        "state_border_access_before": true,
-        "reachable_state_borders_before": "State Border",
-        "hub_network_warning": "",
-        "isolation_category": "isolated_full_closures",
-        "isolation_confidence": "high",
-        "isolation_reason": "Place cannot reach any modelled hub after active impassable closures are blocked.",
-        "nearby_blocking_closures_json": "[{\"closure_id\": \"qld.qldtraffic.43f635122d3673957571\", \"source_event_id\": \"833872\", \"distance_m\": 162.1, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Paroo Shire border to NSW border | Road closed to all traffic\", \"road_name\": \"Hanson Street / Hungerford Eulo Road / Hungerford Eulo Road (Hungerford Road) / Hungerford Road / Hungerford Road (Hungerford Eulo Road)\", \"locality\": \"Hungerford\", \"restrictions_text\": \"Do not drive in flood waters\", \"raw_advice\": \"Do not drive in flood waters\", \"raw_event_type\": \"Flooding\", \"raw_event_subtype\": \"Long-term flooding\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/833872\"}, {\"closure_id\": \"qld.qldtraffic.c6a455a80692f3fb1db4\", \"source_event_id\": \"830865\", \"distance_m\": 293788.1, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Camerons Corner Road\", \"locality\": \"Cameron Corner / Tibooburra\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/830865\"}, {\"closure_id\": \"qld.qldtraffic.be79f52115fd5b621c2f\", \"source_event_id\": \"833868\", \"distance_m\": 320302.4, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Toona Gate Road\", \"locality\": \"Cameron Corner\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/833868\"}, {\"closure_id\": \"qld.qldtraffic.33eaee76f36ce3f23397\", \"source_event_id\": \"833870\", \"distance_m\": 349830.3, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Omicron Road\", \"locality\": \"Cameron Corner\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/833870\"}, {\"closure_id\": \"qld.qldtraffic.f86be34ccf786f961abb\", \"source_event_id\": \"787707\", \"distance_m\": 845951.5, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Avoid the area | Road closed to all traffic\", \"road_name\": \"Banana Mungi Road\", \"locality\": \"Banana\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/787707\"}]",
-        "hub_route_name": "",
-        "hub_route_distance_m": "",
-        "hub_route_geojson": ""
-      }
-    }
-  ]
+  "features": []
 }
