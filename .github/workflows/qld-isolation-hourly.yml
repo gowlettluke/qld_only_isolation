@@ -1,10 +1,10 @@
 name: QLD isolation hourly
 
+# cron-job.org supplies the hourly trigger at :15, Australia/Brisbane.
+# Scheduler job: https://console.cron-job.org/jobs/8732381
+# workflow_dispatch also keeps Run workflow available in GitHub.
 on:
   workflow_dispatch:
-  schedule:
-    # Retry the update check every 15 minutes; recent output skips the analysis.
-    - cron: "5,20,35,50 * * * *"
 
 permissions:
   contents: write
