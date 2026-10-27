@@ -2,6 +2,12 @@ name: QLD isolation
 
 on:
   workflow_dispatch:
+  # Temporary verification trigger; remove after this run.
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/qld-isolation.yml
   schedule:
     # Runs hourly at minute 53 (UTC), away from the busy start of the hour.
     - cron: "53 * * * *"
