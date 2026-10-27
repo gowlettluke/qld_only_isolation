@@ -3,8 +3,8 @@ name: QLD isolation
 on:
   workflow_dispatch:
   schedule:
-    # Runs hourly. GitHub cron schedules use UTC.
-    - cron: "0 * * * *"
+    # Runs hourly at minute 53 (UTC), away from the busy start of the hour.
+    - cron: "53 * * * *"
 
 permissions:
   contents: write
