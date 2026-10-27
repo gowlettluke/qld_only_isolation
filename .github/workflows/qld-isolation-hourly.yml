@@ -1,10 +1,10 @@
-name: QLD isolation
+name: QLD isolation hourly
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs hourly at minute 53 (UTC), away from the busy start of the hour.
-    - cron: "53 * * * *"
+    # Retry the update check every 15 minutes; recent output skips the analysis.
+    - cron: "5,20,35,50 * * * *"
 
 permissions:
   contents: write
@@ -20,18 +20,26 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Check whether an update is due
+        id: update_due
+        run: python check_isolation_update_due.py --min-age-minutes 50
+
       - name: Install Python dependencies
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements_qld_isolation.txt
 
       - name: Restore cached graph
+        if: steps.update_due.outputs.run_required == 'true'
         id: graph-cache
         uses: actions/cache@v4
         with:
@@ -41,7 +49,7 @@ jobs:
           key: qld-drive-graph-v2
 
       - name: Download graph from GitHub Release
-        if: steps.graph-cache.outputs.cache-hit != 'true'
+        if: steps.update_due.outputs.run_required == 'true' && steps.graph-cache.outputs.cache-hit != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -51,13 +59,16 @@ jobs:
           ls -lh graph
 
       - name: Run regression tests
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
+          python -m unittest -v test_isolation_update_due.py
           python -m unittest -v test_hub_isolation_logic.py
           python -m unittest -v test_daintree_ferry_status.py
           python -m unittest -v test_noosa_ferry_status.py
           python -m unittest -v test_current_qldtraffic_events.py
 
       - name: Prepare live closures with Daintree Ferry status
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           mkdir -p runtime out_isolation_current
           python -u prepare_daintree_ferry_status.py \
@@ -66,6 +77,7 @@ jobs:
             --status-out out_isolation_current/daintree_ferry_status.json
 
       - name: Add Noosa Ferry status and conditional Cooloola 4WD access
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           python -u prepare_noosa_ferry_status.py \
             --manual-connectors manual_graph_connectors.csv \
@@ -75,6 +87,7 @@ jobs:
             --status-out out_isolation_current/noosa_ferry_status.json
 
       - name: Filter current QLD Traffic timing and area-alert geometry
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           python -u prepare_current_qldtraffic_events.py \
             --closures-in runtime/closures_qld_with_ferries.geojson \
@@ -82,6 +95,7 @@ jobs:
             --report-out out_isolation_current/qldtraffic_filter_status.json
 
       - name: Run QLD isolation
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           python -u qld_isolation_proper_v6.py \
             --graph graph/qld_drive.graphml \
@@ -91,6 +105,7 @@ jobs:
             --out-dir out_isolation_current
 
       - name: Show isolation summary
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           echo "=== daintree_ferry_status.json ==="
           cat out_isolation_current/daintree_ferry_status.json || true
@@ -108,6 +123,7 @@ jobs:
           cat out_isolation_current/isolated_places_qld.csv || true
 
       - name: Commit outputs
+        if: steps.update_due.outputs.run_required == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
