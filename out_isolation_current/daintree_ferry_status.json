@@ -2,7 +2,7 @@
   "status": "OPEN",
   "check_url": "https://daintreeferry.com.au/status-updates/",
   "source_url": "https://daintreeferry.com.au/status-updates/",
-  "fetched_at": "2026-10-30T11:15:39.552389+00:00",
+  "fetched_at": "2026-10-30T12:15:41.004342+00:00",
   "evidence": "https://daintreeferry.com.au/status-updates/ -> OPEN (FERRY OPEN); https://daintreeferry.com.au/ -> OPEN (FERRY OPEN)",
   "error": "",
   "source_checks": [
