@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T08:16:11.328957+00:00",
+  "checked_at": "2026-10-31T09:16:02.876924+00:00",
   "policy": {
     "temporal_filter": "Exclude features before duration.start and after duration.end. Missing/unparseable timestamps are retained.",
     "area_alert": "For area_alert=true, only explicit line geometry can block the road graph. Polygon/point geometry is retained as non-blocking context.",
