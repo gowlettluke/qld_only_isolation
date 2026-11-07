@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-07T04:21:18.935623+00:00",
+  "created_at": "2026-11-07T05:19:38.646672+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -25,13 +25,13 @@
   "closure_source": {
     "source_mode": "geojson_file",
     "source_path": "runtime/closures_qld_current_for_analysis.geojson",
-    "raw_count": 577,
-    "normalised_count": 298,
+    "raw_count": 572,
+    "normalised_count": 295,
     "errors": []
   },
   "counts": {
-    "closures_normalised": 298,
-    "closures_active": 298,
+    "closures_normalised": 295,
+    "closures_active": 295,
     "closures_impassable_blocking": 68,
     "closures_all_blocking": 97,
     "places": 2058,
