@@ -1,7 +1,7 @@
 {
   "source_mode": "geojson_file",
   "source_path": "runtime/closures_qld_current_for_analysis.geojson",
-  "raw_count": 557,
-  "normalised_count": 256,
+  "raw_count": 558,
+  "normalised_count": 260,
   "errors": []
 }
