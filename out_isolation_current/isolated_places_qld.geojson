@@ -1,4 +1,43 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4631798,
+          -26.6403717
+        ]
+      },
+      "properties": {
+        "place_id": "qld_locality_673",
+        "name": "Cooladdi",
+        "place_type": "locality_road_representative_point",
+        "state": "QLD",
+        "lga": "Murweh Shire",
+        "is_hub": false,
+        "nearest_node": "610437",
+        "snap_distance_m": 84.6,
+        "snap_strategy": "nearest",
+        "snap_note": "Nearest graph node is already in a pre-closure hub-connected component.",
+        "hub_access_before": true,
+        "hub_access_impassable_only": false,
+        "hub_access_all_blocking": false,
+        "reachable_hubs_before": 9,
+        "reachable_hubs_impassable_only": 0,
+        "reachable_hubs_all_blocking": 0,
+        "state_border_access_before": true,
+        "reachable_state_borders_before": "State Border",
+        "hub_network_warning": "",
+        "isolation_category": "isolated_full_closures",
+        "isolation_confidence": "high",
+        "isolation_reason": "Place cannot reach any modelled hub after active impassable closures are blocked.",
+        "nearby_blocking_closures_json": "[{\"closure_id\": \"qld.qldtraffic.19f255e2eab1dab8ec28\", \"source_event_id\": \"837255\", \"distance_m\": 620.6, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"From Cooladdi to the Quilpie-Adavale Road intersection | Road closed to all traffic\", \"road_name\": \"Diamantina Developmental Road\", \"locality\": \"Cooladdi / Quilpie\", \"restrictions_text\": \"Use alternative route\", \"raw_advice\": \"Use alternative route\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Bridge or culvert damaged\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/837255\"}, {\"closure_id\": \"qld.qldtraffic.685eeec1364eb3e3e02f\", \"source_event_id\": \"837819\", \"distance_m\": 70250.0, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Water over Yanna Bridge Road | Road closed to through traffic\", \"road_name\": \"Yanna Bridge Road\", \"locality\": \"Murweh\", \"restrictions_text\": \"Do not drive in flood waters\", \"raw_advice\": \"Do not drive in flood waters\", \"raw_event_type\": \"Flooding\", \"raw_event_subtype\": \"Long-term flooding\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to through traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/837819\"}, {\"closure_id\": \"qld.qldtraffic.f2f518f1b697d53978fa\", \"source_event_id\": \"837530\", \"distance_m\": 93677.6, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"0.2m over Deep Creek Bridge and slowly rising | Road closed to all traffic\", \"road_name\": \"Mount Alfred Road\", \"locality\": \"Wyandra\", \"restrictions_text\": \"Avoid the area\", \"raw_advice\": \"Avoid the area\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Road damage\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/837530\"}, {\"closure_id\": \"qld.qldtraffic.c9ba37ed6035eaa9176f\", \"source_event_id\": \"835763\", \"distance_m\": 130717.3, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"flood\", \"title\": \"\", \"description\": \"Flooding at Gunnadorah Bridge 0.8m | Road closed to all traffic\", \"road_name\": \"Adavale Black Road\", \"locality\": \"Quilpie\", \"restrictions_text\": \"Do not drive in flood waters\", \"raw_advice\": \"Do not drive in flood waters\", \"raw_event_type\": \"Flooding\", \"raw_event_subtype\": \"Flash flooding\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/835763\"}, {\"closure_id\": \"qld.qldtraffic.46d46e53c043e8bdde36\", \"source_event_id\": \"835764\", \"distance_m\": 141323.1, \"category_norm\": \"road_closed\", \"passability_norm\": \"impassable\", \"status_norm\": \"active\", \"reason_norm\": \"unknown\", \"title\": \"\", \"description\": \"Road closed due to weather | Road closed to all traffic\", \"road_name\": \"Ingeberry Road / Tobermory Road / Quilpie Thargomindah Road / Ingeberry Road\", \"locality\": \"Quilpie\", \"restrictions_text\": \"Changed traffic conditions\", \"raw_advice\": \"Changed traffic conditions\", \"raw_event_type\": \"Hazard\", \"raw_event_subtype\": \"Adverse driving conditions\", \"raw_impact_type\": \"Closures\", \"raw_impact_subtype\": \"Road closed to all traffic\", \"url\": \"https://api.qldtraffic.qld.gov.au/v2/events/835764\"}]",
+        "hub_route_name": "",
+        "hub_route_distance_m": "",
+        "hub_route_geojson": ""
+      }
+    }
+  ]
 }
