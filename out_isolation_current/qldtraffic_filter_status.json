@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T11:16:06.349065+00:00",
+  "checked_at": "2026-11-14T12:16:03.907268+00:00",
   "policy": {
     "temporal_filter": "Exclude features before duration.start and after duration.end. Missing/unparseable timestamps are retained.",
     "area_alert": "For area_alert=true, only explicit line geometry can block the road graph. Polygon/point geometry is retained as non-blocking context.",
@@ -7,15 +7,15 @@
   },
   "input_features": 608,
   "output_features": 571,
-  "ordinary_features_kept": 571,
+  "ordinary_features_kept": 570,
   "future_excluded": 34,
   "expired_excluded": 3,
   "invalid_time_kept": 0,
   "recurrence_envelope_events": 78,
-  "area_alert_events": 0,
+  "area_alert_events": 1,
   "area_alert_line_features": 0,
-  "area_alert_context_features": 0,
-  "area_alert_no_line_events": 0,
+  "area_alert_context_features": 1,
+  "area_alert_no_line_events": 1,
   "malformed_area_alert_kept": 0,
   "future_event_ids": [
     "829974",
@@ -59,5 +59,7 @@
     "835183"
   ],
   "invalid_time_event_ids": [],
-  "area_alert_no_line_event_ids": []
+  "area_alert_no_line_event_ids": [
+    "841807"
+  ]
 }
