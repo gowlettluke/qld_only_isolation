@@ -1,17 +1,17 @@
 {
-  "status": "UNKNOWN",
+  "status": "OPEN",
   "check_url": "https://daintreeferry.com.au/status-updates/",
   "source_url": "https://daintreeferry.com.au/status-updates/",
-  "fetched_at": "2026-11-14T17:15:50.453463+00:00",
-  "evidence": "https://daintreeferry.com.au/status-updates/ -> UNKNOWN (HTTPError: 403 Client Error: Forbidden for url: https://daintreeferry.com.au/status-updates/); https://daintreeferry.com.au/ -> OPEN (FERRY OPEN)",
-  "error": "HTTPError: 403 Client Error: Forbidden for url: https://daintreeferry.com.au/status-updates/",
+  "fetched_at": "2026-11-14T18:15:37.725821+00:00",
+  "evidence": "https://daintreeferry.com.au/status-updates/ -> OPEN (FERRY OPEN); https://daintreeferry.com.au/ -> OPEN (FERRY OPEN)",
+  "error": "",
   "source_checks": [
     {
       "url": "https://daintreeferry.com.au/status-updates/",
-      "http_status": 403,
-      "status": "UNKNOWN",
-      "evidence": "",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://daintreeferry.com.au/status-updates/"
+      "http_status": 200,
+      "status": "OPEN",
+      "evidence": "FERRY OPEN",
+      "error": ""
     },
     {
       "url": "https://daintreeferry.com.au/",
@@ -24,11 +24,11 @@
   "connector_name": "Daintree River Ferry graph connector",
   "map_lat": -16.259813,
   "map_lon": 145.39814,
-  "connector_policy": "left traversable; status uncertainty must be shown to the user",
+  "connector_policy": "left traversable",
   "synthetic_event_injected": false,
   "synthetic_event_blocks_isolation": false,
   "qld_traffic_url": "https://data.qldtraffic.qld.gov.au/events_v2.geojson",
   "qld_traffic_http_status": 200,
-  "qld_traffic_feature_count_before_ferry": 603,
-  "qld_traffic_feature_count_after_ferry": 603
+  "qld_traffic_feature_count_before_ferry": 600,
+  "qld_traffic_feature_count_after_ferry": 600
 }
