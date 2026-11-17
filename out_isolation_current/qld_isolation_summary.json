@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-17T02:18:54.824593+00:00",
+  "created_at": "2026-11-17T03:18:42.487977+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -32,7 +32,7 @@
   "counts": {
     "closures_normalised": 335,
     "closures_active": 335,
-    "closures_impassable_blocking": 77,
+    "closures_impassable_blocking": 75,
     "closures_all_blocking": 104,
     "places": 2058,
     "hubs": 9,
@@ -41,13 +41,13 @@
     "graph_edges": 1324736,
     "qld_traversal_nodes": "",
     "qld_traversal_edges": "",
-    "blocked_edges_impassable_only": 350,
-    "blocked_edges_all_blocking": 830,
+    "blocked_edges_impassable_only": 332,
+    "blocked_edges_all_blocking": 822,
     "reachable_nodes_before": 518840,
     "state_border_nodes": 11494,
     "state_border_reachable_nodes_before": 518932,
-    "reachable_nodes_impassable_only": 518662,
-    "reachable_nodes_all_blocking": 518315,
+    "reachable_nodes_impassable_only": 518674,
+    "reachable_nodes_all_blocking": 518321,
     "hub_components_before": {
       "components_with_hubs": 1,
       "largest_hub_component_size": 9,
