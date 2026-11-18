@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-18T09:19:33.151060+00:00",
+  "created_at": "2026-11-18T10:18:47.718165+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -32,8 +32,8 @@
   "counts": {
     "closures_normalised": 309,
     "closures_active": 309,
-    "closures_impassable_blocking": 65,
-    "closures_all_blocking": 94,
+    "closures_impassable_blocking": 64,
+    "closures_all_blocking": 93,
     "places": 2058,
     "hubs": 9,
     "snapped_hubs": 9,
@@ -41,8 +41,8 @@
     "graph_edges": 1324736,
     "qld_traversal_nodes": "",
     "qld_traversal_edges": "",
-    "blocked_edges_impassable_only": 372,
-    "blocked_edges_all_blocking": 844,
+    "blocked_edges_impassable_only": 368,
+    "blocked_edges_all_blocking": 840,
     "reachable_nodes_before": 518840,
     "state_border_nodes": 11494,
     "state_border_reachable_nodes_before": 518932,
