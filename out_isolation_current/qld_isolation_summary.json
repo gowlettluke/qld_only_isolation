@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-22T18:21:20.066321+00:00",
+  "created_at": "2026-11-22T19:18:53.825491+00:00",
   "script": "qld_isolation_proper_v6.py",
   "inputs": {
     "graph": "graph/qld_drive.graphml",
@@ -25,7 +25,7 @@
   "closure_source": {
     "source_mode": "geojson_file",
     "source_path": "runtime/closures_qld_current_for_analysis.geojson",
-    "raw_count": 635,
+    "raw_count": 632,
     "normalised_count": 346,
     "errors": []
   },
